@@ -1,0 +1,1709 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.22)  26 AUG 2019 12:55
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**/media/natalia/DATA/Tesis/Latex/Tesis/Tesis_NataliaOpazo.tex
+(/media/natalia/DATA/Tesis/Latex/Tesis/Tesis_NataliaOpazo.tex
+LaTeX2e <2018-12-01>
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2018/09/03 v1.4i Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/11/13 3.27 The Babel package
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/11/13 3.27 Babel switching mechanism
+) (/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/11/13 3.27 Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen103
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count90
+)
+\es@quottoks=\toks14
+\es@quotdepth=\count91
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+Package babel Info: Making ' an active character on input line 725.
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip43
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen104
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen105
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count92
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count93
+\leftroot@=\count94
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count95
+\DOTSCASE@=\count96
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
+\dotsspace@=\muskip10
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
+\tag@help=\toks17
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
+\andhelp@=\toks18
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks21
+\inpenc@posthook=\toks22
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/utf8x.def
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)) (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucs.sty
+Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def
+File: uni-global.def 2013/05/13 UCS: Unicode global data
+)
+\uc@secondtry=\count104
+\uc@combtoks=\toks23
+\uc@combtoksb=\toks24
+\uc@temptokena=\toks25
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks26
+\AP@partial=\box29
+\AP@footins=\box30
+) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip46
+\bibsep=\skip47
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count105
+) (/media/natalia/DATA/Tesis/Latex/Tesis/mcode.sty
+-- Package: `mcode' 2.7 <2015/11/11> --
+Package: mcode 2015/11/11 2.7
+ - settings optimized for display (colour formating)
+ - line numbering enabled
+ - literate programming (character replacements) enabled
+ - automatic line breaking enabled (careful, buggy!)
+ - framed listings
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty (/usr/share/te
+xlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks27
+)
+\lst@mode=\count106
+\lst@gtempboxa=\box31
+\lst@token=\toks28
+\lst@length=\count107
+\lst@currlwidth=\dimen113
+\lst@column=\count108
+\lst@pos=\count109
+\lst@lostspace=\dimen114
+\lst@width=\dimen115
+\lst@newlines=\count110
+\lst@lineno=\count111
+\lst@maxwidth=\dimen116
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+\c@lstnumber=\count112
+\lst@skipnumbers=\count113
+\lst@framebox=\box32
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2018/09/02 1.7 listings configuration
+))
+Package: listings 2018/09/02 1.7 (Carsten Heinz)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+\lbreakdots=\box33
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 230.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)) (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks29
+\verbatim@line=\toks30
+\verbatim@in@stream=\read1
+) (/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen117
+\ar@mcellbox=\box34
+\extrarowheight=\dimen118
+\NC@list=\toks31
+\extratabsurround=\skip48
+\backup@length=\skip49
+\ar@cellbox=\box35
+)
+\rotheadsize=\dimen119
+\c@nlinenum=\count114
+\TeXr@lab=\toks32
+) (/usr/share/texlive/texmf-dist/tex/latex/cellspace/cellspace.sty
+Package: cellspace 2017/08/12 v1.7 Spacing table cells (JN)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count115
+\calc@Bcount=\count116
+\calc@Adimen=\dimen120
+\calc@Bdimen=\dimen121
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count117
+\calc@Cskip=\skip52
+) (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texl
+ive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks33
+\XKV@tempa@toks=\toks34
+)
+\XKV@depth=\count118
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+
+LaTeX Warning: Command \@startpbox  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \@endpbox  has changed.
+               Check if current package is valid.
+
+\cellspacetoplimit=\dimen122
+\cellspacebottomlimit=\dimen123
+\cellspace@firstht=\dimen124
+\cellspace@lastdp=\dimen125
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen126
+\captionmargin@=\dimen127
+\captionwidth=\dimen128
+\caption@tempdima=\dimen129
+\caption@indent=\dimen130
+\caption@parindent=\dimen131
+\caption@hangindent=\dimen132
+)
+\c@caption@flags=\count119
+\c@ContinuedFloat=\count120
+Package caption Info: listings package is loaded.
+) (/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2019/01/24 v1.1.2 Todonotes source and documentation.
+Package: todonotes 2018/11/22
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share
+/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texlive/texmf-
+dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/gene
+ric/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks35
+\pgfutil@tempdima=\dimen133
+\pgfutil@tempdimb=\dimen134
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box36
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/u
+sr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2019/02/02 v3.1.1 (3.1.1)
+))
+Package: pgf 2019/02/02 v3.1.1 (3.1.1)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share
+/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/sha
+re/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2019/02/02 v3.1.1 (3.1.1)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks36
+\pgfkeys@temptoks=\toks37
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks38
+))
+\pgf@x=\dimen137
+\pgf@y=\dimen138
+\pgf@xa=\dimen139
+\pgf@ya=\dimen140
+\pgf@xb=\dimen141
+\pgf@yb=\dimen142
+\pgf@xc=\dimen143
+\pgf@yc=\dimen144
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count121
+\c@pgf@countb=\count122
+\c@pgf@countc=\count123
+\c@pgf@countd=\count124
+\t@pgf@toka=\toks39
+\t@pgf@tokb=\toks40
+\t@pgf@tokc=\toks41
+\pgf@sys@id@count=\count125
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2019/02/02 v3.1.1 (3.1.1)
+)
+Driver file for pgf: pgfsys-pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2019/02/02 v3.1.1 (3.1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2019/02/02 v3.1.1 (3.1.1)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfsyssoftpath@smallbuffer@items=\count126
+\pgfsyssoftpath@bigbuffer@items=\count127
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2019/02/02 v3.1.1 (3.1.1)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/shar
+e/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texl
+ive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/t
+exmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen145
+\pgfmath@count=\count128
+\pgfmath@box=\box37
+\pgfmath@toks=\toks42
+\pgfmath@stack@operand=\toks43
+\pgfmath@stack@operation=\toks44
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmat
+hfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count129
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@picminx=\dimen146
+\pgf@picmaxx=\dimen147
+\pgf@picminy=\dimen148
+\pgf@picmaxy=\dimen149
+\pgf@pathminx=\dimen150
+\pgf@pathmaxx=\dimen151
+\pgf@pathminy=\dimen152
+\pgf@pathmaxy=\dimen153
+\pgf@xx=\dimen154
+\pgf@xy=\dimen155
+\pgf@yx=\dimen156
+\pgf@yy=\dimen157
+\pgf@zx=\dimen158
+\pgf@zy=\dimen159
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@path@lastx=\dimen160
+\pgf@path@lasty=\dimen161
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@shorten@end@additional=\dimen162
+\pgf@shorten@start@additional=\dimen163
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfpic=\box38
+\pgf@hbox=\box39
+\pgf@layerbox@main=\box40
+\pgf@picture@serial@count=\count130
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgflinewidth=\dimen164
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@pt@x=\dimen165
+\pgf@pt@y=\dimen166
+\pgf@pt@temp=\dimen167
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfarrowsep=\dimen168
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@max=\dimen169
+\pgf@sys@shading@range@num=\count131
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2019/02/02 v3.1.1 (3.1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfexternal@startupbox=\box41
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2019/02/02 v3.1.1 (3.1.1)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfnodeparttextbox=\box42
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2019/02/02 v3.1.1 (3.1.1)
+\pgf@nodesepstart=\dimen170
+\pgf@nodesepend=\dimen171
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2019/02/02 v3.1.1 (3.1.1)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/shar
+e/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/te
+xmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf
+-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic
+/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/uti
+lities/pgffor.code.tex
+Package: pgffor 2019/02/02 v3.1.1 (3.1.1)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen172
+\pgffor@skip=\dimen173
+\pgffor@stack=\toks45
+\pgffor@toks=\toks46
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2019/02/02 v3.1.1 (3.1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@plot@mark@count=\count132
+\pgfplotmarksize=\dimen174
+)
+\tikz@lastx=\dimen175
+\tikz@lasty=\dimen176
+\tikz@lastxsaved=\dimen177
+\tikz@lastysaved=\dimen178
+\tikzleveldistance=\dimen179
+\tikzsiblingdistance=\dimen180
+\tikz@figbox=\box43
+\tikz@figbox@bg=\box44
+\tikz@tempbox=\box45
+\tikz@tempbox@bg=\box46
+\tikztreelevel=\count133
+\tikznumberofchildren=\count134
+\tikznumberofcurrentchild=\count135
+\tikz@fig@count=\count136
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfmatrixcurrentrow=\count137
+\pgfmatrixcurrentcolumn=\count138
+\pgf@matrix@numberofcolumns=\count139
+)
+\tikz@expandcount=\count140
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2019/02/02 v3.1.1 (3.1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2019/02/02 v3.1.1 (3.1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code
+.tex
+File: pgflibraryfadings.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)))
+\c@@todonotes@numberoftodonotes=\count141
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+) (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count142
+\Gm@cntv=\count143
+\c@Gm@tempcnt=\count144
+\Gm@bindingoffset=\dimen181
+\Gm@wd@mp=\dimen182
+\Gm@odd@mp=\dimen183
+\Gm@even@mp=\dimen184
+\Gm@layoutwidth=\dimen185
+\Gm@layoutheight=\dimen186
+\Gm@layouthoffset=\dimen187
+\Gm@layoutvoffset=\dimen188
+\Gm@dimlist=\toks47
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count145
+\float@exts=\toks48
+\float@box=\box47
+\@float@everytoks=\toks49
+\@floatcapt=\box48
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+\c@subfigure=\count146
+\c@subtable=\count147
+) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
+\multirow@colwidth=\skip53
+\multirow@cntb=\count148
+\multirow@dima=\skip54
+\bigstrutjot=\dimen189
+) (/usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks50
+\SOUL@lasttoken=\toks51
+\SOUL@cmds=\toks52
+\SOUL@buffer=\toks53
+\SOUL@token=\toks54
+\SOUL@spaceskip=\skip55
+\SOUL@ttwidth=\dimen190
+\SOUL@uldp=\dimen191
+\SOUL@ulht=\dimen192
+) (/media/natalia/DATA/Tesis/Latex/Tesis/Tesis_NataliaOpazo.aux
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+)
+\openout1 = `Tesis_NataliaOpazo.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 66.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Info: Redefining \. on input line 66.
+LaTeX Info: Redefining \% on input line 66.
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count149
+\scratchdimen=\dimen193
+\scratchbox=\box49
+\nofMPsegments=\count150
+\nofMParguments=\count151
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count152
+\MPscratchDim=\dimen194
+\MPnumerator=\count153
+\makeMPintoPDFobject=\count154
+\everyMPtoPDFconversion=\toks56
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)))) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count155
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ABD: EveryShipout initializing macros
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* bindingoffset: 14.22636pt
+* modes: twoside 
+* h-part:(L,W,R)=(99.58464pt, 420.8162pt, 79.6678pt)
+* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=420.8162pt
+* \textheight=652.70622pt
+* \oddsidemargin=41.54102pt
+* \evensidemargin=7.39781pt
+* \topmargin=-33.0119pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=71.13188pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<puc_logo.jpg, id=29, 376.40625pt x 390.70969pt>
+File: puc_logo.jpg Graphic file (type jpg)
+<use puc_logo.jpg>
+Package pdftex.def Info: puc_logo.jpg  used on input line 74.
+(pdftex.def)             Requested size: 128.8322pt x 133.72786pt.
+
+Overfull \hbox (5.97514pt too wide) in paragraph at lines 78--79
+ [][] 
+ []
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 82.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 82.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+)
+Overfull \hbox (5.97514pt too wide) in paragraph at lines 96--97
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </media/natalia/DATA/Tesis/
+Latex/Tesis/puc_logo.jpg>] [2] [1] [2
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+[3] [4
+
+] (/media/natalia/DATA/Tesis/Latex/Tesis/Tesis_NataliaOpazo.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+[5])
+\tf@toc=\write4
+\openout4 = `Tesis_NataliaOpazo.toc'.
+
+[6] (/media/natalia/DATA/Tesis/Latex/Tesis/Tesis_NataliaOpazo.lof
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Underfull \vbox (badness 6526) has occurred while \output is active []
+
+[7
+
+])
+\tf@lof=\write5
+\openout5 = `Tesis_NataliaOpazo.lof'.
+
+[8] (/media/natalia/DATA/Tesis/Latex/Tesis/Tesis_NataliaOpazo.lot
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Overfull \hbox (3.71077pt too wide) detected at line 16
+ []\OT1/cmr/m/n/10.95 XIII
+ []
+
+)
+\tf@lot=\write6
+\openout6 = `Tesis_NataliaOpazo.lot'.
+
+[9
+
+]
+Cap\'{\i }tulo 1.
+(/media/natalia/DATA/Tesis/Latex/Tesis/./Capitulos_naty/Introduccion.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[1
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
+[2]
+LaTeX Info: Redefining \. on input line 21.
+LaTeX Info: Redefining \% on input line 21.
+[3])
+LaTeX Info: Redefining \. on input line 172.
+LaTeX Info: Redefining \% on input line 172.
+[4]
+Cap\'{\i }tulo 2.
+(/media/natalia/DATA/Tesis/Latex/Tesis/./Capitulos_naty/MarcoTeorico.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[5
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+
+ []
+
+<Figuras_naty/tectonica.png, id=91, 470.75874pt x 357.335pt>
+File: Figuras_naty/tectonica.png Graphic file (type png)
+<use Figuras_naty/tectonica.png>
+Package pdftex.def Info: Figuras_naty/tectonica.png  used on input line 42.
+(pdftex.def)             Requested size: 252.49228pt x 191.66032pt.
+LaTeX Info: Redefining \. on input line 45.
+LaTeX Info: Redefining \% on input line 45.
+[6]
+LaTeX Info: Redefining \. on input line 50.
+LaTeX Info: Redefining \% on input line 50.
+[7 </media/natalia/DATA/Tesis/Latex/Tesis/Figuras_naty/tectonica.png>]
+<Figuras_naty/pump.pdf, id=102, 246.65768pt x 174.69165pt>
+File: Figuras_naty/pump.pdf Graphic file (type pdf)
+<use Figuras_naty/pump.pdf>
+Package pdftex.def Info: Figuras_naty/pump.pdf  used on input line 54.
+(pdftex.def)             Requested size: 378.732pt x 268.2316pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 60.
+LaTeX Info: Redefining \% on input line 60.
+[8 </media/natalia/DATA/Tesis/Latex/Tesis/Figuras_naty/pump.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+LaTeX Info: Redefining \. on input line 77.
+LaTeX Info: Redefining \% on input line 77.
+[9]
+LaTeX Info: Redefining \. on input line 85.
+LaTeX Info: Redefining \% on input line 85.
+[10]
+LaTeX Info: Redefining \. on input line 98.
+LaTeX Info: Redefining \% on input line 98.
+[11]
+<Figuras_naty/ferrari2014antarctic.pdf, id=1060, 245.19356pt x 93.22028pt>
+File: Figuras_naty/ferrari2014antarctic.pdf Graphic file (type pdf)
+<use Figuras_naty/ferrari2014antarctic.pdf>
+Package pdftex.def Info: Figuras_naty/ferrari2014antarctic.pdf  used on input l
+ine 104.
+(pdftex.def)             Requested size: 294.57004pt x 111.99463pt.
+LaTeX Info: Redefining \. on input line 113.
+LaTeX Info: Redefining \% on input line 113.
+[12 </media/natalia/DATA/Tesis/Latex/Tesis/Figuras_naty/ferrari2014antarctic.pd
+f>]
+Underfull \vbox (badness 2961) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 131.
+LaTeX Info: Redefining \% on input line 131.
+[13]
+LaTeX Info: Redefining \. on input line 142.
+LaTeX Info: Redefining \% on input line 142.
+[14]
+LaTeX Info: Redefining \. on input line 150.
+LaTeX Info: Redefining \% on input line 150.
+[15]
+<Figuras_naty/lambert2008dust.pdf, id=1382, 364.46147pt x 151.81247pt>
+File: Figuras_naty/lambert2008dust.pdf Graphic file (type pdf)
+<use Figuras_naty/lambert2008dust.pdf>
+Package pdftex.def Info: Figuras_naty/lambert2008dust.pdf  used on input line 1
+54.
+(pdftex.def)             Requested size: 378.732pt x 157.7654pt.
+<Figuras_naty/dustt.pdf, id=1383, 248.2605pt x 219.15175pt>
+File: Figuras_naty/dustt.pdf Graphic file (type pdf)
+<use Figuras_naty/dustt.pdf>
+Package pdftex.def Info: Figuras_naty/dustt.pdf  used on input line 165.
+(pdftex.def)             Requested size: 315.61214pt x 278.61722pt.
+LaTeX Info: Redefining \. on input line 172.
+LaTeX Info: Redefining \% on input line 172.
+[16 </media/natalia/DATA/Tesis/Latex/Tesis/Figuras_naty/lambert2008dust.pdf> </
+media/natalia/DATA/Tesis/Latex/Tesis/Figuras_naty/dustt.pdf
+
+pdfTeX warning: pdflatex (file /media/natalia/DATA/Tesis/Latex/Tesis/Figuras_na
+ty/dustt.pdf): PDF inclusion: multiple pdfs with page group included in a singl
+e page
+>]
+LaTeX Info: Redefining \. on input line 183.
+LaTeX Info: Redefining \% on input line 183.
+[17]
+<Figuras_naty/dust2_pag97book.pdf, id=1413, 230.84157pt x 223.01317pt>
+File: Figuras_naty/dust2_pag97book.pdf Graphic file (type pdf)
+<use Figuras_naty/dust2_pag97book.pdf>
+Package pdftex.def Info: Figuras_naty/dust2_pag97book.pdf  used on input line 1
+87.
+(pdftex.def)             Requested size: 210.4081pt x 203.28256pt.
+LaTeX Info: Redefining \. on input line 195.
+LaTeX Info: Redefining \% on input line 195.
+[18 </media/natalia/DATA/Tesis/Latex/Tesis/Figuras_naty/dust2_pag97book.pdf>]
+<Figuras_naty/depositacion.png, id=1421, 402.50375pt x 200.75pt>
+File: Figuras_naty/depositacion.png Graphic file (type png)
+<use Figuras_naty/depositacion.png>
+Package pdftex.def Info: Figuras_naty/depositacion.png  used on input line 199.
+
+(pdftex.def)             Requested size: 273.52795pt x 136.42241pt.
+<Figuras_naty/dust4.pdf, id=1422, 325.48799pt x 188.8114pt>
+File: Figuras_naty/dust4.pdf Graphic file (type pdf)
+<use Figuras_naty/dust4.pdf>
+Package pdftex.def Info: Figuras_naty/dust4.pdf  used on input line 208.
+(pdftex.def)             Requested size: 378.732pt x 219.70993pt.
+LaTeX Info: Redefining \. on input line 214.
+LaTeX Info: Redefining \% on input line 214.
+[19 </media/natalia/DATA/Tesis/Latex/Tesis/Figuras_naty/depositacion.png> </med
+ia/natalia/DATA/Tesis/Latex/Tesis/Figuras_naty/dust4.pdf>]
+LaTeX Info: Redefining \. on input line 231.
+LaTeX Info: Redefining \% on input line 231.
+[20]
+LaTeX Info: Redefining \. on input line 251.
+LaTeX Info: Redefining \% on input line 251.
+[21]
+<Figuras_naty/CO2glob.png, id=1442, 837.88031pt x 322.20375pt>
+File: Figuras_naty/CO2glob.png Graphic file (type png)
+<use Figuras_naty/CO2glob.png>
+Package pdftex.def Info: Figuras_naty/CO2glob.png  used on input line 254.
+(pdftex.def)             Requested size: 420.8162pt x 161.81927pt.
+LaTeX Info: Redefining \. on input line 267.
+LaTeX Info: Redefining \% on input line 267.
+[22 </media/natalia/DATA/Tesis/Latex/Tesis/Figuras_naty/CO2glob.png (PNG copy)>
+]
+<Figuras_naty/LGMWater.pdf, id=1446, 245.91774pt x 108.73573pt>
+File: Figuras_naty/LGMWater.pdf Graphic file (type pdf)
+<use Figuras_naty/LGMWater.pdf>
+Package pdftex.def Info: Figuras_naty/LGMWater.pdf  used on input line 270.
+(pdftex.def)             Requested size: 252.49228pt x 111.64728pt.
+LaTeX Info: Redefining \. on input line 278.
+LaTeX Info: Redefining \% on input line 278.
+[23 </media/natalia/DATA/Tesis/Latex/Tesis/Figuras_naty/LGMWater.pdf>]
+LaTeX Info: Redefining \. on input line 287.
+LaTeX Info: Redefining \% on input line 287.
+[24] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+)
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 288.
+
+<Figuras_naty/modelos2.pdf, id=1463, 240.23976pt x 212.40352pt>
+File: Figuras_naty/modelos2.pdf Graphic file (type pdf)
+<use Figuras_naty/modelos2.pdf>
+Package pdftex.def Info: Figuras_naty/modelos2.pdf  used on input line 302.
+(pdftex.def)             Requested size: 210.4081pt x 186.03087pt.
+LaTeX Info: Redefining \. on input line 306.
+LaTeX Info: Redefining \% on input line 306.
+[25]
+LaTeX Info: Redefining \. on input line 314.
+LaTeX Info: Redefining \% on input line 314.
+[26 </media/natalia/DATA/Tesis/Latex/Tesis/Figuras_naty/modelos2.pdf>])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 175.
+LaTeX Info: Redefining \% on input line 175.
+[27]
+Overfull \vbox (6.51826pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 175.
+LaTeX Info: Redefining \% on input line 175.
+[28]
+Cap\'{\i }tulo 3.
+(/media/natalia/DATA/Tesis/Latex/Tesis/./Capitulos_naty/AreaEstudio.tex
+<Figuras_naty/mapa.png, id=1489, 722.7pt x 383.93437pt>
+File: Figuras_naty/mapa.png Graphic file (type png)
+<use Figuras_naty/mapa.png>
+Package pdftex.def Info: Figuras_naty/mapa.png  used on input line 8.
+(pdftex.def)             Requested size: 378.732pt x 201.19948pt.
+[29
+
+ </media/natalia/DATA/Tesis/Latex/Tesis/Figuras_naty/mapa.png (PNG copy)>]
+Overfull \hbox (81.91719pt too wide) in paragraph at lines 17--27
+ [] 
+ []
+
+)
+LaTeX Info: Redefining \. on input line 180.
+LaTeX Info: Redefining \% on input line 180.
+[30]
+Cap\'{\i }tulo 4.
+(/media/natalia/DATA/Tesis/Latex/Tesis/./Capitulos_naty/Metodologia.tex [31
+
+]
+Underfull \vbox (badness 6859) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 20.
+LaTeX Info: Redefining \% on input line 20.
+[32]
+LaTeX Info: Redefining \. on input line 60.
+LaTeX Info: Redefining \% on input line 60.
+[33]
+<Figuras_naty/Plot1_Lambert_2.pdf, id=1506, 814.7412pt x 330.82188pt>
+File: Figuras_naty/Plot1_Lambert_2.pdf Graphic file (type pdf)
+<use Figuras_naty/Plot1_Lambert_2.pdf>
+Package pdftex.def Info: Figuras_naty/Plot1_Lambert_2.pdf  used on input line 6
+5.
+(pdftex.def)             Requested size: 462.90038pt x 187.95963pt.
+
+Overfull \hbox (42.08418pt too wide) in paragraph at lines 65--66
+ [][] 
+ []
+
+LaTeX Info: Redefining \. on input line 70.
+LaTeX Info: Redefining \% on input line 70.
+[34 </media/natalia/DATA/Tesis/Latex/Tesis/Figuras_naty/Plot1_Lambert_2.pdf>]
+LaTeX Info: Redefining \. on input line 78.
+LaTeX Info: Redefining \% on input line 78.
+[35]
+<Figuras_naty/Plot1_MRI.pdf, id=1527, 793.64044pt x 330.82188pt>
+File: Figuras_naty/Plot1_MRI.pdf Graphic file (type pdf)
+<use Figuras_naty/Plot1_MRI.pdf>
+Package pdftex.def Info: Figuras_naty/Plot1_MRI.pdf  used on input line 81.
+(pdftex.def)             Requested size: 462.90038pt x 192.95708pt.
+
+Overfull \hbox (42.08418pt too wide) in paragraph at lines 81--82
+ [][] 
+ []
+
+
+Underfull \vbox (badness 3758) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 89.
+LaTeX Info: Redefining \% on input line 89.
+[36 </media/natalia/DATA/Tesis/Latex/Tesis/Figuras_naty/Plot1_MRI.pdf>]
+<Figuras_naty/Plot1_MIROC.pdf, id=1545, 784.17859pt x 330.82188pt>
+File: Figuras_naty/Plot1_MIROC.pdf Graphic file (type pdf)
+<use Figuras_naty/Plot1_MIROC.pdf>
+Package pdftex.def Info: Figuras_naty/Plot1_MIROC.pdf  used on input line 94.
+(pdftex.def)             Requested size: 462.90038pt x 195.28416pt.
+
+Overfull \hbox (42.08418pt too wide) in paragraph at lines 94--95
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 98.
+LaTeX Info: Redefining \% on input line 98.
+[37]
+<Figuras_naty/Plot1_Takemura.pdf, id=1549, 815.08647pt x 330.99661pt>
+File: Figuras_naty/Plot1_Takemura.pdf Graphic file (type pdf)
+<use Figuras_naty/Plot1_Takemura.pdf>
+Package pdftex.def Info: Figuras_naty/Plot1_Takemura.pdf  used on input line 10
+7.
+(pdftex.def)             Requested size: 462.90038pt x 187.98314pt.
+
+Overfull \hbox (42.08418pt too wide) in paragraph at lines 107--108
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 111.
+LaTeX Info: Redefining \% on input line 111.
+[38 </media/natalia/DATA/Tesis/Latex/Tesis/Figuras_naty/Plot1_MIROC.pdf>]
+Underfull \vbox (badness 1005) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 115.
+LaTeX Info: Redefining \% on input line 115.
+[39 </media/natalia/DATA/Tesis/Latex/Tesis/Figuras_naty/Plot1_Takemura.pdf>]
+<Figuras_naty/Plot1_Albani.pdf, id=1586, 817.70337pt x 321.23363pt>
+File: Figuras_naty/Plot1_Albani.pdf Graphic file (type pdf)
+<use Figuras_naty/Plot1_Albani.pdf>
+Package pdftex.def Info: Figuras_naty/Plot1_Albani.pdf  used on input line 118.
+
+(pdftex.def)             Requested size: 462.90038pt x 181.85025pt.
+
+Overfull \hbox (42.08418pt too wide) in paragraph at lines 118--119
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 130.
+LaTeX Info: Redefining \% on input line 130.
+[40 </media/natalia/DATA/Tesis/Latex/Tesis/Figuras_naty/Plot1_Albani.pdf>]
+<Figuras_naty/diagrama_met1.png, id=1604, 294.701pt x 630.355pt>
+File: Figuras_naty/diagrama_met1.png Graphic file (type png)
+<use Figuras_naty/diagrama_met1.png>
+Package pdftex.def Info: Figuras_naty/diagrama_met1.png  used on input line 135
+.
+(pdftex.def)             Requested size: 122.03386pt x 261.02496pt.
+LaTeX Info: Redefining \. on input line 141.
+LaTeX Info: Redefining \% on input line 141.
+[41 </media/natalia/DATA/Tesis/Latex/Tesis/Figuras_naty/diagrama_met1.png>]
+Overfull \hbox (6.92128pt too wide) in paragraph at lines 153--154
+[]\OT1/cmr/m/n/10.95 Para ver el efec-to que ca-da zo-na HNLC
+ []
+
+LaTeX Info: Redefining \. on input line 156.
+LaTeX Info: Redefining \% on input line 156.
+[42]
+<Figuras_naty/diagrama_met2.png, id=1612, 440.847pt x 476.982pt>
+File: Figuras_naty/diagrama_met2.png Graphic file (type png)
+<use Figuras_naty/diagrama_met2.png>
+Package pdftex.def Info: Figuras_naty/diagrama_met2.png  used on input line 164
+.
+(pdftex.def)             Requested size: 210.4081pt x 227.65324pt.
+
+Overfull \hbox (21.99629pt too wide) in paragraph at lines 171--172
+\OT1/cmr/m/n/10.95 nom-bre ``worjh2.FeMODELO[]All.level*'' y otra lla-ma-da ``w
+orjh2.FeMODELO[]Regi^^Son.level*'',
+ []
+
+LaTeX Info: Redefining \. on input line 173.
+LaTeX Info: Redefining \% on input line 173.
+[43 </media/natalia/DATA/Tesis/Latex/Tesis/Figuras_naty/diagrama_met2.png>]
+Overfull \hbox (8.60802pt too wide) in paragraph at lines 180--182
+[]\OT1/cmr/m/n/10.95 biogem[]force[]flux[]sed[]det[]sig.dat ``bio-gem[]force[]*
+[]II.dat''. De-fi-ne la com-po-nen-te tem-
+ []
+
+
+Overfull \hbox (25.99054pt too wide) detected at line 184
+\OML/cmm/m/it/10.95 F[] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 biogem[]force[
+] \OMS/cmsy/m/n/10.95 ^^C []\OML/cmm/m/it/10.95 I[]  \OT1/cmr/m/n/10.95 +  \OML
+/cmm/m/it/10.95 S[]  \OMS/cmsy/m/n/10.95 ^^B  \OT1/cmr/m/n/10.95 (\OML/cmm/m/it
+/10.95 biogem[]force[] \OMS/cmsy/m/n/10.95 ^^C []\OML/cmm/m/it/10.95 II[]  \OMS
+/cmsy/m/n/10.95 ^^@  \OML/cmm/m/it/10.95 biogem[]force[] \OMS/cmsy/m/n/10.95 ^^
+C []\OML/cmm/m/it/10.95 I[]\OT1/cmr/m/n/10.95 )
+ []
+
+LaTeX Info: Redefining \. on input line 189.
+LaTeX Info: Redefining \% on input line 189.
+[44]
+<Figuras_naty/runcGENIEpdf.pdf, id=1621, 230.31439pt x 176.04985pt>
+File: Figuras_naty/runcGENIEpdf.pdf Graphic file (type pdf)
+<use Figuras_naty/runcGENIEpdf.pdf>
+Package pdftex.def Info: Figuras_naty/runcGENIEpdf.pdf  used on input line 195.
+
+(pdftex.def)             Requested size: 294.57004pt x 225.16573pt.
+LaTeX Info: Redefining \. on input line 208.
+LaTeX Info: Redefining \% on input line 208.
+[45 </media/natalia/DATA/Tesis/Latex/Tesis/Figuras_naty/runcGENIEpdf.pdf>]
+Overfull \hbox (15.0564pt too wide) in paragraph at lines 217--224
+\OT1/cmr/m/n/10.95 #5 co-rri-da de arran-que (pe-rio-do prein-dus-trial), en nu
+es-tro ca-so ``worjh2.PO4Fe.SPIN''.
+ []
+
+<../../Figuras/Series/Series_Holoceno.png, id=1713, 1435.61343pt x 394.47375pt>
+
+File: ../../Figuras/Series/Series_Holoceno.png Graphic file (type png)
+<use ../../Figuras/Series/Series_Holoceno.png>
+Package pdftex.def Info: ../../Figuras/Series/Series_Holoceno.png  used on inpu
+t line 230.
+(pdftex.def)             Requested size: 504.97813pt x 138.75406pt.
+
+Overfull \hbox (84.16194pt too wide) in paragraph at lines 230--231
+ [][] 
+ []
+
+LaTeX Info: Redefining \. on input line 234.
+LaTeX Info: Redefining \% on input line 234.
+[46])
+LaTeX Info: Redefining \. on input line 184.
+LaTeX Info: Redefining \% on input line 184.
+[47 <../../Figuras/Series/Series_Holoceno.png (PNG copy)>]
+LaTeX Info: Redefining \. on input line 184.
+LaTeX Info: Redefining \% on input line 184.
+[48
+
+]
+Cap\'{\i }tulo 5.
+(/media/natalia/DATA/Tesis/Latex/Tesis/./Capitulos_naty/Resultados.tex [49]
+<../../Figuras/Globales/Albani/All.png, id=1727, 825.3234pt x 361.35pt>
+File: ../../Figuras/Globales/Albani/All.png Graphic file (type png)
+<use ../../Figuras/Globales/Albani/All.png>
+Package pdftex.def Info: ../../Figuras/Globales/Albani/All.png  used on input l
+ine 13.
+(pdftex.def)             Requested size: 210.4081pt x 92.11821pt.
+<../../Figuras/Globales/Lambert/All.png, id=1728, 825.3234pt x 361.35pt>
+File: ../../Figuras/Globales/Lambert/All.png Graphic file (type png)
+<use ../../Figuras/Globales/Lambert/All.png>
+Package pdftex.def Info: ../../Figuras/Globales/Lambert/All.png  used on input 
+line 18.
+(pdftex.def)             Requested size: 210.4081pt x 92.11821pt.
+<../../Figuras/Globales/Takemura/All.png, id=1729, 825.3234pt x 361.35pt>
+File: ../../Figuras/Globales/Takemura/All.png Graphic file (type png)
+<use ../../Figuras/Globales/Takemura/All.png>
+Package pdftex.def Info: ../../Figuras/Globales/Takemura/All.png  used on input
+ line 24.
+(pdftex.def)             Requested size: 210.4081pt x 92.11821pt.
+<../../Figuras/Globales/MIROC-ESM/All.png, id=1730, 825.3234pt x 361.35pt>
+File: ../../Figuras/Globales/MIROC-ESM/All.png Graphic file (type png)
+<use ../../Figuras/Globales/MIROC-ESM/All.png>
+Package pdftex.def Info: ../../Figuras/Globales/MIROC-ESM/All.png  used on inpu
+t line 29.
+(pdftex.def)             Requested size: 210.4081pt x 92.11821pt.
+<../../Figuras/Globales/MRI-CGCM3/All.png, id=1731, 825.3234pt x 361.35pt>
+File: ../../Figuras/Globales/MRI-CGCM3/All.png Graphic file (type png)
+<use ../../Figuras/Globales/MRI-CGCM3/All.png>
+Package pdftex.def Info: ../../Figuras/Globales/MRI-CGCM3/All.png  used on inpu
+t line 35.
+(pdftex.def)             Requested size: 210.4081pt x 92.11821pt.
+LaTeX Info: Redefining \. on input line 42.
+LaTeX Info: Redefining \% on input line 42.
+[50 <../../Figuras/Globales/Albani/All.png (PNG copy)> <../../Figuras/Globales/
+Lambert/All.png (PNG copy)> <../../Figuras/Globales/Takemura/All.png (PNG copy)
+> <../../Figuras/Globales/MIROC-ESM/All.png (PNG copy)> <../../Figuras/Globales
+/MRI-CGCM3/All.png (PNG copy)>]
+<Figuras_naty/mapa3_2_NP.png, id=1736, 1396.4672pt x 721.19438pt>
+File: Figuras_naty/mapa3_2_NP.png Graphic file (type png)
+<use Figuras_naty/mapa3_2_NP.png>
+Package pdftex.def Info: Figuras_naty/mapa3_2_NP.png  used on input line 51.
+(pdftex.def)             Requested size: 336.65424pt x 173.8605pt.
+
+Overfull \hbox (39.18468pt too wide) in paragraph at lines 58--72
+ [][] 
+ []
+
+LaTeX Info: Redefining \. on input line 74.
+LaTeX Info: Redefining \% on input line 74.
+[51 </media/natalia/DATA/Tesis/Latex/Tesis/Figuras_naty/mapa3_2_NP.png (PNG cop
+y)>]
+<../../Figuras/Regionales/Albani/NP.png, id=1740, 831.105pt x 361.35pt>
+File: ../../Figuras/Regionales/Albani/NP.png Graphic file (type png)
+<use ../../Figuras/Regionales/Albani/NP.png>
+Package pdftex.def Info: ../../Figuras/Regionales/Albani/NP.png  used on input 
+line 78.
+(pdftex.def)             Requested size: 210.4081pt x 91.47862pt.
+<../../Figuras/Regionales/Lambert/NP.png, id=1741, 831.105pt x 361.35pt>
+File: ../../Figuras/Regionales/Lambert/NP.png Graphic file (type png)
+<use ../../Figuras/Regionales/Lambert/NP.png>
+Package pdftex.def Info: ../../Figuras/Regionales/Lambert/NP.png  used on input
+ line 83.
+(pdftex.def)             Requested size: 210.4081pt x 91.47862pt.
+<../../Figuras/Regionales/Takemura/NP.png, id=1742, 831.105pt x 361.35pt>
+File: ../../Figuras/Regionales/Takemura/NP.png Graphic file (type png)
+<use ../../Figuras/Regionales/Takemura/NP.png>
+Package pdftex.def Info: ../../Figuras/Regionales/Takemura/NP.png  used on inpu
+t line 89.
+(pdftex.def)             Requested size: 210.4081pt x 91.47862pt.
+<../../Figuras/Regionales/MIROC-ESM/NP.png, id=1743, 831.105pt x 361.35pt>
+File: ../../Figuras/Regionales/MIROC-ESM/NP.png Graphic file (type png)
+<use ../../Figuras/Regionales/MIROC-ESM/NP.png>
+Package pdftex.def Info: ../../Figuras/Regionales/MIROC-ESM/NP.png  used on inp
+ut line 94.
+(pdftex.def)             Requested size: 210.4081pt x 91.47862pt.
+<../../Figuras/Regionales/MRI-CGCM3/NP.png, id=1744, 831.105pt x 361.35pt>
+File: ../../Figuras/Regionales/MRI-CGCM3/NP.png Graphic file (type png)
+<use ../../Figuras/Regionales/MRI-CGCM3/NP.png>
+Package pdftex.def Info: ../../Figuras/Regionales/MRI-CGCM3/NP.png  used on inp
+ut line 100.
+(pdftex.def)             Requested size: 210.4081pt x 91.47862pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 110.
+LaTeX Info: Redefining \% on input line 110.
+[52 <../../Figuras/Regionales/Albani/NP.png (PNG copy)> <../../Figuras/Regional
+es/Lambert/NP.png (PNG copy)> <../../Figuras/Regionales/Takemura/NP.png (PNG co
+py)> <../../Figuras/Regionales/MIROC-ESM/NP.png (PNG copy)> <../../Figuras/Regi
+onales/MRI-CGCM3/NP.png (PNG copy)>]
+<Figuras_naty/mapa3_2_CP.png, id=1748, 1396.4672pt x 721.19438pt>
+File: Figuras_naty/mapa3_2_CP.png Graphic file (type png)
+<use Figuras_naty/mapa3_2_CP.png>
+Package pdftex.def Info: Figuras_naty/mapa3_2_CP.png  used on input line 117.
+(pdftex.def)             Requested size: 336.65424pt x 173.8605pt.
+LaTeX Info: Redefining \. on input line 121.
+LaTeX Info: Redefining \% on input line 121.
+[53 </media/natalia/DATA/Tesis/Latex/Tesis/Figuras_naty/mapa3_2_CP.png (PNG cop
+y)>]
+Overfull \hbox (35.53468pt too wide) in paragraph at lines 125--138
+ [][] 
+ []
+
+LaTeX Info: Redefining \. on input line 144.
+LaTeX Info: Redefining \% on input line 144.
+[54]
+<../../Figuras/Regionales/Albani/CP.png, id=1755, 831.105pt x 361.35pt>
+File: ../../Figuras/Regionales/Albani/CP.png Graphic file (type png)
+<use ../../Figuras/Regionales/Albani/CP.png>
+Package pdftex.def Info: ../../Figuras/Regionales/Albani/CP.png  used on input 
+line 148.
+(pdftex.def)             Requested size: 210.4081pt x 91.47862pt.
+<../../Figuras/Regionales/Lambert/CP.png, id=1756, 831.105pt x 361.35pt>
+File: ../../Figuras/Regionales/Lambert/CP.png Graphic file (type png)
+<use ../../Figuras/Regionales/Lambert/CP.png>
+Package pdftex.def Info: ../../Figuras/Regionales/Lambert/CP.png  used on input
+ line 153.
+(pdftex.def)             Requested size: 210.4081pt x 91.47862pt.
+<../../Figuras/Regionales/Takemura/CP.png, id=1757, 831.105pt x 361.35pt>
+File: ../../Figuras/Regionales/Takemura/CP.png Graphic file (type png)
+<use ../../Figuras/Regionales/Takemura/CP.png>
+Package pdftex.def Info: ../../Figuras/Regionales/Takemura/CP.png  used on inpu
+t line 159.
+(pdftex.def)             Requested size: 210.4081pt x 91.47862pt.
+<../../Figuras/Regionales/MIROC-ESM/CP_log.png, id=1758, 831.105pt x 361.35pt>
+File: ../../Figuras/Regionales/MIROC-ESM/CP_log.png Graphic file (type png)
+<use ../../Figuras/Regionales/MIROC-ESM/CP_log.png>
+Package pdftex.def Info: ../../Figuras/Regionales/MIROC-ESM/CP_log.png  used on
+ input line 164.
+(pdftex.def)             Requested size: 210.4081pt x 91.47862pt.
+<../../Figuras/Regionales/MRI-CGCM3/CP.png, id=1759, 831.105pt x 361.35pt>
+File: ../../Figuras/Regionales/MRI-CGCM3/CP.png Graphic file (type png)
+<use ../../Figuras/Regionales/MRI-CGCM3/CP.png>
+Package pdftex.def Info: ../../Figuras/Regionales/MRI-CGCM3/CP.png  used on inp
+ut line 170.
+(pdftex.def)             Requested size: 210.4081pt x 91.47862pt.
+
+Underfull \vbox (badness 4403) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 181.
+LaTeX Info: Redefining \% on input line 181.
+[55 <../../Figuras/Regionales/Albani/CP.png (PNG copy)> <../../Figuras/Regional
+es/Lambert/CP.png (PNG copy)> <../../Figuras/Regionales/Takemura/CP.png (PNG co
+py)> <../../Figuras/Regionales/MIROC-ESM/CP_log.png (PNG copy)> <../../Figuras/
+Regionales/MRI-CGCM3/CP.png (PNG copy)>]
+<Figuras_naty/mapa3_2_SP.png, id=1763, 1396.4672pt x 721.19438pt>
+File: Figuras_naty/mapa3_2_SP.png Graphic file (type png)
+<use Figuras_naty/mapa3_2_SP.png>
+Package pdftex.def Info: Figuras_naty/mapa3_2_SP.png  used on input line 185.
+(pdftex.def)             Requested size: 336.65424pt x 173.8605pt.
+
+Overfull \hbox (54.49945pt too wide) in paragraph at lines 192--205
+ [][] 
+ []
+
+LaTeX Info: Redefining \. on input line 207.
+LaTeX Info: Redefining \% on input line 207.
+[56 </media/natalia/DATA/Tesis/Latex/Tesis/Figuras_naty/mapa3_2_SP.png (PNG cop
+y)>]
+<../../Figuras/Regionales/Albani/SP.png, id=1768, 831.105pt x 361.35pt>
+File: ../../Figuras/Regionales/Albani/SP.png Graphic file (type png)
+<use ../../Figuras/Regionales/Albani/SP.png>
+Package pdftex.def Info: ../../Figuras/Regionales/Albani/SP.png  used on input 
+line 211.
+(pdftex.def)             Requested size: 210.4081pt x 91.47862pt.
+<../../Figuras/Regionales/Lambert/SP.png, id=1769, 831.105pt x 361.35pt>
+File: ../../Figuras/Regionales/Lambert/SP.png Graphic file (type png)
+<use ../../Figuras/Regionales/Lambert/SP.png>
+Package pdftex.def Info: ../../Figuras/Regionales/Lambert/SP.png  used on input
+ line 216.
+(pdftex.def)             Requested size: 210.4081pt x 91.47862pt.
+<../../Figuras/Regionales/Takemura/SP.png, id=1770, 831.105pt x 361.35pt>
+File: ../../Figuras/Regionales/Takemura/SP.png Graphic file (type png)
+<use ../../Figuras/Regionales/Takemura/SP.png>
+Package pdftex.def Info: ../../Figuras/Regionales/Takemura/SP.png  used on inpu
+t line 222.
+(pdftex.def)             Requested size: 210.4081pt x 91.47862pt.
+<../../Figuras/Regionales/MIROC-ESM/SP.png, id=1771, 831.105pt x 361.35pt>
+File: ../../Figuras/Regionales/MIROC-ESM/SP.png Graphic file (type png)
+<use ../../Figuras/Regionales/MIROC-ESM/SP.png>
+Package pdftex.def Info: ../../Figuras/Regionales/MIROC-ESM/SP.png  used on inp
+ut line 227.
+(pdftex.def)             Requested size: 210.4081pt x 91.47862pt.
+<../../Figuras/Regionales/MRI-CGCM3/SP.png, id=1772, 831.105pt x 361.35pt>
+File: ../../Figuras/Regionales/MRI-CGCM3/SP.png Graphic file (type png)
+<use ../../Figuras/Regionales/MRI-CGCM3/SP.png>
+Package pdftex.def Info: ../../Figuras/Regionales/MRI-CGCM3/SP.png  used on inp
+ut line 233.
+(pdftex.def)             Requested size: 210.4081pt x 91.47862pt.
+
+Underfull \vbox (badness 4403) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 243.
+LaTeX Info: Redefining \% on input line 243.
+[57 <../../Figuras/Regionales/Albani/SP.png (PNG copy)> <../../Figuras/Regional
+es/Lambert/SP.png (PNG copy)> <../../Figuras/Regionales/Takemura/SP.png (PNG co
+py)> <../../Figuras/Regionales/MIROC-ESM/SP.png (PNG copy)> <../../Figuras/Regi
+onales/MRI-CGCM3/SP.png (PNG copy)>]
+<Figuras_naty/mapa3_2_SA.png, id=1776, 1396.4672pt x 721.19438pt>
+File: Figuras_naty/mapa3_2_SA.png Graphic file (type png)
+<use Figuras_naty/mapa3_2_SA.png>
+Package pdftex.def Info: Figuras_naty/mapa3_2_SA.png  used on input line 248.
+(pdftex.def)             Requested size: 336.65424pt x 173.8605pt.
+
+Overfull \hbox (53.17638pt too wide) in paragraph at lines 255--268
+ [][] 
+ []
+
+<../../Figuras/Regionales/Albani/SA.png, id=1777, 831.105pt x 361.35pt>
+File: ../../Figuras/Regionales/Albani/SA.png Graphic file (type png)
+<use ../../Figuras/Regionales/Albani/SA.png>
+Package pdftex.def Info: ../../Figuras/Regionales/Albani/SA.png  used on input 
+line 274.
+(pdftex.def)             Requested size: 210.4081pt x 91.47862pt.
+<../../Figuras/Regionales/Lambert/SA_log.png, id=1778, 831.105pt x 361.35pt>
+File: ../../Figuras/Regionales/Lambert/SA_log.png Graphic file (type png)
+<use ../../Figuras/Regionales/Lambert/SA_log.png>
+Package pdftex.def Info: ../../Figuras/Regionales/Lambert/SA_log.png  used on i
+nput line 279.
+(pdftex.def)             Requested size: 210.4081pt x 91.47862pt.
+<../../Figuras/Regionales/Takemura/SA.png, id=1779, 831.105pt x 361.35pt>
+File: ../../Figuras/Regionales/Takemura/SA.png Graphic file (type png)
+<use ../../Figuras/Regionales/Takemura/SA.png>
+Package pdftex.def Info: ../../Figuras/Regionales/Takemura/SA.png  used on inpu
+t line 285.
+(pdftex.def)             Requested size: 210.4081pt x 91.47862pt.
+<../../Figuras/Regionales/MIROC-ESM/SA.png, id=1780, 831.105pt x 361.35pt>
+File: ../../Figuras/Regionales/MIROC-ESM/SA.png Graphic file (type png)
+<use ../../Figuras/Regionales/MIROC-ESM/SA.png>
+Package pdftex.def Info: ../../Figuras/Regionales/MIROC-ESM/SA.png  used on inp
+ut line 290.
+(pdftex.def)             Requested size: 210.4081pt x 91.47862pt.
+<../../Figuras/Regionales/MRI-CGCM3/SA.png, id=1781, 831.105pt x 361.35pt>
+File: ../../Figuras/Regionales/MRI-CGCM3/SA.png Graphic file (type png)
+<use ../../Figuras/Regionales/MRI-CGCM3/SA.png>
+Package pdftex.def Info: ../../Figuras/Regionales/MRI-CGCM3/SA.png  used on inp
+ut line 296.
+(pdftex.def)             Requested size: 210.4081pt x 91.47862pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 302.
+LaTeX Info: Redefining \% on input line 302.
+[58 </media/natalia/DATA/Tesis/Latex/Tesis/Figuras_naty/mapa3_2_SA.png (PNG cop
+y)>]
+Underfull \vbox (badness 4403) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 306.
+LaTeX Info: Redefining \% on input line 306.
+[59 <../../Figuras/Regionales/Albani/SA.png (PNG copy)> <../../Figuras/Regional
+es/Lambert/SA_log.png (PNG copy)> <../../Figuras/Regionales/Takemura/SA.png (PN
+G copy)> <../../Figuras/Regionales/MIROC-ESM/SA.png (PNG copy)> <../../Figuras/
+Regionales/MRI-CGCM3/SA.png (PNG copy)>]
+<../../Figuras/Ponderaciones/Ponderaciones_LGM.png, id=1788, 831.105pt x 361.35
+pt>
+File: ../../Figuras/Ponderaciones/Ponderaciones_LGM.png Graphic file (type png)
+
+<use ../../Figuras/Ponderaciones/Ponderaciones_LGM.png>
+Package pdftex.def Info: ../../Figuras/Ponderaciones/Ponderaciones_LGM.png  use
+d on input line 312.
+(pdftex.def)             Requested size: 357.69632pt x 155.52083pt.
+LaTeX Info: Redefining \. on input line 320.
+LaTeX Info: Redefining \% on input line 320.
+[60 <../../Figuras/Ponderaciones/Ponderaciones_LGM.png (PNG copy)>])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 187.
+LaTeX Info: Redefining \% on input line 187.
+[61]
+LaTeX Info: Redefining \. on input line 188.
+LaTeX Info: Redefining \% on input line 188.
+[62]
+Cap\'{\i }tulo 6.
+(/media/natalia/DATA/Tesis/Latex/Tesis/./Capitulos_naty/Discucion.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[63
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 17.
+LaTeX Info: Redefining \% on input line 17.
+[64]) (/media/natalia/DATA/Tesis/Latex/Tesis/Tesis_NataliaOpazo.bbl [65]
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+[66
+
+] [67]
+LaTeX Info: Redefining \. on input line 130.
+LaTeX Info: Redefining \% on input line 130.
+[68]
+LaTeX Info: Redefining \. on input line 194.
+LaTeX Info: Redefining \% on input line 194.
+[69]
+LaTeX Info: Redefining \. on input line 254.
+LaTeX Info: Redefining \% on input line 254.
+[70]
+LaTeX Info: Redefining \. on input line 313.
+LaTeX Info: Redefining \% on input line 313.
+[71]
+LaTeX Info: Redefining \. on input line 377.
+LaTeX Info: Redefining \% on input line 377.
+[72]
+LaTeX Info: Redefining \. on input line 443.
+LaTeX Info: Redefining \% on input line 443.
+[73]
+LaTeX Info: Redefining \. on input line 508.
+LaTeX Info: Redefining \% on input line 508.
+[74])
+LaTeX Info: Redefining \. on input line 198.
+LaTeX Info: Redefining \% on input line 198.
+[4]
+Cap\'{\i }tulo 7.
+(/media/natalia/DATA/Tesis/Latex/Tesis/./Capitulos_naty/Anexos.tex
+<../../Figuras/Spin-up/Ingles/SPIN-UP.png, id=1840, 1445.4pt x 721.19438pt>
+File: ../../Figuras/Spin-up/Ingles/SPIN-UP.png Graphic file (type png)
+<use ../../Figuras/Spin-up/Ingles/SPIN-UP.png>
+Package pdftex.def Info: ../../Figuras/Spin-up/Ingles/SPIN-UP.png  used on inpu
+t line 6.
+(pdftex.def)             Requested size: 504.97813pt x 251.95963pt.
+
+Overfull \hbox (84.16194pt too wide) in paragraph at lines 6--7
+ [][] 
+ []
+
+[10
+
+ <../../Figuras/Spin-up/Ingles/SPIN-UP.png (PNG copy)>]
+<../../Figuras/Amplitud/Albani_amplitud2.pdf, id=1844, 554.36897pt x 294.68689p
+t>
+File: ../../Figuras/Amplitud/Albani_amplitud2.pdf Graphic file (type pdf)
+<use ../../Figuras/Amplitud/Albani_amplitud2.pdf>
+Package pdftex.def Info: ../../Figuras/Amplitud/Albani_amplitud2.pdf  used on i
+nput line 14.
+(pdftex.def)             Requested size: 231.45018pt x 123.0302pt.
+<../../Figuras/Amplitud/Lambert_Amplitud2.pdf, id=1845, 555.77258pt x 294.68689
+pt>
+File: ../../Figuras/Amplitud/Lambert_Amplitud2.pdf Graphic file (type pdf)
+<use ../../Figuras/Amplitud/Lambert_Amplitud2.pdf>
+Package pdftex.def Info: ../../Figuras/Amplitud/Lambert_Amplitud2.pdf  used on 
+input line 19.
+(pdftex.def)             Requested size: 231.45018pt x 122.71994pt.
+
+Overfull \hbox (42.08417pt too wide) in paragraph at lines 13--23
+[][][] 
+ []
+
+<../../Figuras/Amplitud/MIROC_Amplitud2.pdf, id=1846, 554.36897pt x 294.68689pt
+>
+File: ../../Figuras/Amplitud/MIROC_Amplitud2.pdf Graphic file (type pdf)
+<use ../../Figuras/Amplitud/MIROC_Amplitud2.pdf>
+Package pdftex.def Info: ../../Figuras/Amplitud/MIROC_Amplitud2.pdf  used on in
+put line 25.
+(pdftex.def)             Requested size: 231.45018pt x 123.0302pt.
+<../../Figuras/Amplitud/MRI-CGCM3_Amplitud2.pdf, id=1847, 554.36897pt x 294.686
+89pt>
+File: ../../Figuras/Amplitud/MRI-CGCM3_Amplitud2.pdf Graphic file (type pdf)
+<use ../../Figuras/Amplitud/MRI-CGCM3_Amplitud2.pdf>
+Package pdftex.def Info: ../../Figuras/Amplitud/MRI-CGCM3_Amplitud2.pdf  used o
+n input line 30.
+(pdftex.def)             Requested size: 231.45018pt x 123.0302pt.
+
+Overfull \hbox (42.08417pt too wide) in paragraph at lines 24--34
+[][][] 
+ []
+
+<../../Figuras/Amplitud/Takemura_Amplitud2.pdf, id=1848, 554.36897pt x 294.6868
+9pt>
+File: ../../Figuras/Amplitud/Takemura_Amplitud2.pdf Graphic file (type pdf)
+<use ../../Figuras/Amplitud/Takemura_Amplitud2.pdf>
+Package pdftex.def Info: ../../Figuras/Amplitud/Takemura_Amplitud2.pdf  used on
+ input line 36.
+(pdftex.def)             Requested size: 231.45018pt x 123.0302pt.
+[11 <../../Figuras/Amplitud/Albani_amplitud2.pdf> <../../Figuras/Amplitud/Lambe
+rt_Amplitud2.pdf
+
+pdfTeX warning: pdflatex (file ../../Figuras/Amplitud/Lambert_Amplitud2.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <../../Figuras/Amplitud/MIROC_Amplitud2.pdf
+
+pdfTeX warning: pdflatex (file ../../Figuras/Amplitud/MIROC_Amplitud2.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+> <../../Figuras/Amplitud/MRI-CGCM3_Amplitud2.pdf
+
+pdfTeX warning: pdflatex (file ../../Figuras/Amplitud/MRI-CGCM3_Amplitud2.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <../../Figuras/Amplitud/Takemura_Amplitud2.pdf
+
+pdfTeX warning: pdflatex (file ../../Figuras/Amplitud/Takemura_Amplitud2.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<Figuras_naty/mundo1_met.png, id=1934, 427.999pt x 600.644pt>
+File: Figuras_naty/mundo1_met.png Graphic file (type png)
+<use Figuras_naty/mundo1_met.png>
+Package pdftex.def Info: Figuras_naty/mundo1_met.png  used on input line 59.
+(pdftex.def)             Requested size: 126.24614pt x 177.1701pt.
+LaTeX Info: Redefining \. on input line 67.
+LaTeX Info: Redefining \% on input line 67.
+[12 </media/natalia/DATA/Tesis/Latex/Tesis/Figuras_naty/mundo1_met.png>]
+Overfull \hbox (34.43658pt too wide) in paragraph at lines 71--111
+ [][] 
+ []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[13] (/media/natalia/DATA/Tesis/Latex/Tesis/Tesis_NataliaOpazo.aux
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+) ) 
+Here is how much of TeX's memory you used:
+ 20199 strings out of 492615
+ 374056 string characters out of 6131390
+ 435746 words of memory out of 5000000
+ 23608 multiletter control sequences out of 15000+600000
+ 16658 words of font info for 62 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,21n,92p,2535b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/
+public/cm-super/sfrm1095.pfb>
+Output written on /media/natalia/DATA/Tesis/Latex/Tesis/Tesis_NataliaOpazo.pdf 
+(90 pages, 10804064 bytes).
+PDF statistics:
+ 1999 PDF objects out of 2073 (max. 8388607)
+ 1624 compressed objects within 17 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 404 words of extra memory for PDF output out of 10000 (max. 10000000)
+

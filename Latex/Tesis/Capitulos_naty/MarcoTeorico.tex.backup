@@ -1,0 +1,940 @@
+
+La consideraci\'on del papel relativo que ha jugado la variabilidad natural y/o los factores
+antr\'opicos en la modificaci\'on de ambientes a escala local y global es de vital importancia a la
+hora de abordar una de las grandes problem\'aticas ambientales actuales, el cambio clim\'atico.
+La preocupaci\'on social en torno al incremento de gases invernadero en la atm\'osfera y su
+repercusi\'on en el clima es cada d\'ia mayor. \\
+El clima actual es el resultado de la evoluci\'on de las condiciones ambientales del planeta
+desde su formaci\'on. Las condiciones clim\'aticas actuales s\'olo se pueden entender si se
+entiende la historia clim\'atica de la Tierra. Al mismo tiempo, el clima tambi\'en ha ido oscilando
+de forma peri\'odica durante millones de a\~nos entre \'epocas glaciales y \'epocas m\'as c\'alidas
+llamadas interglaciares en ciclos de decenas de miles de a\~nos  \citep{Anderson2002} .
+La notable correlaci\'on entre el contenido de $CO_2$ de la atm\'osfera y el clima en los \'ultimos
+400 miles de a\~nos ha estimulado una amplia investigaci\'on de los mecanismos
+responsables del control del contenido de $CO_2$ de la atm\'osfera. Sin embargo, fluctuaciones
+atmosf\'ericas de $pCO_2$ de 80 a 100 ppmv durante los ciclos glaciales permanecen evasivas a
+pesar de m\'as de 20 a\~nos de investigaci\'on \citep{Sigman2000}.\\
+Las primeras evaluaciones de los inventarios de carbono en varios reservorios que
+intercambian $CO_2$ con la atm\'osfera a lo largo de las escalas de tiempo de 103-105 miles de
+a\~nos llevaron a los investigadores a concluir que el oc\'eano debe estar impulsando los
+cambios clim\'aticos relacionados con el $pCO_2$ atmosf\'erico \citep{Anderson2002}.
+\section{Ciclo del carbono}
+
+Existen dos ciclos de carbono en la tierra (bi\'otico y abi\'otico) que funcionan en paralelo. El ciclo abi\'otico est\'a controlado por el vulcanismo, la meteorizaci\'on
+y la subducci\'on tect\'onica. Opera lentamente, pero tiene una gran capacidad, y a escalas del orden de 500 millones de a\~nos domina la qu\'imica del carbono en el planeta. 
+El ciclo bi\'otico opera muy r\'apidamente a escalas de tiempo intermedias de milenios (30000 a 40000 a\~nos es el tiempo de residencia del $CO_2$ en el oc\'eano preindustrial), tiene menor capacidad, pero controla el clima del planeta y est\'a sujeto a amplias perturbaciones relacionadas con el forzamiento clim\'atico 
+\citep{Aristegui2011}. 
+
+El ciclo global del carbono consta de tres reservas principales de carbono: el oce\'ano, la bi\'osfera terrestre, \textcolor{red}{ la lit\'osfera y la atm\'osfera}. El oc\'eano tiene aproximadamente cincuenta veces m\'as
+carbono que la atm\'osfera y casi veinte veces m\'as que la biosfera terrestre. De aqu\'i el importante rol que tiene el oce\'ano ya que ha actuado y act\'ua como controlador
+de la variabilidad clim\'atica a escalas temporales que oscilan desde periodos estacionales, interanuales, decadales y hasta \'epocas glaciales \textendash\ interglaciales
+\citep{Aristegui2011}.  
+
+El oc\'eano captura y transfiere $CO_2$ desde la atm\'osfera al oc\'eano profundo (donde el carbono puede quedar almacenado durante cientos y hasta miles de a\~nos) por medio
+de dos procesos fundamentales: (1) Por la solubilidad del $CO_2$ en el agua de mar (que depende de la temperatura), lo que opera mediante el ingreso del $pCO_2$ atmosf\'erico gaseoso al mar
+($CO_2$ acuoso) producto de una diferencia en la presi\'on parcial del gas entre la atm\'osfera y el oc\'eano (``bomba de solubilidad'') y (2) por captaci\'on de $CO_2$ debida a la fotos\'intesis de los productores primarios (esencialmente el 
+fitoplancton microsc\'opico) y su transformaci\'on en materia org\'anica (``bomba biol\'ogica''). Algunos productores primarios, incorporan carbonato c\'alcico en sus esqueletos,
+que al hundirse en la columna de agua se disuelven, contribuyendo tambi\'en al transporte de carbono (``bomba de carbonatos'', que es un componente de la bomba biol\'ogica). 
+\begin{figure}[H]
+\centering
+ \includegraphics[width=0.75\textwidth]{grafico1.pdf}
+ \caption{Ciclo del carbono. Las unidades de carbono est\'an en petagramos $(Pg,\ 10^{15}g)$. Muestra los intercambios de flujo de $CO_{2}$ del oc\'eano con la atm\'osfera y la bi\'osfera.
+ Adem\'as se representa la bomba biol\'ogica oce\'anica. La producci\'on neta de biomasa (fotos\'intesis menos respiraci\'on) y c\'omo el $CO_{2}$
+ es secuestrado desde el oc\'eano interior hasta el fondo marino como $C_{org}$ y $CaCO_{3}$. Modificaci\'on del diagrama de \cite{Hain2014}. }
+  \label{fig:graf1}
+\end{figure}
+
+\begin{comment}
+El ciclo del carbono es de gran inter\'es en biogeoqu\'imica porque la mayor parte de los tejidos est\'an compuestos de carbono. El elemento carbono es b\'asico en la formaci\'on
+de mol\'eculas org\'anicas (organismos N-P-C-H-O). As\'i por tanto, los organismos fotosint\'eticos presenten en la superficie oce\'anica, usando la luz solar como energ\'ia captan
+di\'oxido de carbono y producen materia org\'anica y ox\'igeno. De esta forma el carbono y el ox\'igeno se encuentran \'intimamente relacionado. Por otro lado, existe la 
+mineralizaci\'on de la materia org\'anica que es producto de la respiraci\'on de los organismos (que extraen energ\'ia de moleculas orgn\'anicas) o de procesos fotoqu\'imicos
+(que consumen oxigeno y aumentan el contenido de di\'oxido de carbono, as\'i como de otros compuestos qu\'imicos), incorpor\'andose nuevamente al ciclo en forma inorg\'anica. 
+La materia formada durante el procesos fotosint\'etico puede ser ``blanda'' o ``dura''. 
+\end{comment}
+
+\subsection{Bomba de solubilidad}
+
+La bomba de solubilidad est\'a conducida por el intercambio de $CO_2$ en la interfase oc\'eano-atm\'osfera, ya que la presi\'on parcial de $CO_2$ tiende a estar en equilibrio entre
+la atm\'osfera y el oc\'eano, por lo que su aumento en la atm\'osfera fuerza un flujo hacia el oc\'eano. 
+
+El $CO_2$ atmosf\'erico entra en el oc\'eano por intercambio gaseoso dependiendo de la velocidad del viento y de la diferencia de las presiones parciales entre 
+la atm\'osfera y el oc\'eano. La cantidad de $CO_2$ captado por el agua de mar es funci\'on de la temperatura a trav\'es del efecto de la solubilidad. %Las aguas profundas y fr\'ias que se 
+%forman cerca de los polos llenan las profundidades abisales de las principales cuencas oce\'anicas, mientras que las aguas calientes y superficiales de latitudes bajas y medias
+%son demasiado boyantes para hundirse y se confinan a las columnas de agua m\'as altas.
+La solubilidad del $CO_2$ aumenta a bajas temperaturas. 
+As\'i pues las aguas fr\'ias absorben m\'as $CO_2$ que las c\'alidas y esto impone un gradiente de carbono en la misma direcci\'on que la bomba de solubilidad, lo que se mantiene debido a
+la circulaci\'on oce\'anica. De esta manera, el enfriamiento de las aguas superficiales aumenta la captaci\'on de $CO_2$ por parte del oc\'eano, mientras un calentamiento neto conduce a 
+la reducci\'on de $CO_2$ o inclusivo en algunos casos a la liberaci\'on de este desde el oc\'eano hacia la atm\'osfera. Por otro lado, regiones c\'alidas y fr\'ias se unen por la circulaci\'on oce\'anicas generando 
+gradientes verticales y transportes meridionales de $CO_2$. Adem\'as la superficie del oc\'eano esta unida a la zonas m\'as profundas mediante procesos de afloramiento y hundimiento, que 
+fuerzan un movimiento vertical de grandes vol\'umenes de agua. De esta manera, afloramientos de aguas fr\'ias que provienen de capas profundas producir\'an una liberaci\'on de $CO_2$, a medida
+que el agua asciende y se calienta. Por otro lado, en zonas de formaci\'on de masas de agua (hundimiento), el agua que est\'a en contacto con la atm\'osfera se enfr\'ia, aumentando su densidad 
+e incrementando la solubilidad del $CO_2$. para finalmente hundirse en el oc\'eanos profundo atrapando grandes cantidades de $CO_2$ \citep{Sabine2004}.
+
+\subsection{Bomba biol\'ogica}
+
+Como indica su nombre, en la bomba biol\'ogica interviene la biota marina. El proceso de fijaci\'on fotosint\'etica de $CO_2$ en la capa iluminada del oc\'eano, por el fitoplancton est\'a
+compensado por la exportaci\'on de carbono org\'anico (tejidos blandos) y carbonato (caparazones calc\'areos) a capas profundas por gravedad (sedimentaci\'on). As\'i, 
+la actividad biol\'ogica retira $CO_2$ de las aguas superficiales y lo transporta hacia el interior del oc\'eano en forma de carbono org\'anico y carbonatos. 
+Durante esta exportaci\'on la materia org\'anica y el carbonato se van descomponiendo por acci\'on de las bacterias y de los equilibrios qu\'imicos, respectivamente. 
+Una peque\~na fracci\'on de ambos alcanza el lecho marino y se incorpora a los sedimentos, donde quedar\'a retenido durante largos periodos de tiempo (ver figura \ref{fig:graf1}). Sin embargo, el oc\'eano esta en un 
+constante vuelco que invierte el gradiente producido por la captaci\'on de $CO_2$ producto del hundimiento de material biog\'enico. As\'i la bomba biol\'ogica ejerce un control sobre el
+$CO_2$ s\'olo por el tiempo que le toma al oc\'eano un cambio para llevar el agua desde el interior hasta la superficie (entre 500 y 1500 a\~nos dependiendo de la cuenca oce\'anica). 
+
+La din\'amica del carbono org\'anico marino puede describirse como un conjunto de tres ciclos anidados, donde la bomba biol\'ogica opera como el proceso intermedio. El ciclo con la
+escala de tiempo m\'as corta que opera dentro de la superficie del oc\'eano, se compone de la producci\'on primaria neta del fitoplancton (su fotos\'intesis menos su respiraci\'on)
+que consta de fijar la energ\'ia solar biogeoqu\'imicamente \citep{Hain2014}. Y la respiraci\'on heterotr\'ofica por el zooplancton (que obtiene su alimento rompiendo 
+mol\'eculas org\'anicas sintetizadas por otros organismos, el fitoplancton), y  las bacterias que oxidan la mayor parte de la producci\'on primaria de nuevo a $CO_2$.
+
+\begin{comment}
+A la larga escala temporal del ciclo global del carbono, una peque\~na fracci\'on de la materia org\'anica exportada desde el oc\'eano superficial sobrevive a su paso a trav\'es de la
+columna de agua y de la interfaz agua/sedimento de fondo y es enterrada y acumulada en los sedimentos del lecho marino. En la escala temporal de procesos geol\'ogicos, esta
+``eliminaci\'on'' de carbono se equilibra con la oxidaci\'on de la materia org\'anica cuando se expone a la superficie de la Tierra por elevaci\'on y meteorizaci\'on (volcamiento oce\'anico)
+o cuando es liberada por el metamorfismo y el vulcanismo. Mientras que los flujos involucrados en este ciclo son peque\~nos, el dep\'osito de carbono org\'anico de la tierra s\'olida es
+grande, por lo que la importancia de estos flujos aumenta con el tiempo, haci\'endose claramente relevante en millones de a\~nos.
+\end{comment}
+
+De esta forma vemos que las plantas marinas en los primeros 100 metros de la columna de agua (zona f\'otica) contribuyen a amortiguar la acumulaci\'on de $CO_2$ en la atm\'osfera, 
+incrementando sus tasas de fotos\'intesis lo que transforma el $CO_2$ en materia org\'anica particulada, actuando como sumidero del exceso de $CO_2$ emitido desde distintas fuentes. 
+El plancton y su producci\'on es controlada por factores f\'isico-qu\'imicos, tales como, la limitaci\'on de nutrientes, disponibilidad de luz, la capa de mezcla en profundidad  y la 
+fuerza bi\'otica llamada el ``pastoreo``. El grado en que la producci\'on en superficie se transporta a la profundidades oce\'anicas depende en gran medida de la composici\'on de 
+especies de la comunidad de plancton. El carbono org\'anico particulado (\textit{COP}) generado por el plancton con partes duras, llamados diatomeas y cocolitof\'oridos es m\'as efectivamente
+exportado que el plancton con cuerpos blandos, dado que las plantas duras act\'uan como lastre y barrera contra ataques microbianos. Otro COP exportado con eficacia son los gr\'anulos fecales grandes
+creados por el mesozooplancton. Por otro lado, los diversos grupos funcionales son capaces de responder a efectos biogeoqu\'imicos que influyan en el resto de la comunidad planct\'onica. Cambios 
+en la disponibilidad de nutrientes pueden causar estados alternados del ecosistema. Algunas de estas alternaciones est\'an controladas por el f\'osforo, \textcolor{red}{el nitr\'ogeno} y/o la disponibilidad de micronutrientes, 
+part\'icularmente el hierro. 
+
+Sin embargo el carbono 
+org\'anico se acumula en superficie (biomasa de fitoplancton, part\'iculas org\'anicas muertas y carbono org\'anico disuelto) y su dep\'osito de $CO_2$ es menor en relaci\'on al de la
+atm\'osfera. Del 10-50\% de la materia org\'anica producida por la producci\'on primaria neta escapa a la respiraci\'on heterotr\'ofica inmediata dentro de la superficie
+y en su lugar se hunde (o se mezcla) a profundidad antes de ser descompuesta.
+En zonas m\'as profundas la materia org\'anica excretada y, tambi\'en, la inerte se oxida en un proceso conocido como {\bf remineralizaci\'on} de la materia org\'anica y que lleva al aumento de la 
+concentraci\'on de $CO_2$. As\'i las aguas m\'as profundas tienen m\'as contenido de $CO_2$ que las zonas f\'oticas cuando mayor se la productividad en superficie.  
+
+\textcolor{red}{As\'i vemos que el $CO_2$ convertido en carbohid\'atos por organismo aut\'otrofos tiene tres rutas posibles: puede liberarse a la atm\'osfera con la respiraci\'on, puede ser consumido por
+por organismos heter\'otrofos o es parte de la materia org\'anica hasta que \'esta muere. Si bien este proceso posee un tiempo de estancia corto es el m\'as grande en t\'erminos de flujos de carbono. 
+Esta ``producci\'on de exportaci\'on'' maneja la bomba biol\'ogica.}
+
+Uno de los grupos planct\'onicos importantes son los calcificadores marinos. aproximadamente la mitad del carbono inorg\'anico particulado \textit{PIC} es generado por cocolitof\'oridos y el
+resto por foramin\'iferos. La producci\'on del PIC por calcificadores planct\'onicos impulsa la bomba de carbonato.
+
+El proceso qu\'imico que esta detr\'as de este mecanismo es el siguiente: el $CO_2$ cuando ingresa al agua de mar (por la diferencia de presi\'on parcial oc\'eano-atm\'osfera)
+se disuelve en el agua, reacciona con ella para formar \'acido carb\'onico $H_{2}CO_{3}$, pero este en general es inestable por ende
+tiende a liberar protones formando el i\'on carbonato de hidr\'ogeno $HCO_{3}^{-1}$ (bicarbonato) y el i\'on carbonato $CO_{3}^{-2}$ (carbonato), los que conjuntamente aumentan considerablemente la 
+concentraci\'on de carbono inorg\'anico disuelto \citep{Hain2014}, lo que se presenta en la ecuaci\'on a continuaci\'on. 
+
+\begin{equation} \label{eq:marco1}
+CO_{2 (g)} + H_{2}O\rightleftharpoons H_{2}CO_{3} \rightleftharpoons H^{+} + HCO_{3}^{-1} \rightleftharpoons 2H^{+} + CO_{3}^{-2} 
+\end{equation}
+
+La suma de todas las especies qu\'imicas del di\'oxido de carbono disuelto se denomina \textit{di\'oxido de carbono inorg\'anico total} ($\sum CO_2$). Est\'a expresado en milimoles por 
+litro (kilogramo) de agua de mar. El $CO_2$ como gas disuelto est\'a en muy peque\~nas cantidades, no alcanza el 2\% del ($\sum CO_2$). La especie qu\'imica m\'as abundante en el oc\'eano
+es el bicarbonato, aproximadamente el 90\% del $CO_2$ que entra en el mar se encuentra en forma de i\'on bicarbonato y un $\sim$8\% en forma de i\'on carbonato. El $HCO_{3}^{-1}$ es consumido 
+por procesos de fotos\'intesis. De esta manera el consumo de $CO_2$ por fotos\'intesis o fuga a la atm\'osfera hace que la ecuaci\'on \ref{eq:marco1} se mueva hacia la izquierda 
+disminuyendo la concentraci\'on de $HCO_{3}^{-1}$ y disminuyendo por ende la concentraci\'on de $H^+$ (aumento del $CO_{3}^{-2}$ y el PH), que causan la reducci\'on del $pCO_2$; mientras que cuando se
+aumenta el $CO_2$, por respiraci\'on o por aportes externos, la ecuaci\'on se mueve hacia la derecha, la concentraci\'on de $HCO_{3}^{-1}$ y $H^+$ aumentan (disminuye el $CO_{3}^{-2}$ y el
+PH), por lo tanto, la combinaci\'on causa el incremento del $pCO_2$. 
+
+Dado que no toda la materia org\'anica se descompone de manera m\'as r\'apida de lo que se acumula en el ecosistema, una porci\'on de dicha materia se exportar\'a y eventualmente
+quedar\'a sellada en dep\'ositos que se enterrar\'an con el tiempo. 
+Por debajo de la zona euf\'otica (zona iluminada), el $CO_2$ aumenta por respiraci\'on \textcolor{red}{y remineralizaci\'on}. La adici\'on continua de $CO_2$, hace que el $CO_{3}^{-2}$ desciende a\'un m\'as, ya que reacciona
+con el $CO_2$ dando lugar a m\'as $HCO_{3}^{-1}$ ($CO_2$ + $CO_{3}^{-2}$ + $H_{2}O$ $\leftrightarrow$ 2$HCO_{3}^{-1}$); bajo unos cientos de metros de profundidad ocurre una disoluci\'on de exoesqueletos de carbonato de 
+calcio ($CaCO_{3}$) lo que tambi\'en aumenta la concentraci\'on de $CO_2$. Cuando $\sum CO_2$ aumenta el PH disminuye. 
+
+\textcolor{red}{La disoluci\'on del $CO_2$ atmosf\'erico afecta el pH del mar. El pH marino se encuentra en torno a 8, cuando el oc\'eano est\'a en equilibrio con el $pCO_2$ atmosf\'erico. Sin embargo en miles de a\~nos 
+es el $pCO_2$ atmosf\'erico es el que controla el pH del agua de mar haciendo que este var\'ie entre $\sim$7.6 (LGM?) y $\sim$8.2(Holoceno?) \citep{Sillen1961;Pytkowicz1973}} REVISAR!
+
+Si bien hemos notado la importancia de la bomba biol\'ogica en t\'erminos de materia org\'anica (tejidos blandos), como se mencion\'o anteriormente existe otro proceso a\~nadido a la bomba
+biol\'ogica sobre el ciclo del $CO_2$, y esta relacionado con el ciclo de formaci\'on y disoluci\'on del carbonato c\'alcico ($CaCO_{3}$). Este ciclo act\'ua en el ciclo del carbono afectando 
+el equilibrio que ejerce el ciclo del $CO_2$ sobre el pH marino y, evaluamos su efecto en la alcalinidad. 
+
+Los i\'ones de carbonato est\'an involucrados en la formaci\'on de un mineral, el carbonato de calcio ($CaCO_{3}$) como muestra la reacci\'on \ref{eq:marco4}.
+
+\begin{equation} \label{eq:marco4}
+Ca^{2+} + CO_{3}^{2-}\rightleftharpoons CaCO_{3 s\acute{o}lido} 
+\end{equation}
+
+El $CaCO_{3}$ es un s\'olido que puede precipitarse en el agua de mar con diferentes formas cristalogr\'aficas, siendo la calcita la m\'as com\'un pero tambi\'en en la forma de aragonita.
+La estabilidad del $CaCO_{3}$ depende de los productores [$Ca^{2+}$]x[$CO_{3}^{2-}$] y de la constante de solubilidad K$_s$, donde el K$_s$ de la calcita y de la aragonita incrementa significativamente con la presi\'on (del orden de 2 entre 0 y 5000 m). Como la concentraci\'on 
+de $Ca^{2+}$ es muy constante en el oc\'eano, por lo tanto, la estabilidad del carbonato de calcio es principalmente determinada por la concentraci\'on en profundidad del $CO_{3}^{2-}$. La saturaci\'on del
+agua de mar respecto de $CaCO_{3}$ es determinado por: 
+
+\begin{equation} \label{eq:marco5}
+\Omega= [Ca^{2+}][CO_{3}^{2-}]/K_s
+\end{equation}
+
+Donde: 
+\begin{itemize}
+ \item Si $\Omega<1$, el agua de mar se encuentra subsaturada con respecto a $CaCO_{3}$, se tiende a disolver espont\'aneamente (ecuaci\'on \ref{eq:marco4} de derecha a izquierda). 
+ \item Si $\Omega=1$, el agua de mar est\'a saturada (en equilibrio) con respecto a $CaCO_{3}$, no se precipita ni se disuelve.
+ \item Si $\Omega>1$, el agua de mar est\'a sobresaturada con $CaCO_{3}$, en teor\'ia puede precipitar espont\'aneamente.
+\end{itemize}
+
+Las aguas oce\'anicas superficiales est\'an sobresaturadas de $CaCO_{3}$, pero su precipitaci\'on nunca es espont\'anea es siempre comtrolada por la formaci\'on de 
+organismo que forman partes duras como conchas o esqueletos. 
+
+\begin{comment}
+Existen organismos marinos que extraen $CO_2$ de la superficie del
+oc\'eano para producir compuestos inorg\'anicos de carb\'on principalmente carbonato de calcio ($CaCO_{3}$). Ahora bien, la mayor\'ia de estos organismos se disuelven en la columna de
+agua antes de llegar al fondo marino, sin embargo en escalas de tiempo de miles o cientos de millones de a\~nos existe una persistente entrada de carbono inorg\'anico producto de la
+erosi\'on de las rocas en los r\'ios y su posterior descarga en el oc\'eano, as\'i una gran fracci\'on de $CaCO_{3}$ es preservada como sedimento marino. Por lo tanto, la producci\'on
+de $CaCO_{3}$ en la superficie oce\'anica constituye el mayor sumidero de carbono del oc\'eano. Este carbono se incorpora lentamente al ciclo cuando se van disolviendo los carbonatos
+c\'alcicos del fondo marino. Este ciclo es conocido como el ciclo del carbonato. 
+
+
+La formaci\'on de $CaCO_{3}$, aumenta la concentraci\'on de $H^+$ en la superficie de agua (disminuye el PH y el $CO_{3}^{-2}$, necesarios para la producci\'on de conchas o 
+exoesqueletos calc\'areos en organismos marinos) aumentando el $pCO_2$. Por otro lado, la exportaci\'on de
+carbono en conjunto con la oxidaci\'on bioqu\'imica de la materia org\'anica (la respiraci\'on aumenta el $\sum CO_2$ y la concentraci\'on de $H^+$), disminuyen el pH el cual llega a su
+m\'inimo en el m\'inimo de ox\'igeno \citep{park1966}. Por debajo de este m\'inimo el pH aumenta en concordancia con el contenido de ox\'igeno disuelto (la respiraci\'on en esta zona es menor) y en 
+esta profundidad la disoluci\'on del $CaCO_{3}$ es mayor producto de la disminuci\'on de temperatura y aumento de la presi\'on. Hasta que finalmente por debajo de cierta profundidad 
+$\sim$3500 m. las aguas profundas con anoxia (bajo contenido de ox\'igeno disuelto), donde las bacterias usan los sulfatos para respirar, el pH puede descender hasta valores de 7.5,
+aunque cuando los sulfatos se agotan, la respiraci\'on bacteriana utiliza el oxigeno del $CO_2$, produciendo de nuevo una elevaci\'on del pH.%\citep{park1968;Healh y Culberson 1970}.
+\end{comment}
+
+\textcolor{red}{La corrosi\'on en el agua se debe a la presencia de di\'oxido
+de carbono libre ($CO_{2ac}$). \'Este influir\'a en el comportamiento del carbonato de calcio. Si existe un ($CO_{2ac}$) en exceso, \'este atacar\'a el $CaCO_{3}$, 
+para aumentar la concentraci\'on de bicarbonato y mantener el equilibrio; por lo otro lado, si hay insuficiencia de ($CO_{2ac}$), el $CaCO_{3}$ precipitar\'a (lluvia de $CaCO_{3}$) 
+para disminuir la concentraci\'on de bicarbonato, aumentando as\'i el ($CO_{2ac}$) y restableciendo el equilibrio.} VA AQUI??? %Gonzales 1991
+
+\textcolor{red}{ En general, una fracci\'on sustancial de la lluvia de $CaCO_{3}$ se conserva y se entierra cuando es interceptada por el fondo marino, pero se disuelve completamente si llega al
+ fondo marino m\'as profundo. Si bien en t\'erminos de exportaci\'on global este flujo es peque\~no est\'a mejor preservado que el carbono org\'anico y constituye el 41\% del carbono 
+ enterrado en los sedimentos, y en la corteza comprende el 84\% del carbono \citep{Libes2011}. As\'i el carbono se elimina de manera efectiva de la interacci\'on con la atm\'osfera en escalas de 
+ tiempo mucho m\'as largas.} REVISAR NO ESTA BIEN!!!
+ 
+\textcolor{red}{Falta segunda parte del ciclo del carbono (como subo? hablar sobre que en el oc\'eanos profundo esta la misma ecuaci\'on de carbonato pero ahora va en la direcci\'on contraria, 
+ hay remineralizaci\'on y que vuelve como minerales y adem\'as vuelve a la atm\'osfera en zonas de surgencia)} FALTA ESTE CAPITULO! (SON DOS)
+ 
+\subsection*{Volcamiento oce\'anico}
+
+Otro mecanismo por el cual se transfiere carbono al oc\'eano profundo y por el cual eventualmente este retorna a la superficie, cerrando el ciclo de la 
+bomba biol\'ogica es mediante la
+circulaci\'on oce\'anica.
+
+\begin{comment}
+ La distribuciones de propiedades f\'isicas como la salinidad y el uso de radiocarbono es que se ha empleado para
+identificar las masas de aguas profundas que se forman por hundimiento y que se transportan meridionalmente alrededor de los oc\'eanos de la tierra.
+
+Si bien en la actualidad podemos caracterizar la circulaci\'on como se presenta en la figura \ref{fig:circ}. Mediciones de $\delta^{13}C$ en foramin\'iferos 
+indican que los patrones de circulaci\'on durante \'epocas glaciares fueron diferentes. 
+
+De la figura \ref{fig:deep_cir}, podemos apreciar que los patrones de $\delta^{13}C$ en el oc\'eano Atl\'antico Norte (NADW) fueron m\'as alto que lo que es hoy 
+en d\'ia. Lo que sugiere que la lengua de agua fr\'ia de esta zona no era tan densa y por ende no alcanzaba las profundidades que alcanza en la actualidad, 
+llegando a llenar solo profundidad intermedias. Adem\'as bajos niveles de $\delta^{13}C$ indican que las aguas profundas del Atl\'antico Norte (bajo los 2000 metros)
+fueron creadas en las Ant\'artica y que posteriormente fluyeron hacia el norte. 
+
+\begin{figure}[H]
+\centering
+ \includegraphics[width=0.5\textwidth]{deep_circulation.png}
+ \caption{ .}
+  \label{fig:deep_cir}
+\end{figure}
+%%
+Como vimos en la figura 1, el agua del Atlantico norte que es más superficial (cerca de 1 lkm.) fluye hacia el norte
+%%
+\end{comment}
+
+\begin{figure}[H]
+\centering
+ \includegraphics[width=0.75\textwidth]{circulacion.png}
+ \caption{  La circulaci\'on de vuelvo meridional es posible verla como un ``gran transportador oce\'anico'' que comienza con el hundimiento de una gruesa 
+ capa de aguas profundas relativamente saladas del Atl\'antico Norte (NADW). La que luego viaja a la regi\'on circumpolar (predominantemente por su l\'imite 
+ occidental). En esta zona se une con el agua Circumpolar profunda (AABW) que llena el Oc\'eano Austral profundo. La regi\'on circumpolar, u Oc\'eano Austral, 
+ que rodea la Ant\'artica se caracteriza por una masa de agua profunda llamada Agua Circumpolar profunda (CDW). Esta masa de agua combina el NADW y las correspondientes masas de aguas profundas
+de los oc\'eanos \'Indico y Pac\'ifico, adem\'as de incluir las aguas profundas que se forman alrededor del continente ant\'artico. 
+Las distribuciones de radiocarbono sugieren que esta agua es atra\'ida brevemente a la superficie (surgencia), con un flujo de retorno hacia abajo, que 
+se convierte hacia el sur en AABW, as\'i como en el Modo Subant\'artico de Agua (SAMW). Luego la CDW sigue su camino hacia los profundos oc\'eanos del \'Indico
+y Pac\'ifico, en este \'ultimo tiene una lengua de AABW a lo largo del fondo que decrece a medida que el agua penetra hacia norte. En el Pac\'ifico Norte
+el agua del fondo se eleva y regresa al sur en profundidades intermedias, llamadas aguas profundas del Pac\'ifico Norte (NPDW). El gran transportador oce\'anico se cierra con el retorno del agua superficial 
+ del Oc\'eano Pac\'ifico a trav\'es del Estrecho de Indonesia, donde se une con el agua superficial del Oc\'eano \'Indico para fluir alrededor de
+ Sud\'africa, la que se unir\'a mediante el CDW al flujo hacia el norte que se convierte en el agua intermedia Ant\'artica (AAIW) la que se encontrar\'a por encima de
+ la NADW [cf. Broecker, 1991a].}
+  \label{fig:circ}
+\end{figure}
+
+Como podemos apreciar en la imagen \ref:{fig:circ} las masas de agua del Atlántico norte fluyen superficialmente hacia el norte, mientras que un flujo de 
+agua profunda se desplaza hacia el sur formando lo que se
+conoce como circulación de vuelco meridional (MOC). Donde el flujo superficial y de aguas intermedia pierden boyantes al llegar al norte y se hunden, 
+transformándose en un flujo hacia el sur y formando las llamadas aguas profundas del Atlántico norte (NADW). Esta circulación meridional es de especial
+importancia porque conlleva un transporte meridional de calor. Donde el agua superficial que fluye hacia el norte se va calentando, mientras el agua de fondo 
+que fluye desde el norte hacia el sur es fría. 
+
+Uno de los mecanismo que permite identificar estos flujos de agua tanto en la actualidad como en el pasado, tienen relación con la densidad del mar. 
+La densidad del mar es una función que depende tanto de la temperatura, la salinidad y la presión. Para conocer sus valores del pasado, en la cuenca del 
+Atlántico esta fue estimada por radio isótopos de oxigeno  $^{18}O/^{16}O$ en un test de carbonato fósil de foraminíferos bentónicos realizado por (cita). 
+lo que nos da una idea de la temperatura del océano en ese entonces. 
+
+El Atlántico sur a los 30°S, Mostró que la densidad es más grande a lo largo del margen este por sobre los 2 km. de
+profundidad del mar, reflejando un cizalle vertical 
+en el transporte de masa asociado con el MOC (figura). Contraste que quedó también de manifiesto en los foraminíferos bentónicos de los sedimentos 
+superficiales, 
+con grandes valores de $^{18}O/^{16}O$, mostrando una alta densidad en el margen este del Atlántico. Sin embargo, durante el LGM, este mismo estudio en
+el gradiente de isótopos de oxigeno 
+a través de la cuenca, mostró una reducción e incluso se invirtió (figura) en algunas zonas, lo que sugiere hubo una circulación de vuelco con un superficial
+flujo moviéndose hacia el sur durante este periodo.
+
+El hundimiento de aguas superficiales en Groenlandia, Islandia, Noruega y el mar del Labrador en conjunto forman el NADW, que se puede identificar rápidamente 
+como una lengua de agua pobre en nutrientes llegando a grandes profundidades en el océano Atlántico y eventualmente juntándose con los océanos del sur (OS).Donde
+una agua rica en nutrientes desde los océanos del sur (Agua de fondo Antártica, AABW) puede verse penetrando hacia el norte por debajo del NADW (figura).
+(Cita) construyó la distribución de nutrientes para tiempos pasados a través de la medición de isótopos de carbono ($^{13}C/^{12}C$), usando para ello conchas de foraminíferos
+bentónicos almacenados en sedimentos. Además utilizó $Cd$ dado que éste también es utilizado por los organismo del océano superficial y posteriormente liberado
+en profundidad como material orgánico en descomposición. Así tanto $^{13}C/^{12}C$ como $Cd/Ca$ mostraron como vemos en la imagen ... que durante el UMG habían 
+masas de agua pobres en nutrientes sobre una profundidad de 2 km (se suele referir a esta como Agua Intermedia Atántica Glacial Norte GNAIW), y agua con grandes 
+cantidad de nutrientes bajos los 2 km., la que además son ricas en zinc, lo que supone la idea de que parte de esta masa de agua provenga 
+de los Océanos del Sur. Así masas de agua profundas (>2 km) también contribuyeron en alguna medida a las masas de agua del Atlántico durante el UMG. Esta 
+contribución puede ser el resultado de una mezcla entre el GNAIW y las masas de aguas profundas originadas en el sur como se puede ver en la figura ().
+
+Por otro lado, en los alrededores de la costa Antártica existe un flujo de boyantes negativo (enfriameniento, evaporación o inyección de sal por 
+formación de hielo), donde hay
+aguas subsuperficiales relativamente calientes que surgen en los OS y son enfriadas al punto de congelamiento, y más saladas porque liberan sal en la formación
+de hielo. Sin embargo, el flujo de boyantes es positiva más al norte donde el hielo marino es sólo estacional y el océano es calentado en verano por la
+atmósfera y refrescado por el derretimiento de hielo.
+
+La figura ... nos presenta la formación de aguas profundas en periodos de invierno producto de la convección en el Atlántico Norte, la que fluye como una 
+corriente profunda de límite oeste hacia el sur hasta alcanzar los OS, donde es llevada a la superficie producto de los vientos del oeste (línea verde).
+Posteriormente esta es llevada al sur de los OS, donde tiene un flujo de boyantes negativo, por lo que fluye hacia la Antartica, donde se hace muy salada y se 
+termina por hundir en el abismo. Este flujo de agua densa es el AABW. Estos flujos de agua se desplazan hacia el norte como AABW en los fondos de los Océanos 
+Atlántico, Índico y Pacífico (linea azul). En estos tres océanos el AABW surge en las aguas profundas locales, en el NADW (línea verde), agua de fondo del Océano 
+Índico (IDW, línea roja), en el agua de fondo del Pacífico (PDW, línea roja). La transformación de agua abisal a aguas profundas es manejado por procesos de
+mezcla turbulenta (línea vertical segmentada). La mezcla es más vigorosa bajos los 2 km producto de la rugosidad topográfica donde las ondas internas se rompen
+y mezclan. Por otro lado, tanto la IDW como PDW afloran en los OS más al norte que la NADW. De esta forma, la IDW y PDW alimentan a ambas ramas del Volcamiento
+en los OS, una rama fluye a través de la ACC para unirse a la rama superficial, es una fuente importante de aguas intermedias que fluye hacia el norte a la región
+de formación de NADW (línea naranja), conectando nuevamente las ramas superior e inferior. 
+
+Por otro lado, durante el UMG hubo un pronunciado enfriameniento al sur de los 45°S (cita). Lo que resultó en una expanción de la superficie marina congelada 
+durante durante el verano. La figura ... construida a partir de ... (CCSM3). Muestra una expanción de la cubierta de hielo en el UMG, seguido por un desplazamiento
+hacia el ecuador de la isolínea de temperaturas del aire de verano (-2°C, temperatura en la que el agua de mar se congela). La línea sólida muestra el límite 
+casi permanente de hielo marino desplazado más de 5° de latitud en el UMG, junto con el área donde el flujo de boyantes es negativo. Esto habría conllevado
+que la mezcla turbulenta ya no es capaz de impulsar un afloramiento sustancial de la AABW, como consecuencia las aguas profundas regresan a los OS sin mezclarse
+y transformándode nuevamente en AABW (cin azul). En respuesta la NADW se dezplaza por encima de la celda abisal para aflorar donde el flujo de flotabilidad es 
+positivo, y regresa al norte como aguas intermedias que cierran el ciclo. 
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{comment}
+ La circulaci\'on de vuelvo meridional es posible verla como un ``gran transportador oce\'anico'' que comienza con el hundimiento de una gruesa 
+ capa de aguas profundas relativamente saladas del Atl\'antico Norte (NADW). La que luego viaja a la regi\'on circumpolar (predominantemente por su l\'imite 
+ occidental),
+ donde vuelve brevemente a la superficie y se enfr\'ia de nuevo, antes de continuar su camino hacia los profundos océanos del \'Indico y Pac\'ifico,
+ para luego elevarse hasta la termoclina y hacia el oc\'eano superficial. El gran transportador oce\'anico se cierra con el retorno del agua superficial 
+ del Oc\'eano Pac\'ifico a trav\'es del Estrecho de Indonesia, donde se une con el agua superficial del Oc\'eano \'Indico para fluir alrededor de
+ Sud\'africa [cf. Broecker, 1991a].
+ 
+ El Atlántico Norte tiene una gruesa capa de aguas profundas relativamente
+salada (NADW). En el fondo del océano Atlántico, mayormente al sur del Ecuador, se en-
+cuentra el agua del fondo Antártico (menos salada) (AABW). La fuente predominante de
+AABW dentro del Atlántico es la llamada Agua Profunda Circumpolar que llena el océano
+Austral profundo. A medida que AABW penetra hacia el norte, su influencia disminuye
+gradualmente debido a la mezcla con la salada NADW. Además está el Agua Intermedia
+Antártica que fluye hacia el norte (AAIW) y se encuentra por encima del NADW. El
+AAIW se origina en áreas del OcÃ©ano Austral. La parte superior del AAIW es en reali-
+dad una masa de agua separada identificada como Modo Subantártico de Agua (SAMW),
+que también fluye hacia el norte. Por encima del SAMW se encuentra la termoclina prin-
+cipal. La región circumpolar, u Océano Austral, que rodea la Antártica se caracteriza por
+una masa de agua profunda relativamente uniforme llamada Agua Circumpolar profunda
+(CDW). Esta masa de agua combina el NADW y las correspondientes masas de aguas
+profundas de los océanos Índico y Pacı́fico, además de incluir las aguas profundas que se
+forman alrededor del continente antártico. Es notablemente uniforme en la vertical, y las
+distribuciones de radiocarbono sugieren que esta agua es atraı́da hacia la superficie por
+surgencia, con un flujo de retorno hacia abajo, hacia el sur que se convierte en AABW, y
+un flujo hacia el norte que se convierte en el AAIW, ası́ como SAMW. El Océano Pacı́fico
+tiene una lengua AABW a lo largo del fondo que decrece a medida que el agua penetra
+hacia el norte. Este AABW a menudo se conoce como CDW para distinguirlo por su ligera
+diferencia con el AABW que desemboca en el Atlántico. El AABW del Pacı́fico tiene un
+fuerte componente salada del NADW que recoge alrededor del continente Antártico, por
+lo cual el agua en el Pacı́fico profundo ha de ser más salada. En el Pacı́fico Norte el agua
+del fondo se eleva y regresa al sur en profundidades intermedias, las que se conoce como
+aguas profundas del Pacı́fico Norte (NPDW). Por encima del NPDW en el PacÃfico Sur se
+puede ver la firma más reciente del AAIW que penetra hacia el norte. Además una masa
+de agua intermedia formada en el Pacı́fico Norte recibe el nombre de Agua Intermedia del
+Pacı́fico Norte (NPIW). El océano Índico (que no se muestra en la figura), es similar al
+océano Pacı́fico, excepto que una cantidad modesta de agua salada se hunde desde el Mar
+Rojo y forma una masa de agua conocida como Aguas Profundas del Mar Rojo (RSDW).
+\end{comment}
+
+
+ 
+\subsection{Suministro de nutrientes}
+
+En la producci\'on de materia org\'anica existen elementos que a menudo limitan la fotos\'intesis. Es usual hacer la distinci\'on entre macronutrientes (N y P) y micronutrientes 
+(elementos traza) de acuerdo a su concentraci\'on relativa en los organismos. La concentraci\'on media de macronutrientes es del orden de los $mmol\ m^{-3}$ 
+y la de los micronutrientes est\'a en el rango de los $\mu mol\ m^{-3} $ e inclusive m\'as baja (tal es el caso del hierro). Los elementos H, C y O son 
+relativamente encontrados en abundancia y por ende, no son considerados como limitantes. 
+De esta manera los organismos fitoplanct\'onicos que son los responsables de la fotos\'intesis en el oc\'eano toman estos elementos de la aguas superficiales
+para formar materia org\'anica. 
+%$La distribución del nitrato y del fosfato muestra un marcado impacto del consumo de estas concetraciones químicas en la superficie del océano. 
+
+Gran parte de la materia org\'anica es reciclada en superficie en ves de ser exportada. 
+La primera entrada de nutrientes es por suministros provenientes del oc\'eano profundo. Debido al afloramiento por vuelco convectivo (enfriamiento en invierno)
+y de la mezcla vertical. Tambi\'en existe un transporte lateral donde la entrada de nutrientes proviene de la deposici\'on de la atm\'osfera, generalmente
+es m\'as peque\~na pero puede ser localmente significativa. 
+El suministro potencial de nutrientes var\'ia entre nula si los nutrientes tienes la misma concentraci\'on en superficie que en profundidad o m\'aximo cuando se
+consumen por completo los nutrientes en superficie (se agotan). 
+La diferencia del suministro de nutrientes crea ambientes distintivos que tienen un mayor impacto sobre los organismo que viven ah\'i (biomasa).
+
+Clasificando los ambientes seg\'un el suministro de nutrientes tenemos, en primer lugar la influencia ecuatorial de biomasa entre los 5$^\circ$N y 5$^\circ$S donde la 
+surgencia a lo largo del ecuador y su r\'apido transporte horizontal fuera de la banda de surgencia generalmente garantiza un gran suministro de nutrientes. 
+Desde la zona 
+ecuatorial hacia los polos existen giros subtropicales con una ancha banda de velocidades de hundimiento. La mitad ecuatorial de los giros subtropicales
+no tiene una profundizaci\'on significativa de la capa de mezcla en invierno, por lo que el suministro de nutrientes es extremadamente bajo durante todo el a\~no. 
+\'Esta es definida como una zona permanentemente estratificada. 
+La mitad hacia el polo de los giros subtropicales donde la capa de mezcla profunda durante invierno aporta nutrientes a la superficie, se define como zona
+estacionalmente estratificada. 
+Los giros subpolares donde, tanto la surgencia como la mezcla durante
+invierno traen amplios suministros de nutrientes a la superficie, definen la zona subpolar. Adem\'as est\'an las bandas de surgencia costera de bajas latitudes, para
+alrededor de los m\'argenes de los giros subtropicales, y zonas de hielo marino donde la formaci\'on estacional y la fuci\'on de hielo marino define
+un ambiente que es rico en nutrientes y puede ser muy alto en productividad biol\'ogica. 
+
+Se ha observado una alta correspondencia entre las zonas con alto potencial de suministro de nutrientes y zonas con alta concentraci\'on de nitrato, y viceversa.
+Tambi\'en la distribuci\'on de clorofila ha mostrado altos \'indices de correlaci\'on entre el fitoplancton y las zonas con altos niveles de nutrientes.
+De esta manera 
+la concentraci\'on de nutrientes en superficie y la biomasa de fitoplancton y as\'i tambi\'en la productividad biol\'ogica basada en el fitoplancton, 
+son controlados primeramente por el transporte de nutrientes dentro del oc\'eano. 
+
+De esta manera podemos caracterizar los suministros de nutrientes en cada zona del globo (figura \ref{fig:grafx}). Si la tasa de suministros de nutrientes es baja, 
+entonces habr\'a bajos niveles de nutrientes superficiales, este es el caso de las zonas permanentemente estratificadas (subtr\'opicos). Que se caracterizan no s\'olo por bajos 
+niveles de nutrientes si no, adem\'as, por bajas concentraciones de clorofila y relativamente baja productividad biol\'ogica. Cuando las tazas de nutrientes son altas
+dar\'a como resultado reg\'imenes de nutrientes superficiales altos o bajos, y alto o bajo flujo de exportaci\'on de materia org\'anica, lo que depende de factores, 
+tales como: 
+
+\begin{itemize}
+\item {\bf La luz}. La formaci\'on de materia org\'anica provenientes de la disoluci\'on de nutrientes inorg\'anicos en el oc\'eano, es producto en mayor medida 
+de la fotos\'intesis que requiere de luz solar. En regiones donde la luz solar es interrumpida (ejemplo, durante la noche) no tendremos fotos\'intesis. Este sutil 
+efecto incrementa debido a la fuerte atenuaci\'on de la luz solar en el agua de mar, que decrece con profundidad r\'apidamente. Por lo tanto, tenemos luz suficiente 
+para que ocurra fotos\'intesis s\'olo en las capas superficiales, cuya profundidad depende de la cantidad de luz entrante y de la claridad del agua. La profundidad 
+de esta capa es com\'unmente llamada zona euf\'otica, y es del orden de 100 metros en el oc\'eano abierto. pero puede ser mucho m\'as superficial (pocos metros) en
+ambientes con mayor turbidez. Si el grosor de la capa de mezcla es mayor que la zona euf\'otica, lo que normalmente ocurre s\'olo en invierno, los organismo fitoplanct\'onicos
+pasar\'an al menos parte de su tiempo en la oscuridad inclusive durante el d\'ia. Debido a que los organismos fitoplanct\'onicos generalmente no pueden controlar su
+posici\'on vertical en la columna de agua con el movimiento de vuelco del agua en la capa de mezcla, al menos parte del d\'ia ser\'an arrastrados a profundidades 
+donde no hay suficiente luz para que su crecimiento exceda la respiraci\'on. Si la capa de mezcla es suficientemente profunda, pasar\'an mucho tiempo fuera de la zona
+euf\'otica y r\'apidamente morir\'an. 
+\end{itemize}
+
+Por lo tanto, si el suministro de luz es inadecuado la fotos\'intesis ser\'a menos que la respiraci\'on, y por ende, no habr\'a bomba biol\'ogica. Como consecuencia
+la supervivencia de concentraci\'on de nutrientes superficiales ser\'a alta y el suministro de nutrientes y exportaci\'on de materia org\'anica ser\'an bajos (r\'egimen
+de los Oc\'eanos del Sur). Si tanto la taza de suministro potencial de nutrientes y el suministro de luz es alto, ser\'a la eficiencia de la bomba biol\'ogica la que determinar\'a si las 
+concentraciones de nutrientes son bajas (Pac\'ifico Ecuatorial y Norte) o altas (sistemas de surgencia costera y Atl\'antico Norte). En el Atl\'antico Norte y zonas de surgencia, 
+el consumo y exportaci\'on 
+biol\'ogica del suministro de nutrientes es tan grande que pesa m\'as que la taza de suministro de luz. Esto conlleva a una muy alta productividad biol\'ogica con 
+relativamente peque\~nas concentraciones de nutrientes residuales, as\'i tenemos, pocos nutrientes, alta productividad. En el caso del Pac\'ifico Ecuatorial y Norte, la biolog\'ia 
+podr\'ia ser elevada, pero es ineficiente para eliminar y exportar los nutrientes, as\'i tendremos muchos nutrientes, y bajos o intermedios reg\'imenes de productividad. 
+
+\begin{itemize}
+ \item { \bf La eficiencia de la bomba biol\'ogica}. Se define la eficiencia de la bomba biol\'ogica como una medida del \'exito del fitoplancton en mantener los 
+ niveles bajos de nutrientes en la superficie del oc\'eano. Por otro lado, la fuerza de la bomba biol\'ogica describe la magnitud de los flujos de bajada de materia
+ org\'anica. Se puede representar la eficiencia de la bomba biol\'ogica como: 
+ 
+ \begin{equation} \label{eq:marcox}
+E_{BP}=  \displaystyle\frac{C_{prof}-C_{sup}}{C_{prof}}
+\end{equation}
+ Donde tendremos un 100$\%$ de eficiencia cuando se consume toda la concentraci\'on de superficie ($C_{sup}=0$) y 0$\%$ de eficiencia cuando la concentraci\'on en superficie 
+ es igual a la concentraci\'on en aguas profundas ($C_{prof}$, que se alimenta de superficie). 
+\end{itemize}
+
+Existe una extremadamente grande y permanente eficiencia en las zonas de los giros subtropicales, mientras que es extremadamente bajo en las zonas de contacto con el hielo marino, 
+los Oc\'eanos del Sur, zonas subpolares, que son estacionalmente estratificadas (zonas con alto contenido de nutrientes y un buen suministro de luz). Las regiones 
+del norte y el pac\'ifico ecuatorial, as\'i tambi\'en muchas zonas de surgencia de baja latitud, tienen una eficiencia intermedia. 
+
+Se han identificado zonas donde existe un alto potencial de suministro de nutrientes y al mismo tiempo buen suministro de luz, pero aún as\'i no poseen una bomba
+biol\'ogica eficiente, estas son las llamadas zonas HNLC ``regiones con alto contenido de nutrientes, baja clorofila''. Las regiones HNLC incluyen: 
+
+\begin{itemize}
+ \item {\bf Los Oc\'eanos del Sur}, incluyendo el margen hielo marino, giro subpolar, y subtr\'opicos estacionalmente estratificados. 
+ \item {\bf El Pac\'ifico Ecuatorial}
+ \item {\bf El Pac\'ifico Norte}
+\end{itemize}
+
+La fotos\'intesis tiene una fuerte correlaci\'on con la presencia de macronutrientes en el oc\'eano superficial. Dado que sin el suministro de $CO_2$, el nitrato
+y el fosfato, as\'i como algunos micronutrientes esenciales, esta no podr\'ia darse. El $CO_2$ no limita la fotos\'intesis dado que los organismo 
+fitoplanct\'onicos han desarrollado mecanismos para concentrar dentro de la c\'elula el $CO_2$. El nitrato, suele agotarse antes que otros macronutrientes, como el 
+fosfato. De esta forma en zonas limitadas por este componente su presencia hace que aumente la producci\'on de fitoplanct\'on. Se dice que el nitrato es un macronutriente
+limitado porque los organismos pueden directamente modificar la cantidad de nitrato para sintetiza materia org\'anica, a lo que se llama fijaci\'on del nitr\'ogeno
+(la habilidad para usar el gas de nitr\'ogeno $N_2$ para la s\'intesis de materia org\'anica), y la desnitrificaci\'on (el uso del nitrato como alternativa al ox\'igeno
+para la oxidaci\'on de materia org\'anica). Mientras la disponibilidad total del f\'osforo es manejado completamente por la entrega de fuentes externas. 
+El hierro es importante en el transporte de helectrones de proteinas involucradas en la fotos\'intesis, y en la respitaci\'on tambi\'en es un componente de las 
+enzimas que utilizan nitrato y nitrito, y para fijar nitr\'ogeno. La reducci\'on de suministro de hierro pueden reducir las tasas de crecimientoas\'i coo pueden reducir 
+relativamente la abundancia del fitoplancton de mayor tama\~no producto de una menor eficiencia del organismo. 
+
+\begin{comment}
+
+Un efecto m\'as sutil se observa en la bomba biol\'ogica con el transporte lateral. El transporte de nutrientes debido a la circulaci\'on oce\'anica 
+y a la mezcla es tan r\'apido que el nitrato superficial comienza a acercarse r\'apidamente a las concentraciones de la termoclima en unos pocos a\~nos.
+Inclusive ocurre en la zona de los giros subtropicales m\'as cercanos al ecuador. Cuando la bomba biol\'ogica se "apaga" los giro subtropicales pueden recibir 
+nutrientes por transporte lateral desde regiones donde hay surgencia y ocurre una mezcla profunda en invierno. De esta forma la baja tasa de suministro de
+nutrientes en zonas que est\'an permanentemente estratificadas depende en parte a la eliminaci\'on de nutrientes por la bomba biol\'ogica lejos de la superficie
+y cerca de las zonas de surgencia y mezcla profunda de invierno antes que el transporte lateral pueda llevarlos a \'areas de bajos suministros verticales.
+
+Como vemos en la ecuaci\'on \ref{eq:marco1} el $CO_2$ disuelto en el agua incrementa tambi\'en la concentraci\'on del ion hidr\'ogeno en el oc\'eano, descendiendo as\'i el pH oce\'anico
+(acidificaci\'on de los oc\'eanos). Espec\'ificamente el \'acido d\'ebil $H_{2}CO_{3}$ se elimina para la producci\'on y exportaci\'on de materia org\'anica de ``tejido blando``, lo que 
+termina por elevar el pH de las aguas superficiales ya que la formaci\'on de $CaCO_{3}$ agota la alcalinidad de las aguas superficiales. 
+Para mantener la racci\'on de formaci\'on de carbono inorg\'anico en equilibrio, la fracci\'on de $HCO_{3}^{-1}$ que sufre disociaci\'on debe aumentar a medida que la cantidad de $CO_2$
+absorbido por el agua de mar aumenta. En otras palabras, se produce un tipo de amortiguaci\'on de $CO_2$ en el que la absorci\'on de $pCO_2$ conduce a una disminuci\'on de la capacidad del
+agua de mar para absorber $pCO_2$ adicional. 
+
+
+ 
+\subsection{Captura de $CO_2$ en oc\'eanos de bajas y altas latitudes}
+
+La concentraci\'on de nutrientes, ox\'igeno y $\sum CO_2$ est\'an correlacionadas en el interior del oc\'eano (producto de la respiraci\'on de materia org\'anica) \citep{Redfield1934}.
+El tejido blando de los organismos planct\'onicos del oc\'eano abierto se caracteriza por proporciones relativamente conservadas de carbono, ox\'igeno consumido durante la respiraci\'on
+y nutrientes como el nitr\'ogeno (N) y f\'osforo (P). Conocidas como las ''razones de Redfield`` can\'onicas {\bf C:N:P:O$^{2}$} \citep{Hain2014}.
+
+Es posible separar el oc\'eano en dos dominios (1) las superficies de altas latitudes que poseen alta concentraci\'on de nutrientes y alta productividad y (2) superficies de latitudes
+bajas que contienen bajas cantidades de nutrientes y una baja productividad. En el oc\'eano actual la biolog\'ia puede utilizar casi todos los nutrientes que salen a la superficie, por lo tanto,
+hay una utilizaci\'on m\'as eficiente de los nutrientes de los oc\'eanos de altas latitudes, lo que posibilita aumentar la eficiencia global de la bomba biol\'ogica particularmente 
+relacionado con los tejidos blandos. Si consideramos adem\'as que tan s\'olo la mitad de los nutrientes oce\'anicos totales (N y P) son regenerados en la lluvia de tejidos blandos
+(s\'olo esta contribuye al secuestro de $CO_2$ en profundidad) y la otra mitad del inventario de nutrientes son de aguas superficiales donde la productividad biol\'ogica no logr\'o 
+utilizarlos todos. Adem\'as las aguas oce\'anicas de altas latitudes son fr\'ias y densas, mientras que las de bajas latitudes son c\'alidas y boyantes. Lo anterior hace que el oc\'eano interior 
+global este lleno de agua rica en nutrientes ''preformados`` que se originan en aguas superficiales de alta latitud. Hay dos mecanismo que hacen que los nutrientes superficiales 
+disminuyan en los oc\'eanos de altas latitudes: 1) Una mayor productividad lo que conduce a una mayor tasa de exportaci\'on de materia org\'anica (bombeo m\'as intenso) y 2) un suministro 
+m\'as lento de nutrientes a la superficie, sin aumentar la productividad, lo que hace que una mayor fracci\'on de suministro bruto se transforme en lluvia de tejidos blandos. Hoy en d\'ia
+existe una peque\~na diferencia en la densidad de las aguas superficiales e interiores de latitudes altas lo que conduce a un r\'apido intercambio y a una alta tasa de suministro de nutrientes
+\citep{Hain2014}.
+
+De los organismos que son parte fundamental de la bomba biol\'ogica encontramos como mencionamos en la {\bf subsecci\'on 2.1.2} el $CaCO_3$ el cual deriva de algunos organismo 
+planct\'onicos que habitan en la superficie del oc\'eano abierto (otros utilizan S\'ilice para producir partes duras) \citep{Armstrong2001} y cuya lluvia secuestra la alcalinidad
+mediante la bomba de carbonato. Otros organismo importantes son las diatomeas las que crecen y se reproducen r\'apidamente en relaci\'on a otros fitoplancton aut\'otrofos y son muy importantes
+en la lluvia biog\'enica \citep{Egge1992}. Sin embargo las diatomeas requieren s\'ilice como nutriente adicional lo que no las hace adecuadas para aguas pobres en nutrientes \citep{Officer1980}.
+El $SiO_2$ es escaso en aguas 
+superficiales con excepci\'on del oc\'eano Austral y el Pac\'ifico Norte. Por lo tanto, la diatomeas dominan la productividad y exportaci\'on de part\'iculas en estas dos regiones, mientras 
+la lluvia de $CaCO_3$ se produce en el resto del oc\'eano incluida las superficies de latitudes bajas y el Atl\'antico Norte. 
+
+\begin{figure}[H]
+\centering
+ \includegraphics[width=0.4\textwidth]{marco3.pdf}
+ \caption{Modelo de caja de la captaci\'on de $CO_2$ en las distintas zonas regionales del oc\'eano. Es m\'as exacto reconocer que el interior del oc\'eano est\'a ventilado por dos 
+ regiones de alta latitud con distintas condiciones, el Oc\'eano Austral rico en nutrientes y el Atl\'antico Norte pobre en nutrientes, este \'ultimo representa una regi\'on que permite
+ la escasez de nutrientes en aguas superficiales de latitudes bajas las que llegan al interior del oc\'eano} \citep{Toggweiler1999}
+  \label{fig:marco3}
+\end{figure}
+
+La mayor parte del oc\'eanos como mencionamos anteriormente se llena con la superficie del oc\'eano Austral ($\geq$ 50\%) y del Atl'antico Norte ($\sim$ 25\%)- Mientras la superficie 
+volum\'etrica que deriva del Pac\'ifico Norte y latitudes medias es m\'inima \citep{DeVries2011,Gebbie2010}. Las aguas superficiales de bajas latitudes son demasiado c\'alidas y boyantes para llenar el interior del 
+oc\'eano, as\'i el oc\'eanos superficial de baja latitud no puede elevar la eficiencia global de la bomba de tejidos blandos a pesar de que en estas zonas se da una reducci\'on casi total 
+de nutrientes. Por otro lado, gran parte de las aguas profundas que se forman en el Atl\'antico Norte derivan a latitudes medias (pobres en nutrientes) lo que hace que el Atl\'antico Norte 
+tenga una baja concentraci\'on de nutrientes preformados. Por lo tanto es gracias al Atl\'antico Norte que las latitudes medias se impongan sobre la eficiencia de los tejidos blandos.
+
+Las aguas profundas del oc\'eanos Austral y del Atl\'antico Norte son distintas. En la zona Ant\'artica polar del oc\'eano Austral, cerca de las costas de la Ant\'artida la formaci\'on 
+de aguas profundas est\'a estrechamente relacionada con el enfriamiento de las aguas superficiales durante el invierno, la formaci\'on de hielo marino y la interacci\'on con aguas
+subterr\'aneas con plataformas de hielo que forman aguas profundas que son las m\'as densas del oc\'eanos moderno principalmente porque son las m\'as fr\'ias (agua de fondo ant\'artico) 
+\citep{Iudicone2008,Orsi1999,Price1994}. La
+poca diferencia de densidad entonces da lugar a un r\'apido intercambio vertical, por lo tanto, a un r\'apido suministro de nutrientes que generan una elevada concentraci\'on de nutrientes
+en las aguas superficiales de esta zona y un gran transporte de nutrientes preformados en las aguas de fondo. En el Atl\'antico Norte, la corriente del golfo (gran masa de agua c\'alida
+procedente del golfo de M\'exico y que se dirige al Atl\'antico Norte) y su extenci\'on (corriente del Atl\'antico Norte que contin\'ua la corriente del golfo hacia el noroeste) llevan aguas
+superficiales muy c\'alidas y saladas a latitudes muy bajas \citep{Kuhlbrodt2007}. En los mares de Groenlandia y Labrador se enfr\'ian y se vuelven lo suficientemente densas para hundirse, lo que conduce a aguas 
+profundas m\'as salinas pero menos fr\'ias. Como se indic\'o el agua superficial de latitudes medias empobrecida en nutrientes impone bajas concentraciones de nutrientes en todo 
+el Atl\'antico Norte de modo tal, que este lleva una carga relativamente peque\~na de nutrientes preformados \citep{Hain2014}.
+
+Como se indic\'o la reducci\'on de la concentraci\'on de nutrientes en la 
+superficie de alta latitud se traduce directamente en una bomba de tejidos blandos m\'as eficiente, por lo tanto, reduce el $CO_2$ atmosf\'erico. Sin embargo, dado que el Atl\'antico Norte y el 
+oc\'eano Autral tienen concentraciones distintas de nutrientes preformados la bomba de tejidos blandos puede ser m\'as eficiente si las aguas del Atl\'antico Norte llenan m\'as volumen
+del oc\'eano a expensas de las aguas de fondo de la Ant\'artica sin cambiar los nutrientes de la superficie. Dado que la diferencia de fostato preformado es de 1$\mu$m entre las aguas profundas
+de la Ant\'artica y las aguas superficiales del Atl\'antico Norte si s\'olo el 10\% del volumen once\'anico (lleno en la actualidad por aguas profundas de la Ant\'artica) fuera reemplazado
+por las aguas profundas del Atl\'antico Norte se estima que la mayor eficiencia de la bomba de tejidos blandos provocar\'ia un descenso de 13 - 20 p.p.m.v. en la atm\'osfera. Si bien la 
+eficiencia de este mecanismo se ha demostrado en modelos num\'ericos, se sabe que en la \'ultima edad de hielo el oc\'eano profundo se lleno predominantemente con agua de los oc\'eanos del sur. 
+Es decir, en la direcci\'on opuesta para fortalecer la bomba de tejidos blandos. Sin embargo, existe la propuesta que el agua profunda (de la Ant\'artica) de la \'ultima edad de hielo 
+en realidad se compone principalmente de agua ventilada por \'ultima vez desde el Atl\'antico Norte. Lo anterior es consistente con is\'otopos de carbono profundo del 
+\'Ultimo M\'aximo Glacial \citep{Broecker1998,DeVries2011,Gebbie2010,Primeau2005,Hain2014}.
+
+\begin{comment}
+ La circulación termohalina oceánica conecta todos los océanos como una gran cinta transportadora. Así, aguas saladas y cálidas alcanzan altas latitudes en el Atlántico norte, en
+ invierno se enfrían y se hunden a grandes profundidades. Este proceso es conocido como formación de aguas profundas. Desde ahí comienza su recorrido hacia el sur donde se unirá a
+ las aguas frías profundas recién formadas alrededor de la Antártida. Entonces este flujo de agua profunda llega a los océanos Índico y Pacífico. En ambos océanos el agua profunda
+ se dirige al norte, regresando por superficie y retornando al Atlántico donde comenzará un nuevo ciclo que dura unos 1.000 años. En el momento en el que se forman las aguas profundas
+ por hundimiento de aguas frías, éstas arrastran CO2 disuelto hacia el fondo donde, a medida que circulan de un océano a otro, se van enriqueciendo en CO2 como consecuencia de la
+ descomposición de la materia orgánica procedente de la sedimentación de la producción biológica en la superficie.
+\end{comment}
+ 
+\section{Polvo/hierro y su impacto en el oc\'eano}
+
+Los aerosoles de polvo en la atm\'osfera juegan un importante rol en los efectos meteorol\'ogicos y en los ciclos biogeoqu\'imicos. 
+
+\subsection{Aerosoles}
+
+Seg\'un la definici\'on del \textit{Panel Intergubernamental del Cambio Clim\'atico} (IPCC), los aerosoles son part\'iculas s\'olidas o l\'iquidas en suspensi\'on en la atm\'osfera terrestre,
+de tama\~no comprendido entre unos pocos nan\'ometros y 10 $\mu m$, que permanecen en la atm\'osfera durante varias horas o m\'as. Los aerosoles pueden ser de origen natural o 
+antropog\'enico. La mayor parte de los mismos en la atm\'osfera tienen un origen natural; los ejemplos m\'as notorios pueden ser las part\'iculas de sal del roc\'io marino o el polvo de los
+desiertos, que con frecuencia es transportado a enormes distancias (\'este \'ultimo se ver\'a en mayor detalle en la subsecci\'on {\bf 2.2.2}). 
+
+Entre las fuentes de generaci\'on de estos, est\'an: a) fuente mineral, constituidas principalmente por desiertos y zonas continentales en las que los proceso erosivos son capaces de degradar
+y dispersar el material que las forma, b) fuente marina generadas por la pulverizaci\'on de las olas del mar, c) fuente extraterrestre, cierta cantidad de materia del sistema solar entra en
+nuestra atm\'osfera quem\'andose la gran mayor\'ia en la parte alta de la atm\'osfera, pero otras part\'iculas llegan a la superficie terrestre, d) fuente biol\'ogica compuesta principalmente por 
+hongos, tambi\'en los incendios forestales, e) fuente volc\'anica que inyectan grandes cantidades de gases y aerosoles en la atm\'osfera, f) fuente antr\'opica dentro de \'estas se engloban las
+part\'iculas emitidas en las actividades humanas y g) conversi\'on de gas a part\'icula \citep{Diaz2005}. 
+
+Los aerosoles pueden influir en el clima directamente, dispersando y absorbiendo radiaci\'on e indirectamente, actuando como n\'ucleos de condensaci\'on de nube o n\'ucleos de hielo 
+o modificando las propiedades \'opticas y el per\'iodo de vida de las nubes \citep{Stocker2013}. 
+
+En su forma directa los aerosoles atmosf\'ericos son part\'iculas en suspensi\'on los que en la atm\'osfera continuamente est\'an provocando un cambio en los flujos de energ\'ia radiante. 
+Este forzamiento radiativo es producto a que tienen la capacidad de absorber y dispersas radiaci\'on solar lo cual depende de factores tales como: a) el tiempo que permanecen en 
+suspenci\'on que puede ser d\'ias o semanas vinculado con el tama\~no y la composici\'on de las part\'iculas, b) de la longitud de onda (radiaci\'on solar) con la cual interact\'uan donde 
+vemos que a mayor eficacia de dicha interacci\'on menor es la irradiancia solar total que llega a la superficie de la tierra y, c) su composici\'on qu\'imica, lo cual
+afecta la absorci\'on como proceso selectivo \citep{Diaz2006}. 
+
+Cabe descatacar que la dispersi\'on es la interacci\'on de una onda electromagn\'etica con una part\'icula o centro de dispersi\'on, dando lugar a la reemisi\'on de energ\'ia en todas 
+las direcciones
+del espacio. Las part\'iculas responsables de la dispersi\'on tienen tama\~nos entre mol\'eculas de gas ($\sim 10^{-8}\ cm$) y gotas de lluvia y granizo ($\sim 1\ cm$). Ahora bien, 
+la intensidad relativa estar\'a dada por el cociente entre el tama\~no de la part\'icula y la longitud de onda incidente \citep{Diaz2006}. 
+
+La absorci\'on depende de la presencia de especies absorbentes y sus bandas de absorci\'on as\'i vemos que destacan el vapor de agua, el di\'oxido de carbono,
+el ozono, contribuciones de hidrocarburos, etc.
+
+Los aerosoles tambi\'en pueden actuar de forma indirecta alterando el balance de energ\'ia mediante la modificaci\'on de propiedades de las nubes dado que tienen la capacidad de actuar como n\'ucleos de 
+condensaci\'on, seg\'un lo que propuso \cite{Charlson1987}, lo anterior produce un aumento del albedo de la radiaci\'on de onda corta pero casi no hay variaci\'on con respecto a la 
+onda larga. Experimentan cambios qu\'imicos y f\'isicos mientras est\'an en la atm\'osfera. Debido a su breve tiempo de residencia y la falta de homogeneidad de la fuente se 
+distribuyen de manera heterog\'enea en la troposfera con sus m\'aximos en la zonas de emisi\'on. 
+
+En cuanto a sumidero de estos componentes atmosf\'ericos se tienen que los pr\'incipales procesos son: a) deposici\'on seca, deposici\'on sobre la superficie de la tierra y, b) 
+deposici\'on h\'umeda consecuencia de la formaci\'on de gotas de agua en el proceso de precipitaci\'on. 
+
+Respecto de la tasa de emisi\'on y producci\'on de aerosoles hacia y en la atm\'osfera terrestre, destaca la degradaci\'on de suelos con un estimado de 100 a 500 [$10^{9}$  kg/a\~no]. 
+\citep{Diaz2006}. 
+
+En cuanto a su tiempo de residencia en estado de suspenci\'on, este tambi\'en depende de su tama\~no ya que part\'iculas peque\~nas con un tama\~no menor a 0.1 $\mu m$ poseen un 
+tiempo de residencia relativamente corto debido a que se tienden a mezclar m\'as f\'acilmente con otras part\'iculas. Por otro lado, part\'iculas de grandes tama\~nos entre 
+(0.1 a 10 $\mu m$) poseen un mayor tiempo de resistencia donde los procesos de extracci\'on h\'umeda son los pr\'incipales mecanismo de reducci\'on de esta. Finalmente las part\'iculas
+gigantes sedimentan r\'apidamente dado su peso por lo que nuevamente se obtienen tiempos de residencia bajos. \\
+Cabe destacar adem\'as, que part\'iculas entre los niveles 0.1 a 1 $\mu m$ pueden ser elevadas a niveles altos de la troposfera siendo capaces de trasladarse de un continente a otro.
+
+\subsection{Flujos de polvo y fertilizaci\'on con hierro}
+
+Como se mencion\'o anteriormente los aerosoles de tipo continental, espec\'ificamente relacionados con el polvo producido en zonas \'aridas son los que posee mayores flujos, 
+adem\'as de tener una especial relaci\'on con la biogeoqu\'imica del oc\'eano como se detallar\'a a continuaci\'on. 
+
+La producci\'on de polvo depende del suministro del material erosionado por el viento, que se vincula con la erosi\'on fluvial proveniente de tierras altas adyacentes, seguido por un posterior
+secado que depende de la perdida o ausencia de vegetaci\'on. La producci\'on de polvo se origina por saltos o chorros de arena cuando los vientos sobrepasan una velocidad umbral que transporta 
+granos de suelo horizontalmente produciendo part\'iculas m\'as finas de lo cual una peque\~na proporci\'on se transporta a la atm\'osfera para producir un traslado a grandes distancias. 
+Estos procesos dependen de la lluvia, el viento, la rugosidad de la superficie, la temperatura, la topograf\'ia y la cubierta vegetal, los cuales son factores interdependientes vinculados a la aridez 
+y al clima de una manera no lineal. Estudios de t\'unel de viento muestran que la producci\'on de polvo es proporcional al cubo de la velocidad del viento \citep{Charlson1995}. 
+
+Los aerosoles de polvo del desierto var\'ian su tama\~no entre 0.1 y 10 mm, con un promedio alrededor de los 2 mm. estos aerosoles tienen tiempos de vida de horas o semanas lo que permite que 
+recorran largas distancias a escalas de miles de kil\'ometros, pero produciendo grandes deposiciones de polvo. Gran parte del transporte
+de polvo se produce a altitudes de varios kil\'ometros y su posterior eliminaci\'on, por deposici\'on h\'umeda. La eliminaci\'on de polvo como todo aerosol se puede producir por deposici\'on h\'umeda
+o seca y su eficacia var\'ia dependiendo del tama\~no de las part\'iculas de polvo. Algunas mediciones y estudios de modelizaci\'on sugieren que entre un 30 y 95\% de la eliminaci\'on total de polvo
+es por deposici\'on h\'umeda \citep{Turner2001,Hand2004}.
+
+En un contexto biogeoqu\'imico el flujo clave a los oc\'eanos no es el polvo, si no el hierro soluble o biodisponible. Aunque el promedio de hierro en el polvo es alrededor de 3.5\% es variable 
+globalmente. La solubilidad del hierro del polvo es baja [$<$1 a 2\%] \citep{Turner2001}, se han reportado mayores solubilidades de hierro en aerosoles. A su vez factores como la acidez, 
+la complejaci\'on org\'anica (quema de biomasa, aportes de cubiertas org\'anicas en fuentes naturales, etc) y la fotoqu\'imica (interacci\'on entre los \'atomos de 
+mol\'eculas y la radiaci\'on solar) influyen en dicha solubilidad.  
+
+Las caracter\'isticas f\'isico-qu\'imicas del hierro cambian dr\'asticamente al ingresar al oc\'eano. Con un pH de 8 el hierro f\'errico soluble precipita r\'apidamente en la columna de agua
+lo que establece una competencia de absorci\'on entre las part\'iculas, un consumo biol\'ogico activo y un acoplamiento org\'anico durante el tiempo de residencia del polvo
+en la superficie de agua.
+
+El hierro disuelto muestra baja concentraciones en la superficie del onc\'eano global de entre 0.3 a 1 nmol/litro, donde el hierro producido fotoqu\'imicamente puede ser significativo, aumentando las
+concentraciones con la profundidad de 0.4 a 2 nmol/litro \citep{Turner2001}. A su vez, se manifiesta el efecto de las deposiciones atmosf\'ericas de hierro sobre la superficie oce\'anica al igual 
+que la regeneraci\'on de sedimentos y la importancia de la zonas costeras \citep{Elrod2004,Jickells2005}. Dentro del oc\'eano el hierro esta fusionado org\'anicamente 
+y siendo constantemente reutilizado aunque su tiempo de residencia s\'olo sea de unas d\'ecadas. 
+
+La limitaci\'on de hierro en aguas profundas refleja concentraciones que son inadecuadas para la formaci\'on de fitoplancton debido a que la regeneraci\'on de \'este es m\'as lenta que el 
+hundimiento de hierro contenido en materia org\'anica. As\'i para el mantenimiento de la producci\'on primaria del oc\'eano abierto se requiere un aporte mayor que el dado por el afloramiento, 
+el cual generalmente es atmosf\'erico. Se cree que existe una limitaci\'on de hierro en la producci\'on primaria de hasta un 30\% de los oc\'eanos del mundo \citep{Falkowski1998,Boyd2003,Turner2001}. 
+Tal es el caso del onc\'eano Austral que da lugar a un uso incompleto de los macronutrientes (C,N,P,$O_2$) y una abundancia relativamente baja de algas, de ah\'i el termino de ''regiones con alto 
+contenido de nutrientes, bajas concentraciones de clorofila`` {\bf HNLC}. Cabe destacar que el polvo atmosf\'erico no s\'olo transporta hierro si no adem\'as otros nutrientes y carbonatos, 
+que pueden influir en la biogeoqu\'imica oce\'anica \citep{Baker2003,Oba1999}. 
+
+As\'i la absorci\'on de hierro por algunos fitoplancton hacen que este influya en la comunidad de algas, y por tanto, en la productividad en general. Cabe destacar que el fitoplancton de mar abierto 
+por lo general requiere de menos hierro que las especies costeras, las que se han desarrollado en un ambiente rico en hierro. As\'i se ha logrado un requerimiento menor de hierro reduciendo el tama\~no
+de las c\'elulas y minimizando el n\'umero de enzimas que contienen hierro \citep{Palenik2003}. Sin el estr\'es de hierro veremos presencia de fitoplancton con c\'elulas m\'as grandes. 
+Se cree adem\'as que la densidad del esqueleto deber\'ia influir en las tazas de hundimiento, y por ende, en la exportaci\'on de carbono a profundidad. Aparte de la limitaci\'on directa de la
+producci\'on primaria en las zonas HNLC el hierro puede limitar la fijaci\'on de nitr\'ogeno de las especies diaz\'otrofas fotosint\'eticas en los oc\'eanos tropicales, donde la estratificaci\'on
+crea altas temperaturas y niveles de irradiancia solar, al mismo tiempo que bajos niveles de nitratos en las aguas superficiales \citep{Falkowski1998,Mills2004}. 
+
+En las regiones HNLC los cambios en el suministro de hierro afectar\'an directamente la producci\'on primaria y la composici\'on de las especies, mientras que en las regiones oligotr\'oficas
+subtropicales/tropicales el impacto ser\'a principalmente a trav\'es de cambios en la fijaci\'on de nitr\'ogeno \citep{Jickells2005}. Vemos entonces que el suministro de polvo de los grandes desiertos 
+de \'Africa del Norte y Asia, afectan directamente al Atl\'antico Norte tropical y al Pac\'ifico Norte templado, y se puede esperar que los efectos en las dos regiones sean diferentes \citep{Turner2001}. 
+Las regi\'on HNLC m\'as grande, es el Oc\'eano Austral \citep{Turner2001}, tiene el mayor potencial para influir en el $pCO_{2}$ atmosf\'erico. Aqu\'i el suministro de polvo atmosf\'erico es bajo,
+originado por peque\~nas fuentes de polvo en la Patagonia chilena-argentina, Australia y Sud\'africa \citep{Prospero2002}. Los cambios en estas regiones des\'erticas peque\~nas y poco estudiadas 
+pueden tener un impacto global desproporcionadamente grande.
+
+Por otro lado, dado que la solubilidad del hierro es baja se estima que hay grandes flujos de part\'iculas de hierro en el onc\'eano profundo particularmente debajo de grandes plumas de polvo, 
+de esta manera, si parte de este polvo se disuelve en profundidad aumentar\'an las concentraciones abisales de hierro disuelto, y a largo plazo la productividad en las regiones de surgencia como 
+los oc\'eanos del sur \citep{Parekh2005}. 
+
+\section{Variaciones pasadas en el clima, \'Ultimo M\'aximo Glacial-Holoceno}
+
+Durante los \'ultimos 1.8 millones de a\~nos la tierra a entrado y salido de periodos glaciares-interglaciares, con grandes extensiones y retrocesos de capas de hielo. 
+Estos cambios de volumen y de temperaturas regionales est\'an bien correlacionados con variaciones de gases de efecto invernadero ($CO_2$, $CH_4$ y $N_{2}O$). As\'i grandes niveles de gases de efecto invernadero
+han coincidido con condiciones c\'alidas e interglaciares. Por el 
+contrario bajos niveles de gases de efecto invernadero han coincidido con condiciones fr\'ias, glaciares. Si bien los ciclos astron\'omicos de \textit{Milankovitch} controlan la 
+oscilaci\'on y son el principal
+agente de cambio clim\'atico a largo plazo, sin duda gases como el $CO_{2}$ tienen un rol primordial en c\'omo el clima de la tierra responde a este cambio en la insolaci\'on. 
+Una de las caracter\'isticas claves del $pCO_2$ atmosf\'erico y las oscilaciones de temperatura, es su lento declive en condiciones glaciares, seguido de un r\'apido retorno a niveles altos durante
+los interglaciares. Lo que sugiere que se alcanza un umbral que desencadena un cambio r\'apido de condiciones glaciares a interglaciares. El di\'oxido de carbono ($CO_{2}$) es uno de los
+posible amplificadores en las escalas de tiempo glacial-interglacial, ya que su concentraci\'on atmosf\'erica est\'a controlada predominantemente por cambios en el almacenamiento en el
+oc\'eano profundo.
+
+\begin{figure}[H]
+\centering
+ \includegraphics[width=0.7\textwidth]{marco2.pdf}
+ \caption{Registro hist\'orico de $CO_2$ de los \'ultimos 420000 a\~nos, producto del contenido encontrado en testigos de hielo de la Ant\'artica. 
+ La relaci\'on de deuterio a hidr\'ogeno en el hielo (expresada como el t\'ermino $ \delta D$) proporciona un registro de la temperatura del aire sobre la Ant\'artida, 
+ con valores de  $ \delta D$ m\'as negativos correspondientes a las condiciones m\'as fr\'ias. La historia del volumen de hielo global basado en datos de is\'otopos de
+ ox\'igeno foramin\'iferos bent\'onicos de n\'ucleos de sedimento de aguas profundas \citep{Bassinot1994}, es representado como el nivel relativo del mar, de modo que edades de hielo 
+ (picos en el volumen de hielo continental) aparecen como m\'inimas del nivel del mar, con una amplitud glaciar / interglacial para el cambio del nivel del mar de
+ aproximadamente 120 m. Durante los per\'iodos m\'aximo glaciales, el $CO_2$ atmosf\'erico es de 80 $\pm$ 100 p.p.m.v. m\'as bajo que durante los per\'iodos interglaciares m\'aximos, 
+ con l\'imites superiores e inferiores que se reproducen en cada uno de los ciclos de aproximadamente 100000 a\~nos. Modificaci\'on del diagrama de \cite{Sigman2000}. }
+  \label{fig:graf2}
+\end{figure}
+
+\subsection{\'Ultimo m\'aximo glacial}
+
+El \'Ultimo M\'aximo Glacial se produjo entre los 23000 y los 19000 a\~nos antes del presente y su intensidad se caracteriz\'o seg\'un la latitud, 
+siendo m\'as intenso en las latitudes altas y hacia el interior de los continentes. El clima de este periodo se vio fuertemente afectado por una gran extensi\'on de volumen de hielo,
+donde la extensi\'on de las capas de hielo tanto en el hemisferio norte como sur fueron mucho m\'as extensas, llegando en el hemisferio sur a cubrir casi la totalidad de la plataforma 
+continental. Mientras que en el hermisferio norte la glaciaci\'on supuso un enorme cambio paisaj\'istico. Durante los periodos m\'as fr\'ios, los mantos de hielo y el suelo congelado 
+ocupaban tanto, en invierno y en verano, 27 millones de kil\'ometros cuadrados, es decir, un 40\% de las \'areas continentales de Norteam\'erica y de Eurasia. Se destac\'o
+la r\'apida expanci\'on de la capa m\'as grande Laurentino. As\'i el volumen de hielo en el UMG (Ant\'artida, Groenlandia, Am\'erica del Norte, Fennoscandia / Barents) bajo los niveles del mar que variaron de 112.2 a 124.4 m. 
+en relaci\'on al presente \citep{Denton2002,Huybrechts2002,Marshall2002,Clark2002}. 
+
+Una baja concentraci\'on de $pCO_{2}$ atmosf\'erico conllev\'o una baja de la temperatura promedio (m\'as fr\'io), donde la temperatura superficial promedio anual 
+era de entre 3 a 6 k, m\'as baja de lo que es hoy \citep{Takemura2009}. Mientras que regionalmente era de 3 y 10 k m\'as baja en los tr\'opicos y hacia el sur de Europa respectivamente. 
+Adem\'as las tasas de evaporaci\'on y precipitaci\'on eran m\'as bajas que en la actualidad \citep{Wright1993,Pinot1999,Levis1999}. Durante esta \'epoca el $pCO_2$ atmosf\'erico fue 
+180-200 partes por mill\'on en volumen (p.p.m.v). 
+
+Registros paleobot\'anicos muestran que el UMG se caracteriz\'o por regiones cubiertas por tundra y estepa tanto en latitudes medias como altas. 
+Las zonas tropicales modernas pueden haber sido reemplazados por arboles y pastos resistentes a la sequ\'ia, sin embargo otros estudios mantienen que quedaba un n\'ucleo de selva tropical.
+En la Amazonia la temperatura baj\'o unos $6^o$C. Las precipitaciones se redujeron y la zona selv\'atica perdi\'o extensi\'on cambiando por grandes sabanas. 
+Se foment\'o la biodiversidad por la parcelaci\'on de nichos biol\'ogicos. Las precipitaciones disminuyeron debido a que se transportaba menor humedad hacia adentro del continente
+pues el oc\'eano estaba congelado \citep{Frenzel1992,Wright1993}. Las selvas del Congo y del golfo de Guinea se sabanizaron 
+quedando peque\~nos retazos en las riberas de los r\'ios. El Sahara como zona des\'ertica era mucho m\'as amplia, se extend\'ia hacia el oriente pr\'oximo y el suroeste de Asia.
+Algunos estudios de sensibilidad indican que el efecto del enfriameniento durante el UMG se amplifico por el efecto de albedo, producto de una cubierta vegetal m\'as escasa, 
+\cite{Kubatzki1998} usando un modelo acoplado de vegetaci\'on clim\'atica y \cite{Crowley1997} utilizando un modelo clim\'atico con una reconstrucci\'on de la 
+vegetaci\'on a partir de datos paleobot\'anicos, indican que el enfriamiento se debi\'o a un efecto directo de la expanci\'on de la tundra cubierta de nieve, en regiones donde 
+actualmente dominan bosques boreales que enmascaran a la nieve.  
+
+Segun \cite{Kohfeld2013} los vientos del \'ultimo periodo glacial variaban de ser d\'ebiles en las zonas ecuatoriales a m\'as intensos en las zonas polares comparado a los de la actualidad. 
+Teniendo un aumento latitudinal en la intensidad hasta alcanzar su m\'aximo en los vientos del oeste.
+
+Dada la intensificaci\'on de los vientos, los cambios en la cubierta vegetal, la aridez, la disminuci\'on del nivel del mar y la reducci\'on de la precipitaci\'on,
+exist\'ia una mayor erosi\'on de los suelos provocando mayores flujos e\'olicos de polvo, llegando a ser de 2 a 20 veces m\'as altos durante la \'ultima glaciaci\'on. 
+Evidencias de mayores flujos 
+de polvo provienen de testigos de hielo ant\'artico los que muestran un aumento de deposici\'on de polvo en la Ant\'artica en los intervalos m\'as fr\'ios en los \'ultimos 800000 a\~nos, 
+probablemente relacionados con la expanci\'on de \'areas fuentes de polvo en Am\'erica del Sur lo que aumenta su vida y transporte atmosf\'erico en estas zonas. Por otro lado, los datos 
+de sedimentos marinos tambi\'en muestran que los flujos de polvo de \'Africa transportados al Atl\'antico tropical y subtropical en el UMG son tres a cinco veces m\'as altos que
+los actuales \citep{Harrison2001}. As\'i la
+variabilidad del polvo atmosf\'erico en los n\'ucleos de hielo ant\'artico es representativo del polvo que llega a los oc\'eanos australes \citep{Martinez2011}.
+Los cambios en los suministros de hierro a los oc\'eanos durante periodos glaciares se sugiere han manejado los niveles de $pCO_{2}$ atmosf\'erico como se menciono en la secci\'on {\bf 2.2}. 
+As\'i cambios en la circulaci\'on oce\'anica, almacenamiento de carbono en el oc\'eano profundo, pueden tener un papel dominante en el ciclo glacial-interglaciar, producto del 
+suministro de Fe que puede desempe\~nar un papel relevante en la eficiencia de bomba biol\'ogica en escalas glaciares-milenarias \citep{Conway2015}. 
+Mediciones de $CO_{2}$ de gases atrapados en el hielo polar sugiere menos bi\'osfera
+y $CO_{2}$ sustancialmente m\'as bajo durante el tiempo glacial que en la actualidad \citep{Delmas1980,Berner1980,Broecker1986}. 
+
+\textit{John Martin} sugiri\'o por primera vez que el crecimiento del fitoplancton actualmente est\'a limitado por la deficiencia de hierro en las regiones HNLC y que esta deficiencia de hierro 
+se alivi\'o durante los per\'iodos glaciares debido al dep\'osito de hierro e\'olico significativamente mayor \citep{Martin1990}. 
+Experimentos de enriquecimiento de hierro a mesoescala en los oc\'eanos del sur han demostrado consistentemente que la absorci\'on de nutrientes, la concentraci\'on de clorofila y la 
+biomasa de fitoplancton aumentan en respuesta a un mayor suministro de hierro \citep{Boyd2000,Boyd2001,Gall2001,Coale2004,Gaspari2006}. Debido a su extremadamente 
+baja solubilidad en agua de mar, cuando el polvo entra en el agua de mar, solo una fracci\'on muy peque\~na del hierro se disuelve y la mayor parte desciende a aguas profundas sin
+ning\'un beneficio para la comunidad de fitoplancton (ver secci\'on {\bf2.1.2} y {\bf 2.2.2}).
+
+\subsection{Holoceno, pre-industrial}
+
+La \'ultima \'epoca de hielo termino hace unos 10000 a 15000 a\~nos y fue seguida por un periodo de calentamiento general denominado \textit{Holoceno}. En la escala de tiempo geol\'ogica, 
+el Holoceno corresponde a la \'epoca del per\'iodo Cuaternario de la era Cenozoica que se inicia hace m\'as o menos 11,5 mil a\~nos e incluye la \'epoca presente. No obstante mediante 
+registros proxy de paleoclima se puede plantear que el clima del Holoceno no ha sido estable, si no que ha sido din\'amico a escalas significativas tanto para los humanos como para
+los ecosistemas. Seg\'un los registros de fluctuaci\'on glacial de \cite{Denton1973} se pueden identificar r\'apidos cambios clim\'aticos o peque\~nas edades de hielo en 9000-8000, 
+6000-5000, 4200-3800, 3500-2500, 1200-1000, y hace 600 cal a\~no antes del presente. Periodos fr\'ios separados por intervalos de ligero calentamiento. 
+Los r\'apidos cambios clim\'aticos despu\'es del a\~no 9000-8000 cal. A.P. el intervalo vari\'o en intensidad y extensi\'on geogr\'afica, pero generalmente involucr\'o la co-ocurrencia 
+de enfriamiento de alta latitud y aridez de baja latitud. Este patr\'on de polos secos y tr\'opicos es t\'ipico de las tendencias clim\'aticas a largo plazo durante el Pleistoceno 
+\citep{Ortiz2000,Gasse2000,Kendall1969,Nicholson1980}. El m\'as extenso de estas peque\~nas edades de hielo ocurri\'o de 6000 a 5000 y de 3500 a 2500
+cal a\~nos A.P., y un r\'apido cambio clim\'atico menos extendido tambi\'en ocurri\'o de 4200 a 3800 cal a\~nos A.P. y de 1200 a 1000 cal a\~nos A.P. Respecto de las concentraciones de los 
+gases trazas tales como el $CO_2$ sus cambios fueron mucho menor durante el Holoceno que los experimentados durante la transici\'on glacial-interglacial \citep{Mayewski2004}. Antes 
+del 1700 d.C. los niveles de $pCO_{2}$ atmosf\'erico del Holoceno no variaban en m\'as de 10 partes por mill\'on por volumen, oscilando entre 275 p.p.m.v y 285 p.p.m.v. 
+
+Por otro lado, durante el periodo preindustrial el oc\'eano funcion\'o como un sumidero neto para el $pCO_{2}$ atmosf\'erico. El aumento del $pCO_{2}$ que se ha producido desde el
+a\~no 1700 al 2000 d.C. ha sido de aproximadamente 85 ppmv, equivalente al 30\% del nivel preindustrial. Las concentraciones atmosf\'ericas de $pCO_{2}$ reconstruidas a partir de n\'ucleos
+de hielo que se remontan a 650000 a\~nos han establecido que en el Cuaternario tard\'io, la diferencia glacial-interglacial t\'ipica ha sido de 100 ppmv, y estuvo acompa\~nada por 
+oscilaciones de temperatura de aproximadamente $10^o$C. En la actualidad el $pCO_{2}$, supera las 380 ppmv, representa una gran diferencia con respecto a los \'ultimos 650000 a\~nos.
+La mayor parte de este aumento se atribuye a actividades humanas \citep{Libes2011}. 
+
+
+
+\begin{comment}
+
+Las concentraciones de polvo en la atm\'osfera influencian el sistema clim\'atico afectando el forzamiento radiativo, a trav\'es de reacciones qu\'imicas con otros constituyentes,
+y actuando como fuente de nutrientes para sistemas biol\'ogicos y actuando como fuente de nutrientes para sistemas biol\'ogicos. Dado que el polvo es altamente variable en el espacio y en el
+tiempo el impacto de los aerosoles de polvo suele estimarse a trav\'es de modelos de transporte mundiales en las condiciones climáticas modelos son evaluados utilizando datos satelitales, 
+espec\'ificamente de reflectancia espectral de onda corta. Simulaciones modernas muestran que los trazadores atmosf\'ericos acoplados con modelos de circulaci\'on 
+atmosf\'erica, en general son capaces de reproducir patrones y deposiciones razonablemente \citep{Kohfeld2001}. 
+
+----------------------------------
+
+
+El suministro de polvo a los océanos es muy importante para mantener la producci\'on primaria oce\'anica y la captaci\'on de CO2, pero es sensible al cambio clim\'atico, aunque el
+efecto global variar\'a entre las provincias biogeoqu\'imicas oce\'anicas (Jickells 2005) . En las regiones HNLC (alto contenido de nutrientes, baja clorofila), los cambios en el 
+suministro de hierro afectar\\an directamente la producci\'on primaria y la composici\'on de las especies, mientras que en las regiones oligotr\'oficas subtropicales/tropicales, el 
+impacto ser\'a principalmente a trav\'es de cambios en la fijaci\'on del nitr\'ogeno. Este proceso es particularmente importante en el Oc\'eano Austral debido al gran inventario
+de nutrientes superficiales no utilizados y la fuerte conexi\'on entre las aguas superficiales y las aguas profundas ricas en $CO^2$. La regi\'on HNLC m\'as grande, es el Oc\'eano
+Austral (Turner and Hunter 2001), por ende, tiene el mayor potencial para influir en el CO2 atmosf\'erico. A su vez, dos caracter\'isticas del Oc\'eano Austral hacen de esta regi\'on
+un anfitri\'on probable para los procesos que regulan el $CO^2$ atmosf\'erico a lo largo de escalas de tiempo relevantes para el cambio clim\'atico. En primer lugar, la circulaci\'on
+oce\'anica en torno a la Ant\'artida hace que las aguas profundas se eleven hasta la superficie, permitiendo que el $CO^2$ metab\'olico acumulado durante siglos por respiraci\'on en 
+aguas profundas sea liberado a la atm\'osfera. En segundo lugar, la surgencia conducida por el viento también suministra a las aguas
+superficiales abundantes nutrientes inorgánicos disueltos. No obstante, aquí el suministro de
+polvo atmosférico es bajo, procedente de pequeñas fuentes de polvo en la Patagonia de
+Chile y Argentina, Australia y Sudáfrica (Prospero 2002). Por lo tanto, los cambios en estas
+regiones desérticas pequeñas y poco estudiadas pueden tener un impacto global
+desproporcionadamente grande.
+
+\subsection{Caracter\'isticas latitudinal de los oceanos}
+\subsection{Oceanos del sur}
+\subsection{Flujos de polvo y fertilizaci\'on con hierro en el Holoceno y \'Ultimo M\'aximo Glacial }
+
+%El polvo atmosférico es una retroalimentación importante en el sistema climático, que puede afectar 
+%el equilibrio radiativo y el
+%composición de la atmósfera y proporcionar nutrientes a los ecosistemas terrestres y marinos. 
+%El registro geológico de polvo ofrece la oportunidad de probar modelos de sistemas de tierra diseñados para
+%simular el polvo.
+%Se pueden obtener registros de polvo de núcleos de hielo, sedimentos marinos y depósitos terrestres de
+%loess. 
+
+
+SATELITES
+Dada la gran inhomogeneidad que presentan estos componentes atmosféricos
+las medidas desde tierra no son suficientes para describir de sus características. Se
+hace necesario por lo tanto combinar estas medidas con las proporcionadas por las
+distintas plataformas de satélite. De entre éstas cabe resaltar Nimbus7, ADEOS y
+Earth Probe de NASA (National Aeronautics and Space Administration, EE.UU)
+que desde el lanzamiento en 1978 de la primera han proporcionado una imagen
+global de aerosoles absorbentes en el UV (Torres et al., 1998) como: polvo
+mineral, quema de biomasa, cenizas volcánicas, etc. El sensor que proporciona esta
+información es el TOMS (Total Ozone Mapping Spectrometer) y el parámetro se
+denomina índice de aerosoles. Si bien actualmente existen otras plataformas: Terra
+y Aqua también de NASA, que disponen del sensor MODIS (Moderate/Resolution
+Imaging Spectroradiometer) que proporciona hasta 60 parámetros diferentes de
+aerosoles (Kaufman y Tanré, 1998). 
+
+MODELOS
+Aunque los periodos de precipitación o no precipitación son separables con un sensor de precipitación, el muestreo confiable de la cantidad y distribución de tamaño para la deposición seca es 
+difícil debido a la eficiencia de recolección variable dependiendo del tamaño de partícula, la velocidad del viento y el colector forma (Goossens, 2005, 2007). Se han reportado evaluaciones y 
+mejoras de varios colectores de deposición seca, pero no existe un método perfecto de deposición seca (Vallack y Chadwick, 1992; Sow et al., 2006; Goossens y Rajot, 2008). Para la comparación 
+con las salidas del modelo, la resolución de tiempo
+de observaciones es también un problema crítico. Las escalas temporales de las tormentas de polvo y los procesos de precipitación son sub-horarios a diarios. Por lo tanto, se espera que el
+período de recolección de deposición de polvo tenga un rango de tiempo similar que sea mucho más corto que mensualmente. Otro problema de muestreo es evitar las contribuciones de contaminación
+local de polvo. Con base en mediciones de deposición en múltiples sitios en el noreste de los EE. UU., Tai et al. (1999) señalaron que los sitios urbanos exhiben un mayor número de partículas 
+gruesas e irregulares (posiblemente sean fuentes impulsadas por el viento y antropogénicas) que los sitios no urbanos. De manera similar, a partir de las observaciones en Tsukuba, una ubicación
+urbana tierra adentro (a unos 42 km de la costa más cercana del Océano Pacífico) en Japón, Inomata et al. (2009b) informaron contaminación local por deposición de polvo seco en condiciones de alta
+velocidad del viento.
+
+Los flujos de polvo pueden estimarse a partir de mediciones directas y extrapolaciones posteriores (13), modelos (11, 14, 15) y observaciones de satélites (16). Los diversos enfoques arrojan 
+estimaciones de deposición de polvo similares de 1000 a 2000 Tg año-1 (1 Tg 0 1012 g), que varían sustancialmente de un año a otro. Sin embargo, los modelos suelen ser observaciones tunatch
+sintonizadas, y por lo tanto, el acuerdo no es realmente una validación independiente
+
+
+as interacciones entre el cambio climático y los procesos biogeoquímicos deben tenerse en cuenta al realizar las proyecciones del centenario. Cox et al
+. (2000) señalaron que podría haber una retroalimentación positiva significativa entre el cambio climático y el ciclo del carbono, lo que implica que el aumento de temperatura 
+futuro proyectado por los modelos climáticos "tradicionales" sin un ciclo de carbono incorporado puede haber sido subestimado
+--------------- LGM--------------------
+
+Los flujos de polvo fueron de 2 a 20 veces más altos durante la última glaciación (17-19) debido a los fuertes vientos, la aridez, los cambios en la cubierta vegetal, la disminución del nivel 
+del mar y la reducción de la precipitación. Se ha sugerido que las cambiantes prácticas de uso de la tierra en las últimas décadas han alterado los flujos de polvo hasta en un 50% (14, 20), 
+aunque trabajos recientes sugieren valores más bajos (15).
+
+Martin (49) propuso que el aumento del transporte de polvo durante la última glaciación redujo
+limitación de hierro en las regiones HNLC, aumentando la producción primaria y la absorción de CO2. La complejidad de la biogeoquímica del hierro y la co-limitación de los nutrientes significa
+que una mayor carga de polvo glacial no necesariamente genera una mayor productividad. Los modelos actuales y los datos del núcleo de hielo arrojan resultados muy diferentes, prediciendo que los
+cambios glaciales / interglaciales en los flujos de polvo cambiarán la pCO2 atmosférica en 5 a 45 partes por millón (ppm) como contribución al cambio total de 80 a 100 ppm (19, 50 ) Bopp et al. (50)
+revisaron gran parte de los datos del núcleo de sedimentos marinos existentes sobre los cambios en la productividad del océano glacial / interglacial y no encontraron un patrón global simple de 
+cambio. Sin embargo, hay patrones regionales (51) con incrementos en la productividad en el noroeste del Pacífico, el Atlántico Sur y el Océano Índico al norte del frente polar, con disminuciones
+al sur. La productividad del Pacífico Sur parece haber cambiado poco. Algunos de estos patrones pueden reproducirse en modelos oceánicos (50).
+
+
+En el último periodo glacia la temperatura superficial promedio anual era de entre 3 a 6 k, más baja de lo que es hoy \citep{Takemura}. Regionalmente era de 3 y 10 k más baja en los tropicos
+y hacia el sur de europa respectivamente. Así la combinación de gases de efecto invernadero, la extención de los cuerpos de hielo, mecanismo de retroalimentación de la atmosfera, el oceano la
+criosfera, y la vegetación jugaron un importante rol en el clima del LGM. 
+
+Respecto de la extensión de las capas de hielo tanto en el hemisferio norte como sur fueron mucho más extensas, llegando en elhemisferio sura cubrir casi la totalidad de la plataforma 
+contienental, mientras que el hermisferio norte las tres capas de hielo también tuvieron una gran expansión destacandose la capa más grande Laurentide que alcanzó su máxima extensión. Asi
+el volumende hielo en el LMG de grandes capas de hielo (Antártida, Groenlandia, América del Norte, Fennoscandia / Barents) varían de 112.2 a 124.4m en relación al presente (Tabla 1) 
+(Denton y Hughes, 2002; Huybrechts, 2002; Marshall et al., 2002). 
+
+Análisis de núcleos de hielo y sedimentos han mostrado que flujos atmosféricos de polvo han variado entre los periodos glaciares e interglaciares \(Petit et al., 1999). 
+￼Traducir￼Traducir
+
+El clima del último máximo glacia, desde hace 21000 años atrás se vio fuertemente afectado por una gran extensión de volumen de hielo, as u vez de unabaja concentración de C02 que
+conllevo un baja de la temperatura promedio (más frio), así como tasas de evaporación y precipitación más bajo que en la actualidad  [Wright et al., 1993, Pinot et al., 1999, y nombrepaper actual].
+Resgistros paleobotánicos muesran que el LGM se caracterizó por regiones cubiertas por Tundra y estepa tanto en latituds medias como altas  [Frenzel et al., 1992; Wright et al., 1993]. Las 
+zonas tropicales modernas pueden haber sido reemplazados por arboles y pastos resistentes a la sequia, si embargo otros estudios mantiene que quedaba un nucleo de selva tropical. Algunos estudios 
+de sensibiludad CGC indican que el efecto de enfriameniento durante el LGM se amplifico por el efecto de albedo producto de una cubierta vegetal más escasa. Kubatzki y Claussen [1998] 
+usando un modelo acoplado de vegetación climática y Crowley y Baum [1997] utilizando un modelo climático con una prescripción la reconstrucción de la vegetación a partir de datos 
+paleobotánicos, indican que el enfriamiento se debio a un efecto directo de la expanción de la Tundra cubierta de niebe, en regiones donde anctualmente dominan bosques boreales que
+enmascaran a la nieve. 
+
+La relación entre 12c/13c disuelto en el oceano profundo fue menor entre los tiempos glaciares que interglaciares Shackleton (1977. La explicación es que el reservorio de carbon de suelo forestal 
+fue menor durante el tiempo glacial que durante el interglacial. Mediciones de CO2 de gases atrapados en el hielo porlar sugiere menos biosfera y CO2 sustancialmente más bajo durante el 
+tiempo glacial que en la actualidad (Delmas, Ascencio & Legrand, 1980, Berner, Oeschger & Stauffer, 1980). 
+
+Los cambiso en los suministros de hierro a los oceanos durante periodoes glaciares se sugiere han manejado los niveles de CO2 atmosferico. La fertilización con hierro en los oceanos Australes
+actualemnte límitados por hierro podría ser la responsable de hasta 40 ppmv de los 80 a 120 ppmv de diferencia regular de CO2 atmosferico  en ciclos glaciares-interglaciares de los últimos
+800000 mil años [Lu
+¨thi, D. et al. High-resolution carbon dioxide concentration record 650,000- 800,000 years before present. Nature 453, 379–382 (2008)]. Así cambios en la circulación oceánica, almacenamiento 
+de carbono en el oceano profunfo, pueden tener un papel dominante en el ciclo glacial-interglaciar, el suministro de Fe también puede desempeñar un papel relevante en la eficiencia de
+bomba biológica en escalas glaciares-milenarias. 
+
+De hecho, un estudio reciente demostró que el aumento de la utilización de nutrientes y la mayor productividad en la Subantártica están vinculados a períodos de mayor suministro de
+polvo (y Fe) en los últimos 160,000 años [Martınez-Garcıa, A. et al. Iron fertilization of the Subantarctic ocean during the last ice age. Science 343, 1347–1350 (2014)], estacando
+la fertilización atmosférica con Fe en el océano superficial subantártico como candidato para explicar las fluctuaciones a escala milenaria del CO2 atmosférico. Evidencias de mayores flujos 
+de polvo provienen de testigos de hielo antártico que muestran un aumento de deposición de polvo en la Antartica en los intervalos más fríos en los últimos 800000 años, probablemente 
+relacionados con la expnción de areas fuentes de polvo en America del Sur lo que aumenta su vida y transporte atmosférico. Así la variabilidad del polvo atmosférico en los nucleos de hielo 
+antártico es representativo del polvo que llega a los oceanos australes [Martınez-Garcia, A. et al. Southern Ocean dust-climate coupling over the past four million years. Nature 476,
+312–315 (2011)]. 
+
+John Martin sugirió por primera vez que el crecimiento del fitoplancton actualmente está limitado por la deficiencia de hierro en las regiones HNLC y que esta deficiencia de hierro 
+se alivió durante los períodos glaciales debido al depósito de hierro eólico significativamente mayor [Martin, 1990]. 
+Experimentos de enriquecimiento de hierro a mesoescala en el sur
+ern Ocean ha demostrado consistentemente que la absorción de nutrientes, la concentración de clorofila y la biomasa de fitoplancton aumentan en respuesta a un mayor suministro de
+hierro [Boyd et al., 2000; Boyd y Law, 2001; Gall et al., 2001; Coale et al., 2004]. Debido a su extremadamente baja solubilidad en agua de mar, cuando el polvo entra en el agua de mar, 
+solo una fracción muy pequeña del hierro se disuelve y la mayor parte desciende a aguas profundas sin ningún beneficio para la comunidad de fitoplancton.
+
+
+Varias oscilaciones transitorias de pCO2 atmosférico han ocurrido en distintos periodos de la tierra, lo que ha llevado incluso en algunos casos a la reorganización del ciclo del carbono. 
+As\'i es de vital importancia estudiar estos procesos del pasado ya que pueden proporcionar una idea de qué cambios esperar en el futuro debido a la alteración antropogénica del pCO2
+atmosférico. 
+
+Durante los últimos 1.8 millones de a\~nos la tierra a entrado y salido de periodos glaciares, con grandes extensiones de capas de hielo. Estos cambios de volumen y de temperatura regiones 
+estan bien correlacionados con variaciones de gases de efecto invernadero. Así grandes niveles de gases de efecto invernadero a coincido con condiciones cálidas e interglaciares. Por el 
+contrarios bajos niveles de gases de efecto invernadero han coincidido con condiciones frías, glaciares. Si bien los ciclos astron\'omicos de Milankovitch controlan la pscilación y son el principal
+agente de cambio climático a largo plazo, sin duda gases como pCO2 tienen un rol primordial a cómo el clima de la tierra responde a este cambio en la insolación. 
+Una de las características claves del pCO2 atmosferico y las oscilaciones de temperatura es su lento declive en condiciones glaciales seguido de un rápido retorno a niveles altos durante
+los interglaciales. Lo que sugiere que se alcanza un humbral que desencadena un cambio rápido de condiciones glaciares a interglaciares. 
+
+La última epoca de hielo termino hace unos 10000 a 15000 años y fue seguida por un periodo de calentamiento general denominado Holoceno. Antes del 1700 d.c. los niveles de pCO2 atmosférico 
+del holoceno no variaban en más de 10 ppmv oscilando entre 275 y 285 ppmv. El aumento de PCO2 que se ha producido desde el año 1700 al 2000 dC ha sido de aproximadamente 85 ppm, 
+equivalente al 30% del nivel preindustrial. Las concentraciones atmosféricas de CO2 reconstruidas a partir de núcleos de hielo que se remontan a 650,000 años han establecido que 
+en el Cuaternario tardío, la diferencia glacial-interglacial típica ha sido de 100 ppm, y estuvo acompañada por oscilaciones de temperatura de aproximadamente 10 ° C. La PCO2 actual,
+que supera las 380 ppm, representa una gran diferencia con respecto a los últimos 650,000 años. La mayor parte de este aumento se atrivulle a actividades humanas. 
+
+As\'i durante el periodo preindustrial el oceano funcionó como un sumidero neto para el pCO2 atmosférico 
+El dióxido de carbono (CO2) es otro posible amplificador en las escalas de tiempo glacial-interglacial, ya que su concentración atmosférica está controlada predominantemente
+por cambios en el almacenamiento en el océano profundo
+
+
+
+------ Cambio climático .....
+Los océanos claramente ejercen una gran influencia sobre el clima a través del transporte de calor y los procesos físicos relacionados (20). La reorganización a gran escala
+de la circulación oceánica también afectará el transporte de hierro, efectos que se originan predominantemente dentro del océano. El cambio climático inducirá una variedad de cambios 
+fisicoquímicos en el océano abierto, particularmente al cambiar la estratificación y las proporciones de suministro de nutrientes (42), con efectos impredecibles. Reconocemos estos temas
+importantes, pero nos enfocamos en el ciclo del polvo, considerando ahora las formas en que esto puede afectar los océanos y el clima, además de la limitación directa de hierro de la producción
+primaria y la fijación de nitrógeno discutida anteriormente (Tabla 2)
+
+Nuestro análisis demuestra la complejidad del ciclo de hierro global (Fig. 1). La baja solubilidad del hierro conduce a la limitación de la productividad marina, con retroalimentaciones
+potencialmente a gran escala dentro del sistema climático mundial. Estos podrían actuar para amplificar el cambio climático global futuro a través de una retroalimentación positiva
+(desestabilizadora) o disminuirla a través de una retroalimentación negativa (estabilizadora). Existen incertidumbres considerables en nuestra comprensión de estas interacciones, que
+requieren una investigación que se integra en todo el sistema de la Tierra.
+
+
+
+-----Conclusión-------------
+Hay discusiones sobre el cambio de los usos terrestres de la tierra para crear sumideros de carbono para ayudar a mitigar el cambio global. Dichos cambios pueden reducir los flujos de 
+polvo hacia el océano y, por lo tanto, reducir la productividad primaria, compensando las ganancias en el almacenamiento de carbono terrestre (58). También se debate sobre la fertilización
+del océano con hierro para aumentar la absorción de CO2 (59). Nuestro análisis demuestra que dicho esquema podría producir muchos cambios en los sistemas biogeoquímicos marinos. Claramente, 
+necesitamos una comprensión integral del ciclo de polvo / hierro actual y futuro antes de poder contemplar dicha ingeniería del sistema de la Tierra.
+\end{comment}separaci\'on

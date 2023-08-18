@@ -1,0 +1,171 @@
+\documentclass[10pt,letterpaper]{book} % , draft
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, activeacute]{babel}
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage[framed,numbered,autolinebreaks,useliterate]{mcode}
+\usepackage{etex}
+\usepackage[mode=buildnew]{standalone}
+\usepackage{tikz}
+    \usetikzlibrary{decorations.pathmorphing}
+    \usetikzlibrary{arrows.meta}
+    \usetikzlibrary{arrows}
+
+
+\usepackage[left=4cm,top=2.5cm,right=2cm]{geometry}
+% \usepackage{biblatex}
+    \usepackage{anyfontsize}
+%----------------------------------------Paquetes para graficos---------------------------------------%
+%     \usepackage{graphicx} % para incluir graficos
+    \usepackage{graphicx}
+    \usepackage{float}          % para posiciones bien las figure con \begin{figure}[H]
+    \usepackage{sidecap}        % caption al lado de la imagen
+    \usepackage{wrapfig}        % figuras rodeadas de texto
+    \usepackage{caption}        % caption para subimagenes
+    \usepackage{subcaption}
+
+%-----------------------------------------------------------------------------------------------------%
+
+%----------------------------------------Paquetes varios ---------------------------------------------%
+    \usepackage{draftwatermark}        % marca de agua
+    \usepackage{color}              % permite escribir con colores.
+    %\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}    % alternativa para escribir con colores adicionales, ver http://en.wikibooks.org/wiki/LaTeX/Colors
+    \usepackage{multicol}           % permite poner columnas en las enumeraciones.
+    \usepackage{enumerate}          % permite cambiar al enumeracion asi: \begin{enumerate}[a)].
+    \usepackage[bookmarks   = false,
+        hidelinks,
+%       colorlinks  = true,
+%       linktoc     = black,
+        linkcolor   = black]{hyperref}    % permite agregar hipervinculos a las referencias, pag web, correoes, etc. SOLO FUNCIONA EN PDF.
+    \usepackage{lscape}         % para rotar cosas en 90Â° (landscape)
+%-----------------------------------------------------------------------------------------------------%
+
+%-------------------------------------- Opciones de las paginas --------------------------------------%
+    % Dim hoja carta: 21.59 x 27.94 centimetros
+% %     \addtolength{\topmargin}{-2.5cm}
+% %     \addtolength{\evensidemargin}{-1.795cm}
+% %     \addtolength{\oddsidemargin}{-1.795cm}
+% %     \addtolength{\footskip}{0.4cm}
+% %     \textheight=23cm                % Establece el largo del texto en cada pÃ¡gina. El default es 19 cm.
+% %     \textwidth=16cm                 % Establece el ancho del texto en cada pÃ¡gina (en este caso, de 17 cm). El default es 14 cm.
+    \setlength{\parskip}{5pt}           % Espacio entre parrafos
+    \setcounter{secnumdepth}{3}
+    \setcounter{tocdepth}{1}            % profundidad del arbol del indice
+%-----------------------------------------------------------------------------------------------------%
+
+%-------------------------------------- Opciones varias ----------------------------------------------%
+%   \pagestyle{headings}                     % ???
+%    \pagestyle{empty}                       % borrar numero de pag ???\documentclass[11pt,letterpaper]{article}
+%    \boldmath                               % simbolos matematicos en negrita
+%    \renewcommand{\baselinestretch}{1.5}    % interlinedo simple
+%    \setlength{\parindent}{0pt}             % Sin sangria.
+% --- marca de agua -------%
+    \SetWatermarkFontSize{10pt}
+    \SetWatermarkScale{10}
+    \SetWatermarkLightness{0.9}     % intencidad del color
+    \SetWatermarkText{\parbox{2.5cm}{%
+  BORRADOR\vspace*{-8pt }\\\vspace*{-8pt }
+  \href{mailto:neopazo@uc.cl}{\tiny neopazo@uc.cl}
+ \\ 
+  {\tiny \today}}}
+%-----------------------------------------------------------------------------------------------------%
+
+%-----------------------------------------------------------------------------------------------------%
+%--------- Mis teoremas ---------%
+
+\renewcommand{\qedsymbol}{$\blacksquare$}
+
+\theoremstyle{plain}
+    \newtheorem{prop}{Proposici\'on}[section]
+    \newtheorem{teor}{Teorema}[section]
+    \newtheorem{corol}{Corolario}[section]
+    \newtheorem{lema}{Lema}[section]
+    \newtheorem{obs}{Observaci\'on}[section]
+\theoremstyle{definition}
+    \newtheorem{defin}{Definici\'on}[section]
+    \newtheorem{ejem}{Ejemplo}[section]
+    \newtheorem*{nota}{Nota}
+    \newtheorem*{notac}{Notaci\'on}
+  
+%--------------------------------%
+%-------------------------------------- MIS DEFINICIONES -------------------------------------------
+    \newtheorem{ejer}{Ejercicio}
+\theoremstyle{remark}%
+%-----------------------------------------------------------------------------------------------------%
+
+
+\title{\includegraphics[width=3cm]{./img/escudo.eps}\\
+{\small\bf  UNIVERSIDAD DE CONCEPCI\'ON}\\
+{\small\bf    FACULTAD DE CIENCIAS F\'ISICAS Y MATEM\'ATICAS}\\
+{\small\bf    DEPARTAMENTO DE INGENIER\'IA MATEM\'ATICA}\\
+     \hskip 1pt \\
+     \hskip 1pt \\
+    {\bf\huge Title}
+\hskip 1pt \\
+     \hskip 1pt \\
+    {\it Memoria para optar al t\'itulo de Ingeniero Civil Matem\'atico}\\
+}
+\author{Autor}
+
+\date{{\bf 15 de septiembre de 2015}\\
+    CONCEPCI\'ON, CHILE}
+
+\DeclareFontShape{OT1}{cmr}{bx}{sc}{<-> cmbcsc10}{}
+\begin{document}
+\pagenumbering{roman}
+\input{./partes/title.tex}
+
+\cleardoublepage
+
+\vspace{4cm}
+\setcounter{page}{3}
+\begin{center}
+\large{\textbf{Agradecimientos}} 
+\end{center}
+
+
+{\it 
+Quiero agradecer a ...
+
+También quiero agradecer a ...
+
+Asimismo, agradezco a ...
+
+Finalmente quiero agradecer el apoyo económico de ... 
+
+
+}
+
+\tableofcontents % indice de contenidos
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Lista de figuras} % para que aparezca en el indice de contenidos
+\listoffigures % indice de figuras
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Lista de tablas} % para que aparezca en el indice de contenidos
+\listoftables % indice de tablas
+
+\thispagestyle{empty}
+\cleardoublepage
+\pagenumbering{arabic} 
+\chapter{Introducci\'on}
+ \input{./partes/intro.tex}
+\chapter{Preliminares}
+ \input{./partes/preliminares.tex}
+\chapter{Desarrollo}
+ \input{./partes/Desarrollo.tex}
+\chapter{Conclusiones y trabajos futuros}
+ \input{./partes/conclusiones.tex}
+% \chapter{Anexo}
+%  \input{./partes/anexo.tex}
+
+\bibliographystyle{plainnat}
+\bibliography{biblio}
+
+
+
+ 
+
+\end{document}
+
+    

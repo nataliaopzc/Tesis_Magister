@@ -1,0 +1,54 @@
+\documentclass{article}
+
+\usepackage[latin1]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\begin{document}
+\pagestyle{empty}
+
+
+% Define block styles
+\tikzstyle{decision} = [diamond, draw, fill=purple!20, 
+    text width=4.5em, text badly centered, node distance=3cm, inner sep=0pt]
+\tikzstyle{block} = [rectangle, draw, fill=blue!20, 
+    text width=5em, text centered, rounded corners, minimum height=4em]
+\tikzstyle{line} = [draw, -latex']
+\tikzstyle{cloud} = [draw, ellipse,fill=red!20, node distance=3cm,
+    minimum height=2em]
+    
+\begin{tikzpicture}[node distance = 2.5cm, minimum height=5em, minimum width=3cm]
+    % Place nodes
+    \node [block] (Fp) {Flujos de polvo};
+    \node [cloud, left of=Fp, node distance=4.2cm] (Input) {Input};
+   % \node [cloud, right of=init] (system) {system};
+    \node [block, below of=Fp] (Regrillado) {Regrillado};
+    \node [cloud, left of=Regrillado, node distance=4.7cm] (Prep) {Preprocesamiento};
+    \node [block, below of=Regrillado] (GNPU) {Generaci\'on de niveles de polvo};
+    \node [decision, right of=GNPU, node distance=4.2cm] (GNPD) {G. niveles de polvo regionales};
+    \node [block, below of=GNPU] (modelo) {Modelo cGENIE};
+    \node [cloud, left of=modelo, node distance=4.2cm] (sim) {Simulaciones};
+    %\node [decision, below left of=Regrillado, node distance=4.2cm] (GNPU) {Generaci\'on niveles de polvo};
+    %\node [decision, below right of=Regrillado, node distance=4.2cm] (GNPD) {G. niveles de polvo regionales};
+    %\path (GNPU) -- (GNPD) node[block, pos=.5,below=1cm](modelo) {Simulaciones modelo cGENIE};
+    \node [block, below of=modelo] (Spin) {spin-up};
+    \node [block, below of=Spin] (Control) {Control};
+    \node [decision, below left of=Control] (G) {Globales};
+    \node [decision, below right of=Control] (R) {Regionales};
+
+    % Draw edges
+    \path [line,dashed] (Input) -- (Fp);
+    \path [line] (Fp) -- (Regrillado);
+    \path [line, dashed] (Prep) -- (Regrillado);
+    \path [line] (Regrillado) -- (GNPU);
+   % \path [line] (Regrillado) |- node [near start] {yes} (GNPU);
+    \path [line] (GNPU) |- (GNPD);
+    \path [line] (GNPU) -- (modelo);
+    \path [line,dashed] (sim) -- (modelo);
+    \path [line] (modelo) -- (Spin);
+    \path [line] (Spin) -- (Control);
+    \path [line] (Control) |- (G);
+    \path [line] (Control) |- (R);
+
+\end{tikzpicture}
+
+\end{document}

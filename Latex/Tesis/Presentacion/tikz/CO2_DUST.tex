@@ -1,0 +1,74 @@
+\documentclass[crop,tikz]{standalone}% 'crop' is the default for v1.0, before it was 'preview'
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\begin{document}
+\pgfplotstableread{../plot/CO2_Antartica2.dat}
+\CO
+\begin{tikzpicture}
+\begin{axis}[
+    axis x line=none,
+    ylabel={Concentración de pCO$_2$},
+    xmin=0, xmax=800000,
+    ymin=160, ymax=300,
+    %xtick={1950,1960,1970,1980,1990,2000,2010},
+    %ytick={310,320,330,340,350,360,370,380,390,400},
+    %legend pos=north west,
+    ymajorgrids=true,
+    grid style=dashed, 
+]
+\addplot[
+   color=red,
+   mark=square,
+    ] table[y=CO2] from \CO;
+
+
+   % \legend{CuSO$_4\cdot$5H$_2$O}
+   \end{axis}
+%\end{tikzpicture}
+%\begin{minipage}{\textwidth}
+\pgfplotstableread{../plot/edc2012dust22.dat}
+\DU
+%\begin{tikzpicture}
+
+\begin{axis}[
+    % axis x line=none,
+    % ylabel={bla},
+    % % xmin=0, xmax=800000,
+    % % ymin=160, ymax=300,
+    % %xtick={1950,1960,1970,1980,1990,2000,2010},
+    % %ytick={310,320,330,340,350,360,370,380,390,400},
+    % %legend pos=north west,
+    % ymajorgrids=true,
+    % grid style=dashed, 
+]
+\addplot[
+   color=brown,
+   mark=square,
+    ] table[y=DUST] from \DU;
+
+
+   % \legend{CuSO$_4\cdot$5H$_2$O}
+   \end{axis}
+
+% \begin{axis}[
+%    axis x line=none,
+%    ylabel={Concentración de pCO$_2$},
+%    xmin=0, xmax=800000,
+%    ymin=160, ymax=300,
+%     xtick={1950,1960,1970,1980,1990,2000,2010},
+%     ytick={310,320,330,340,350,360,370,380,390,400},
+%     legend pos=north west,
+%    ymajorgrids=true,
+%    grid style=dashed, 
+% ]
+% \addplot[
+%   color=green,
+%   mark=square,
+%    ] table[x=nose,y=DUST] from \DUST;
+%    \legend{CuSO$_4\cdot$5H$_2$O}
+%   \end{axis}
+\end{tikzpicture}
+%\end{minipage}
+
+\end{document}

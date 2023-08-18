@@ -1,0 +1,31 @@
+\documentclass[crop,tikz]{standalone}% 'crop' is the default for v1.0, before it was 'previe
+%\usetikzlibrary{...}% tikz package already loaded by 'tikz' option
+\usepackage[utf8]{inputenc}
+\usepackage{pgfplots}
+\begin{document}
+\pgfplotstableread{./plot/CO2.txt} 
+\datatable% 
+\begin{tikzpicture}[scale=0.8]
+\begin{axis}[
+   % title={Temperature dependence of CuSO$_4\cdot$5H$_2$O solubility},
+    xlabel={Años},
+    ylabel={Concentración de pCO$_2$},
+    xmin=1950, xmax=2010,
+    ymin=310, ymax=400,
+    xtick={1950,1960,1970,1980,1990,2000,2010},
+    ytick={310,320,330,340,350,360,370,380,390,400},
+    %legend pos=north west,
+    ymajorgrids=true,
+    grid style=dashed, 
+]
+\addplot[
+   color=red,
+   mark=square,
+    ] table[x=Ano,y=CO2] from \datatable;
+%%     }
+%%  }
+   % \legend{CuSO$_4\cdot$5H$_2$O} \includegraphics[width=\textwidth]{./imagenes/CO2ani.jpg}
+  \end{axis}
+  \node[] at (6, 1)    {\includegraphics[width=0.1\textwidth]{./imagenes/CO2ani.jpg}};
+\end{tikzpicture}
+\end{document}

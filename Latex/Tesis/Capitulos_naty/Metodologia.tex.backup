@@ -1,0 +1,415 @@
+ En este estudio, cuantificamos el efecto de los flujos de polvo globales de $pCO_{2}$ atmosf\'erico utilizando el modelo \textit{carbon cycle specialized Earth System Model
+ of Intermediate Complexity} cGENIE. \\
+Los campos de flujo de polvo Global entre el Holoceno y \'Ultimo M\'aximo Glacial (UMG) se obtuvieron de 5 simulaciones y modelos de reconstrucciones
+de polvo basados en simulaciones y datos observacionales, tales como los realizados en: Lambert, Albani, Takemura y los modelos 
+CMIP5: MIROC-ESM y MRI-CGCM3. %\citep{Watanabe2011,Lambert2015,Albani2014,Takemura2009,Yukimoto2012}]. 
+El an\'alisis se realiz\'o en
+dos etapas. Se produjeron 8 campos intermedios de flujos de polvo entre el 
+Holoceno y el UMG. Para cada nivel de polvo se simularon la disminuciones atmosf\'ericas de $pCO_{2}$.
+En la segunda etapa, se aislaron los flujo de polvo en las regiones HNLC (Pac\'ifico Sur, Pac\'ifico Central, Pac\'ifico Norte y Atl\'antico Sur)
+para ver el efecto de reducci\'on de $pCO_{2}$ s\'olo debido a 
+estas cuencas oce\'anicas. Finalmente estimamos la raz\'on porcentual del aporte a la disminuci\'on observada de $pCO_{2}$ en cada regi\'on 
+HNLC para sus respectivos flujos de polvo totales. 
+
+\begin{comment}
+En el presente an\'alisis, la informaci\'on necesaria para trabajar corresponde a distribuciones 
+espaciales de flujo de polvo global. Registros que fueron previamente procesados en modelos num\'ericos
+del sistema tierra creados para hacer proyecciones centenarias del polvo global mediante la utilizaci\'on
+del material particulado encontrado en testigos de hielo, los que en la pr\'actica entregan un registro
+de la tasa de deposici\'on de polvo a trav\'es del tiempo  \citep{Albani2014,Lambert2015,Takemura2009}.
+Adem\'as, 
+la mineralog\'ia, la qu\'imica y la 
+composici\'on isot\'opica de la materia puede identificar las zonas de origen de la que deriva el material
+e\'olico para reconstruir el r\'egimen de circulaci\'on atmosf\'erica durante la deposici\'on
+\citep{Turner2001}.
+
+Sabiendo la relaci\'on existente entre la biogeoqu\'imica del oc\'eano y la depositaci\'on de hierro
+a partir de flujos a\'ereos de polvo en distintas zonas del globo a trav\'es del tiempo, es que se 
+integraron estas simulaciones de polvo en el modelo \textit{Grid ENabled Integrated Earth system model}, 
+con la contribuci\'on del ciclo de carbono, \textit{cGENIE}.
+\end{comment}
+\section{Fuente de datos, distribuciones de Polvo}
+
+Entre las simulaciones paleoambientales globales de polvo utilizadas encontramos: 
+
+1-. Una interpolaci\'on de los valores logar\'itmicos de flujos de polvo bien distribuidos a partir de la
+base de datos \textit{Dust Indicators and Records of Terrestrial and MArine Palaeoenvironments DIRTMAP},
+utilizando para esto un algoritmo de Kriging \citep{Lambert2015}. 
+
+
+Entre los resultados utilizados actualmente encontramos:
+
+%\begin{comment}
+\begin{figure}[H]
+\centering
+ \includegraphics[width=0.9\textwidth]{Plot1_Lambert_2.pdf}
+ \caption{Mapa global de flujos de polvo interpolados entre el periodo del Holoceno y el \'Ultimo M\'aximo Glacial. Datos obtenidos de \citep{Lambert2015}.}
+  \label{fig:Mapa_Lambert}
+\end{figure}
+%\end{comment}
+
+En este trabajo podemos ver en la figura \ref{fig:Mapa_Lambert}
+que la fuentes de polvo de Am\'erica del
+norte y Sur son particularmente m\'as 
+potentes en la interpolaci\'on durante el \'Ultimo M\'aximo Glacial que durante el Holoceno. 
+En el hemisferio sur se observan flujos de polvo extremadamente bajos durante el holoceno en la zona del
+Anticicl\'on Subtropical del Pacifico Sur Oriental (ASPSO). La pluma 
+de polvo de la parte oeste de Am\'erica del Sur durante el LGM podr\'ia ser un producto netamente de la 
+interporlaci'on y no verdaderamente realista, dado a la falta de datos en esa zona y que va 
+en contra de los vientos predominantes del oeste. Los resultados del modelo tambi\'en muestran una gran
+incursi\'on de polvo sudamericano en el sureste del Pac\'ifico. \\
+Las regiones con mayor incertidumbre durante el UMG se encuentran ahora en los Oc\'eanos \'Indico y 
+Pac\'ifico subtropical. 
+\newpage
+
+
+2-. Conjuntos de ajuste de parametrizaciones f\'isicas
+(es decir, la erodibilidad del suelo, las distribuciones del tama\~no de la emisi\'on de polvo, la 
+deposici\'on h\'umeda
+y las propiedades \'opticas), realizadas previamente 
+por el modelo \textit{Community Climate System Model} (CCSM) para posteriormente simular el ciclo global de
+polvo, mediante la \textit{Community Earth System Model Version 1} (CESM1). Utilizando
+espec\'ificamente dos versiones del modelo: (1) el \textit{Community Atmosphere Model version 4} (CAM4) 
+\citep{Neale2010,Gent2011}
+y (2) el \textit{Community Atmosphere Model version 5} (CAM5) \citep{Neale2010,Liu2012} \citep{Albani2014}.
+
+%\begin{comment}
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\textwidth]{Plot1_Albani.pdf}
+  \caption{Mapa global de flujos de polvo interpolados entre el periodo del Holoceno y el \'Ultimo M\'aximo Glacial. Datos obtenidos de \citep{Albani2014}.}
+  \label{fig:Albani}
+\end{figure}
+%\end{comment}
+
+La depositaci\'on de polvo es sobreestimada en los Alpes y hay una subestimaci\'on de la deposici\'on en 
+la Pampa Argentina, lo que seg\'un \citep{Albani2014} esta relacionado con grandes incertidumbres en las
+estimaciones de sedimentos terrestres o un posicionamiento ligeramente inexacto de la fuentes de polvo para
+cada uno de esos sitios. Durante el UMG los resultados arrojan que las deposiciones de polvo son 
+aproximadamente 2,2 veces la estimaci\'on actual. 
+
+3-. Simulaci\'on de las distribuciones globales y forzamientos radiativos de las part\'iculas de aerosol en
+condiciones clim\'aticas del \'ultimo m\'aximo glacial, desarrollado por el modelo clim\'atico global de 
+aerosoles \textit{Spectral Radiation-Transport Model for Aerosol Species} (SPRINTARS) acoplado con una
+simulaci\'on de la distribuci\'on global de los principales aerosoles troposf\'ericos, AGCM desarrollado 
+por el \textit{Center for Climate System Research} (CCSR)/University of Tokyo, \textit{National Institute
+for Environmental Studies} (NIES), y la \textit{Research Center for Global Change} 
+(FRCGC) \citep{Takemura2009}. 
+
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\textwidth]{Plot1_Takemura.pdf}
+  \caption{Mapa global de flujos de polvo interpolados entre el periodo del Holoceno y el \'Ultimo M\'aximo Glacial. Datos obtenidos de \citep{Takemura2009}.}
+  \label{fig:Takemura}
+\end{figure}
+
+\begin{comment}
+En este estudio, los forzamientos radiativos tanto de los efectos directos como indirectos de los aerosoles
+de polvo del suelo en el LGM se calculan con un modelo climático global de aerosoles, modelo espectral de
+radiación-transporte para especies de aerosol (SPRINTARS), que se acompaña del simu - Distribución global 
+de los principales aerosoles troposféricos. Una de las mejoras significativas traídas por este estudio es 
+la inclusión de la interacción entre los cristales de hielo y las partículas de aerosol para calcular el
+efecto indirecto del aerosol. La descripción del modelo se da en la sec. 2. La sección 3 muestra la emisión
+simulada, la distribución y la deposición de los aerosoles de polvo del suelo, así como los aerosoles de la
+sal marina tanto en la MLM como en la actualidad. Los flujos de deposición simulada de aerosoles de polvo 
+de suelo se comparan con sus estimaciones de núcleos de hielo y sedimentos marinos para evaluar el
+desempeño y los problemas del presente modelo. La sección 4 presenta los forzamientos radiativos directos
+e indirectos calculados de los aerosoles de polvo del suelo y discute sus efectos sobre el sistema
+climático en el LGM.
+
+\end{comment}
+
+
+
+\begin{comment}
+Referente a los datos mencionados utilizamos entonces tres fuentes de polvo en distintos niveles que
+muestran su variabilidad espacial (en una grilla de 36x36 datos) y temporal; as\'i el nivel 1 
+corresponde a flujos del periodo del holoceno, es decir, desde hace unos 10000 a\~nos hasta la actualidad,
+mientras que el nivel 10 corresponden a flujos del \'ultimo m\'aximo glacial (UMG) que ser\'ia el 
+periodo de 18000-26000 a\~nos atr\'as.
+
+
+A grandes rasgos los mecanismos para llevar a cabo nuestro objetivo de investigaci\'on, son los
+siguientes: \vspace{0.2 cm} \\
+$\bullet$ Para estimar la diferencia entre el $CO^2$ del Holoceno y el $CO^2$ del \'ultimo m\'aximo glacial, 
+se procesa el modelo cGENIE para cada nivel de polvo. \\
+$\bullet$ Para descubrir la contribuci\'on del flujo
+de polvo total en cada oc\'eano del globo, se procede a seccionar el flujo de polvo de las distintas
+fuentes utilizadas, en funci\'on de las zonas donde 
+encontramos los distintos oc\'eanos del planeta y de esta manera estimar la diferencia existente entre
+el $CO^2$ atmosf\'erico del holoceno y el $CO^2$ atmosf\'erico del \'ultimo m\'aximo glacial para cada
+secci\'on. \\
+$\bullet$ Se repite ambos procesos antes mencionados para todas las fuentes de datos de polvo. \\
+$\bullet$ Se gr\'afica la relaci\'on entre el flujo de polvo, y el $CO^2$ estimado mediante cGENIE. \\
+$\bullet$ Se estima la diferencia entre el $CO^2$ del \'ultimo m\'aximo glacial y el $CO^2$ del holoceno de cada 
+fuente oce\'anica. 
+
+
+%\cite{ASH:2017:Online}
+
+
+%\lstinputlisting[firstline=13, lastline=22]{/home/naty/Dropbox/suma.m}
+
+%%
+ \end{comment}
+
+ \subsection{Modelos CMIP}
+ 
+ El \textit{Coupled Model Intercomparison Project} en su fase 5 (CMIP5) corresponde a un proyecto que pretende evaluar modelos de circulaci\'on oc\'eano - atm\'osfera 
+ acoplados (GCM). EL proyecto fue elaborado entre el (2010-2014) e incluye m\'as fuentes de datos que las versiones anteriores. Sin embargo. en la actualidad ya se encuentra
+ en su fase 6. No obstante, En el presente trabajo se utilizaron los datos de CMIP5. 
+ 
+ CMIP5 proporcionado retroalimentaciones entre modelos para: 1) Evaluar mecanismos responsables de las diferencias atribuibles al ciclo del carbono y las nubes en los distintos modelos
+ 2) explorar la predictibilidad clim\'atica y 3) determinar los rangos de respuestas de los modelos a distintos forzantes. 
+  
+ 4-. Modelo clim\'atico desarrollado por el \textit{Meteorological Research Institute} (MRI), es una actualizaci\'on
+ de la serie \textit{MRI-CGCM2}.  Este modelo clim\'atico es un subconjunto de modelos MRI's  perteneciente al grupo de modelos del sistema tierra MRI-ESM1. 
+Se compone de modelos de atm\'osfera-tierra (MRI-AGCM3), aeros\'oles (MASINGAR) y hielo marino (MRI.COM3). Donde su componentes atmosf\'erica se acopla
+ interactivamente con modelos de aerosol para representar los efectos directos e indirectos de los aerosoles con un nuevo esquema de microf\'isica de nubes \citep{Yukimoto2012}.
+ 
+ %y de oc\'eano y hielo marino (MRI.COM3), busca disminuir la incertidumbre relacionada con la retroalimentaci\'on de
+ %las nubes bajas tropicales y el forzamiento radiativo . 
+ 
+
+ \begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\textwidth]{Plot1_MRI.pdf}
+  \caption{Mapa global de flujos de polvo interpolados entre el periodo del Holoceno y el \'Ultimo M\'aximo Glacial. Datos obtenidos de \citep{Yukimoto2012}.}
+  \label{fig:MRI}
+\end{figure}
+
+ 
+ 5-. El llamado ``MIROC-ESM'' est\'a basado en un modelo de circulaci\'on atmosf\'erica general \textit{Model for Interdisciplinary Research
+ on Climate} (MIROC) desarrollado en la \textit{Agency for Marine Earth Science and Technology} (JAMSTEC) en colaboraci\'on con 
+ la University of Tokyo y el \textit{National Institute for Environmental Studies} (NIES). 
+ Versi\'on acoplada de la qu\'imica atmosf\'erica, incluye un modelo integral de circulaci\'on atmosf\'erica (MIROC-ESN-CHEM), una componente de aerosol en l\'inea (SPRINTAR 5.00), un 
+ componente oce\'anico y de hielo marino (COCO 3.4), y un modelo de superficie terrestre (MATSIRO) \citep{Watanabe2011}.
+ 
+
+ \begin{figure}[H]
+\centering
+  \includegraphics[width=0.9\textwidth]{Plot1_MIROC.pdf}
+  \caption{Mapa global de flujos de polvo interpolados entre el periodo del Holoceno y el \'Ultimo M\'aximo Glacial. Datos obtenidos de \citep{Watanabe2011}.}
+  \label{fig:MIROC}
+\end{figure}
+
+
+\section{Pre-procesamiento de los datos}
+
+Respecto de la DATABASE mencionada, se utiliz\'o la herramienta de software \textit{MATrix LABoratory} (MATLAB) en su versi\'on 2015a, con el fin de hacer compatible los archivos
+originales de las fuentes de polvo con los formatos necesarios para el modelo cGENIE. 
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|l|}
+\hline
+& \multicolumn{3}{c|}{Flujos globales} \\
+\cline{2-4}
+Modelo& Dimensiones & Variables & Unidades\\
+\hline \hline
+Lambert  & 128x64 & Deposici\'on total de flujo de hierro & $kg m^{-2} s^{-1}$\\ \hline
+Albani & 192x288 & Deposici\'on total de flujo de hierro & $g m^{-2} a^{-1}$\\ \hline
+\multirow{3}{1cm}{Takemura} &  & Flujo de hierro depositado en h\'umedo & $kg m^{-2} s^{-1}$\\ \cline{3-4}
+&128x64&Flujo de hierro depositado en seco & $kg m^{-2} s^{-1}$ \\ \cline{3-4}
+&&Flujo de hierro depositado por gravedad & $kg m^{-2} s^{-1}$\\\hline
+ \multirow{2}{1cm}{MIROC-ESM} &  & Flujo de hierro depositado en h\'umedo & $kg m^{-2} s^{-1}$\\ \cline{3-4}
+&128x64&Flujo de hierro depositado en seco & $kg m^{-2} s^{-1}$ \\ \hline 
+\multirow{2}{1cm}{MRI-CGCM3} &  & Flujo de hierro depositado en h\'umedo & $kg m^{-2} s^{-1}$\\ \cline{3-4}
+&128x64&Flujo de hierro depositado en seco & $kg m^{-2} s^{-1}$ \\ \hline 
+\end{tabular}
+\caption{Detalle de los modelos utilizados y las cacacter\'isticas asociadas a los campos de hierro globales}
+\label{tabla:Met1}
+\end{table}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.28\textwidth]{diagrama_met1.png}
+  \caption{Estructura del pre-procesamiento de los flujos de campo en MATLAB}
+  \label{fig:diagrama_met1}
+\end{figure}
+
+En primera instancia se traspasan todos los flujos de polvo con su respectiva malla datos
+a una grilla de 36x36 que ser\'a la trabajada en el modelo cGENIE (para lo cual ocupamos una funci\'on personal en Matlab).
+En seguida tendremos dos archivos de 
+polvo uno correspondiente al periodo pre-industrial y otro correspondiente al UMG. Luego para observar
+los cambios que se dan en estos periodos de forma x-espaciada es que generamos a partir de los datos 8 
+niveles intermedios de polvo. \\
+En algunos casos se hizo una suma de los distintos
+flujos de polvo presentes, que tienen una procedencia distinta y diferente tama\~no (los detalles de casa 
+fuente es proporcionado en la tabla \ref{tabla:Met1}. 
+
+Posteriormente se guardan en un formato legible para el modelo cGENIE (fichero de datos ``DAT''), a \'estos los denominamos ``niveles globales de polvo''. En este punto 
+es que se realiza un proceso alternativo a los datos y que consta de seccionar la grilla en distintos cuadrantes
+como se muestra en la figura \ref{fig:Grilla}. De esta manera se definen 4 zonas; Pac\'ifico Sur 
+(SP), Atl\'antico Sur (SA), Pac\'ifico Central (CP) y Pac\'ifico Norte (NP). En el cuadro \ref{tabla:MET2} se 
+especifican los detalles de cada zona. As\'i el procedimiento consta de mantener la grilla 1 correspondiente 
+al periodo preindustrial en todas las zonas donde no hay regiones seleccionadas para todos los niveles de 
+polvo (9 niveles restantes). De esta manera, en todos los archivos generados y en las secciones escogidas ser\'a la \'unica 
+parte de la grilla que mantendr\'a el flujo de polvo correspondiente a dicho periodo (aislando as\'i los cambios en las 
+zonas de nuestro inter\'es, permiti\'endonos estimar con mayor claridad los cambios en el $pCO^2$ global dados los flujos de
+de hierro en estas \'areas particulares).  
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=1\textwidth]{Grilla_todo.png}
+  \caption{ Grilla cGenie con la especificaci\'on de las zonas a usar en la simulaci\'on}
+  \label{fig:Grilla_todo}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=1\textwidth]{Grilla_SP_1.png}
+  \caption{ Grilla cGenie con la especificaci\'on de las zonas a usar en la simulaci\'on}
+  \label{fig:Grilla}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=1\textwidth]{Grilla_SP_1_1.png}
+  \caption{ Grilla cGenie con la especificaci\'on de las zonas a usar en la simulaci\'on}
+  \label{fig:Grilla}
+\end{figure}
+
+\begin{comment}
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{l|l|l|l|l}
+\hline
+\multirow{2}{1cm}{ Zona}& Latitud & Longitud &Puntos & \'Area \\
+ & cuadrante & cuadrante & de grilla & total  ($km^{2}$)\\
+\hline \hline
+America del Sur (SA)& -90 a -33.7490 & -70 a 150 & 176&  6.9268e+07 \\ \hline
+Pac\'ifico Sur (SP) & -90 a -33.7490 & -180 a -70 y 150 a 180& 112 & 4.4080e+07  \\ \hline
+Pac\'ifico Norte (NP) & 33.7490 a 90 &  -180 a -110 y 120 a 180 & 104 & 4.0931e+07\\ \hline
+Pac\'ifico Central (CP) & -12.8396 a 12.8396 & -180 a -80 y 120 a 180 & 128 & 5.0377e+07 \\ \hline
+\end{tabular}
+\caption{Caracter\'isticas de las zonas de \'interes escogidas.}
+\label{tabla:MET2}
+\end{center}
+\end{table}
+\end{comment}
+
+\section{Procesamiento, modelo cGENIE}
+
+Luego de haber configurado todos los campos de polvo, se procedi\'o a ejecutar el modelo cGENIE como se muestra
+a continuaci\'on.  
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.44\textwidth]{diagrama_met2.png}
+  \caption{Estructura del pre-procesamiento de los flujos de campo en MATLAB}
+  \label{fig:diagrama_met2}
+\end{figure}
+
+El modelo fue ejecutado en un cluster de la Universidad de BRISTOL. As\'i al ingresar a este fue necesario subir todos los
+archivos de polvo regrillados generados, a alguna carpeta dentro de \textit{genie-forcing} (donde se especifican los cambios 
+en las concentraciones de alg\'un forzante en el tiempo ``Condiciones de contorno del modelo'') ubicada en el 
+directorio \textit{Cgenie.muffin}. Luego replicamos alguna carpeta forzante almacenada originalmente dentro de este directorio y le 
+otorgamos el nombre ``worjh2.FeMODELO\_All.level*'' o ``worjh2.FeMODELO\_Regi\'on.level*''. Dentro de esta carpeta encontraremos 5 archivos: \\
+
+\begin{itemize}
+  \item[a) ] biogem\_force\_flux\_sed\_det\_sig.dat ``biogem\_force\_*\_I.dat''
+  \item[b) ] \textbf{biogem\_force\_flux\_sed\_det\_SUR.dat} ``biogem\_force\_*\_II.dat''
+  \item[c) ] configure\_forcings\_atm.dat
+  \item[d) ] configure\_forcings\_ocn.dat
+  \item[e) ] configure\_forcings\_sed.da
+\end{itemize}
+
+El forzamiento de los trazadores de la atm\'osfera, el oc\'eano y los sedimentos se tratan por separado. 
+Adem\'as los archivos a) y b), contienen informaci\'on sobre distribuciones espaciales. El formato de datos del archivo b) es 2-D 
+para la atm\'osfera o oc\'eano superficial, as\'i son grupos de datos que contienen - filas (j) y columnas (i). 
+Adem\'as se relacionan aplicando a la magnitud del forzamiento en cada ubicaci\'on (i,j) (archivo b), que contienen los campos 
+de hierro creados) en un determinado tiempo (t) definido en el archivo a), y por una cantidad de tiempo que es tambi\'en
+definida en dicho archivo, una funci\'on F(i,j) m\'as un trazador dependiente del tiempo ($S_{(t)}$), que se construye a partir de la 
+diferencia entre los dos campos espaciales (\ref{eq:met1}). 
+
+\begin{equation} \label{eq:met1}
+F_{(i,j),(t)}= biogem\_force\_*\_I_{(i,j)}\ +\ S_{(t)}\ \times\ (biogem\_force\_*\_II_{(i,j)}\ -\ biogem\_force\_*\_I_{(i,j)})
+\end{equation}
+
+El valor del trazador de escala ($S_{(t)}$) es interpolado desde los contenidos de la se\~nal forzante del archivo 
+biogem\_force\_flux\_sed\_det\_SUR.dat. 
+
+As\'i en el archivo a) se especific\'o un campo de forzado m\'inimo y un campo de forzamiento m\'aximo y  
+valores normalizados 0.0 o 1.0. En este punto se hicieron dos procesos. 
+
+Respecto de los otros tres archivos c),d) y e) (de configuraci\'on) s\'olo se trabaj\'o con el trazador
+\textit{configure\_forcings\_sed.dat}. 
+
+Luego de crear las carpetas y archivos para todos los niveles de polvo, para cada modelo y para cada tipo (si regional o global), es que 
+se crean los archivos y carpetas de configuraci\'on tanto de los trazadores como de la corrida. Las cuales dentro de ella llaman a los
+trazadores antes creados, estas carpetas las hallamos en el directorio \textit{genie-Userconfig} dentro del directorio \textit{cgenie.muffin}.
+
+Finalmente procedemos a correr el modelo. En la l\'inea de comando del cluster BRISTOL, dentro del directorio genie-main ingresamos el comando: 
+( \$ qsub -j y -o cgenie\_log -V -S /bin/bash runmuffin.sh ) junto con una lista de parametros que permiten correr el modelo.\\
+\$... ./runmuffin \#1 \#2 \#3 \#4 (\#5)
+
+Estos par\'ametros son:\\
+\#1 es el nombre de la configuraci\'on b\'asica requerida para el modelo, en este caso ser\'a\\
+\textit{cgenie.eb\_go\_gs\_ac\_bg.worjh2.BASEFe} en particular esta incluye trazadores marinos para el ciclo de hierro.\\
+\#2 nombre del subdirectorio que contiene los archivos ``user-config'', en nuestro caso ``DUST''. \\
+\#3 nombre del archivo de configuraci\'on (user-config).\\
+\#4 longitud de la corrida en a\~nos, en nuestro caso 10000 a\~nos. \\
+\#5 corrida de arranque (periodo preindustrial), en nuestro caso ``worjh2.PO4Fe.SPIN''. 
+
+As\'i en primera instancia se creo un  \textit{SPIN-UP} con el fin de dar un periodo de arranque al modelo hasta que \'este logra estabilizarse. 
+En este caso en particular el archivo a) multiplica todos los valores del archivo b) con un factor de 0.0 que es constante hasta el final 
+de la corrida (10000 a\~nos). Puesto que el periodo preindustrial es fijado con $pCO_2$ en 280 ppm. 
+De esta manera s\'olo buscamos ver en qu\'e punto el modelo se hace estable y no ver c\'omo var\'ia el pCO2 a
+partir de los flujos de hierro (ver en {\bf Anexos} figura: \ref{fig:SPIN}). 
+
+Luego de hacer este test, hacemos las corridas a partir de campos de hierro de distintos modelos y con el arranque SPIN-UP,
+cada uno de los cuales por un periodo de 10000 a\~nos y con un factor constante de 1, para que se mantenga los valores de los campos de hierro. 
+De esta forma se hacen corridas tantos regionales (SA, SP, NP y CP) para los 10 niveles de polvo, as\'i como corridas globales, llamadas ``All'' 
+(ver en {\bf Anexos} figura: \ref{fig:HOL}, \ref{fig:UMG} correspondiente a los campos globales).
+
+Al finalizar la corrida los archivos de salida (resultados) son almacenados dentro del directorio \textit{cgenie\_output}. 
+
+\section{Post-Procesamiento}
+
+Los archivos de $pCO^2$ obtenidos del modelo cGENIE, son procesados en el software \textit{Matlab} en el cual se procede de la siguiente manera: 
+
+\begin{itemize}
+  \item[a) ] Sacamos la diferencia de $pCO^2$ entre cada nivel desde el periodo preindustrial (nivel 1) hasta el \'Ultimo M\'aximo Glacial (nivel 10) 
+  \item[b) ] Cargamos los flujos de hierro en unidades de $kg\ m^{-2} s^-1$ (Tanto global, como regional dependiendo del caso)
+  \item[c) ] En el caso del flujo global, se hiz\'o un promedio del $pCO^2$ obtenido con cGENIE, para los 10 periodos (niveles). 
+  \item[d) ] Para el caso del flujo regional, se multiplic\'o el flujo de hierro de una celda con el \'area de dicha celda para obtener la masa de polvo
+  que se deposita en dicha celda cada a\~no. Luego sumamos la masa de cada celda en una regi\'on y tenemos la masa total de polvo que se deposita en esta regi\'on. \\
+  Por otro lado, para obtener una fracci\'on de \'area de la tierra en funci\'on de una latitud y longitud determinada, vamos a considerar la tierra una esfera de tipo
+  elipsoide (figura \ref{fig:mundo1_met}). Donde la ecuaci\'on \ref{eq:met2} nos permiti\'o obtener dicha \'area. 
+  \begin{equation} \label{eq:met2}
+   A_{sup}=\displaystyle\int_{\varphi_1}^{\varphi_2} R \left( \displaystyle\int_{\lambda_2}^{\lambda_2} R\ cos\varphi\ d\lambda \right) d\varphi = R^{2} 
+  \left(\lambda_2 - \lambda_1 \right) \left(sen\varphi_2 - sen\varphi_1 \right) 
+  \end{equation}
+  
+   Donde R es el radio de la tierra (apr\'oximadamente 6371 km); y donde\\
+   $ 0\leqq \lambda_1 \leqq \lambda \leqq \lambda_2 \leqq 2\pi $ y donde, $ \frac{-\pi}{2} \leqq \varphi_1 \leqq \varphi \leqq \varphi_2 \leqq \frac{\pi}{2}$.
+  
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=0.3\textwidth]{mundo1_met.png}
+  \caption{\'Area superficial de una celda de grilla entre longitudes $ \lambda_1\ y\ \lambda_2 $ y latitudes $ \varphi_1\ y\ \varphi_2$.}
+  \label{fig:mundo1_met}
+\end{figure}
+
+ Para realizar el calculo anterior se ocupo una funci\'on MATLAB denomida \textit{areaquad} y los datos de longitud y latitud de cuadrantes especificados en
+ la tabla \ref{tabla:MET2} . As\'i los resultados son expresado en unidades de metros cuadrados ($m^{2}$).
+
+  \item[e) ] Se graficaron las diferencias de $pCO^2$ respecto del hierro en cada nivel, y se ajust\'o una curva a los datos. 
+  
+  \item[f) ] Por otro lado, se calcul\'o en porcentaje la reducci\'on de cada nivel para cada zona de inter\'es respecto del UMG. As\'i mismo, el porcentaje del 
+  UMG para cada zona de estudio respecto del total de reducci\'on del $pCO_2$ en el nivel 10 considerando todas las fuentes y regiones. 
+  
+%  a vez graficadas todas las salidas tanto regionales como para todo el globo, se dividen las salidas regionales de cada 
+%  campo de polvo, por sus niveles globales del mismo campo y se multiplican por 100, con el objetivo de obtener el valor porcentual 
+%  que aporta cada regi\'on del oc\'eano al nivel de polvo global. 
+  
+%  \item[g)] {\bf Finalmente, se obtuvieron gr\'aficas que muestra por regi\'on el promedio porcentual de las diferencias de polvo por nivel, 
+%  a la vez que muestran el rango de variabilidad porcentual de cada nivel. De esta manera podemos saber cu\'anto aporta cada regi\'on a la
+%  reducci\'on estimada de 20 ppm de $pCO_{2}$ y la incertidumbre asociada a los distintos campos de polvo. }
+\end{itemize}
+
+
+

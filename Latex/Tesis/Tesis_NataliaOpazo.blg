@@ -1,0 +1,84 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/dev/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Tesis_NataliaOpazo.aux
+The style file: apalike.bst
+Database file #1: Citas2.bib
+Repeated entry---line 175 of file Citas2.bib
+ : @article{luthi2008high
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 220 of file Citas2.bib
+ : @article{sleep2001carbon
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 456 of file Citas2.bib
+ : @article{sigman2000glacial
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 478 of file Citas2.bib
+ : @article{denton2010last
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 544 of file Citas2.bib
+ : @article{lynch2007atlantic
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 564 of file Citas2.bib
+ : @article{ferrari2014antarctic
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 573 of file Citas2.bib
+ : @article{toggweiler2006midlatitude
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 692 of file Citas2.bib
+ : @article{toggweiler2006midlatitude
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 847 of file Citas2.bib
+ : @article{kohfeld2001dirtmap
+ :                            ,
+I'm skipping whatever remains of this entry
+Warning--empty publisher in IPCC2014
+You've used 83 entries,
+            1935 wiz_defined-function locations,
+            972 strings with 21929 characters,
+and the built_in function-call counts, 40336 in all, are:
+= -- 3801
+> -- 2322
+< -- 39
++ -- 870
+- -- 834
+* -- 3838
+:= -- 7055
+add.period$ -- 250
+call.type$ -- 83
+change.case$ -- 818
+chr.to.int$ -- 83
+cite$ -- 84
+duplicate$ -- 1250
+empty$ -- 2416
+format.name$ -- 951
+if$ -- 7659
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 86
+newline$ -- 417
+num.names$ -- 249
+pop$ -- 665
+preamble$ -- 1
+purify$ -- 821
+quote$ -- 0
+skip$ -- 988
+stack$ -- 0
+substring$ -- 2699
+swap$ -- 171
+text.length$ -- 10
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 492
+warning$ -- 1
+while$ -- 300
+width$ -- 0
+write$ -- 1082
+(There were 9 error messages)

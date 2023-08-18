@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="diagrama_met1svg.svg">
+  <defs
+     id="defs4">
+    <symbol
+       id="Process">
+      <title
+         id="title3494">Process</title>
+      <desc
+         id="desc3496">Any processing function.</desc>
+      <rect
+         x="15"
+         y="35"
+         width="120"
+         height="80"
+         style="stroke-width:2"
+         id="rect3498" />
+    </symbol>
+    <symbol
+       id="Decision">
+      <title
+         id="title3536">Decision</title>
+      <desc
+         id="desc3538">A decision or switching type operation.</desc>
+      <path
+         d="m 15,75 60,-40 60,40 -60,40 z"
+         style="stroke-width:2"
+         id="path3540" />
+    </symbol>
+    <symbol
+       id="Connector">
+      <title
+         id="title3622">Connector</title>
+      <desc
+         id="desc3624">Exit to or entry from another part of chart.</desc>
+      <circle
+         cx="75"
+         cy="75"
+         r="20"
+         style="stroke-width:2"
+         id="circle3626" />
+    </symbol>
+    <symbol
+       id="MagneticTape">
+      <title
+         id="title3543">Magnetic Tape</title>
+      <desc
+         id="desc3545">Magnetic tape storage</desc>
+      <circle
+         cx="75"
+         cy="75"
+         r="40"
+         style="stroke-width:2"
+         id="circle3547" />
+      <path
+         d="m 75,115 40,0"
+         style="stroke-width:2"
+         id="path3549" />
+    </symbol>
+    <symbol
+       id="Preparation">
+      <title
+         id="title3522">Preparation</title>
+      <desc
+         id="desc3524">A preparation or setup process step. (ISO)</desc>
+      <path
+         d="m 35,35 80,0 20,40 -20,40 -80,0 -20,-40 z"
+         style="stroke-width:2px"
+         id="path3526" />
+    </symbol>
+    <symbol
+       id="CommunicationLink">
+      <title
+         id="title3643">Communication Link</title>
+      <desc
+         id="desc3645">Transcommunication link.</desc>
+      <path
+         d="m 65,25 0,60 20,-20 0,60"
+         style="fill:none;stroke-width:2"
+         id="path3647" />
+    </symbol>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.04"
+     inkscape:cx="260.87739"
+     inkscape:cy="586.86087"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-text-baseline="true"
+     inkscape:object-nodes="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:window-width="1855"
+     inkscape:window-height="1056"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 347.82693,496.49682 209.39651,0 c 2,0 4,2 4,4 l 0,313.40385"
+       id="path11402"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="4"
+       inkscape:export-filename="/home/naty/Documents/Latex_tesis/Figuras_naty/prueba"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.42177832px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 349.5329,171.40343 -0.33328,118.61016"
+       id="path10174"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="3"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/naty/Documents/Latex_tesis/Figuras_naty/prueba" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 350.40265,674.59296 -1.59497,173.07696"
+       id="path10182"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="3"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/naty/Documents/Latex_tesis/Figuras_naty/prueba" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 350.59616,488.88144 -3.15385,216.92307"
+       id="path10168"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="3"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/naty/Documents/Latex_tesis/Figuras_naty/prueba" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 351.49915,289.99666 -3.67222,206.50016"
+       id="path10166"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="3"
+       inkscape:connection-start="#use9078"
+       inkscape:connection-end="#use9967"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/naty/Documents/Latex_tesis/Figuras_naty/prueba" />
+    <use
+       id="use9078"
+       style="opacity:1;fill:#eeaaaa;stroke:#000000;fill-opacity:1"
+       xlink:href="#Process"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="matrix(1.6503963,0,0,1.2175152,227.71943,198.68302)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/naty/Documents/Latex_tesis/Figuras_naty/prueba" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="355.18863"
+       y="224.14201"
+       id="text9917"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/naty/Documents/Latex_tesis/Figuras_naty/prueba"><tspan
+         sodipodi:role="line"
+         id="tspan9919"
+         x="355.18863"
+         y="224.14201" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       x="565.97815"
+       y="169.36993"
+       id="text9925"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/naty/Documents/Latex_tesis/Figuras_naty/prueba"><tspan
+         sodipodi:role="line"
+         id="tspan9927"
+         x="565.97815"
+         y="169.36993" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="663.0741"
+       y="127.04606"
+       id="text9929"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/naty/Documents/Latex_tesis/Figuras_naty/prueba"><tspan
+         sodipodi:role="line"
+         id="tspan9931"
+         x="663.0741"
+         y="127.04606" /><tspan
+         sodipodi:role="line"
+         x="663.0741"
+         y="177.04605"
+         id="tspan9933" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="303.69229"
+       y="294.66989"
+       id="text9937"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/naty/Documents/Latex_tesis/Figuras_naty/prueba"><tspan
+         sodipodi:role="line"
+         id="tspan9939"
+         x="303.69229"
+         y="294.66989"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Accanthis ADF Std';-inkscape-font-specification:'Accanthis ADF Std, Bold';text-align:start;writing-mode:lr-tb;text-anchor:start">Regrillado </tspan></text>
+    <use
+       id="use9967"
+       style="fill:#eeaaaa;stroke:#000000;fill-opacity:1"
+       xlink:href="#Decision"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="matrix(1.9878824,0,0,2.0862886,198.73575,340.02518)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/naty/Documents/Latex_tesis/Figuras_naty/prueba" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="350.96158"
+       y="500.43912"
+       id="text9983"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/naty/Documents/Latex_tesis/Figuras_naty/prueba"><tspan
+         sodipodi:role="line"
+         id="tspan9985"
+         x="350.96158"
+         y="500.43912"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Accanthis ADF Std';-inkscape-font-specification:'Accanthis ADF Std, Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle">Generación de niveles</tspan><tspan
+         sodipodi:role="line"
+         x="350.96158"
+         y="525.43915"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Accanthis ADF Std';-inkscape-font-specification:'Accanthis ADF Std, Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         id="tspan10003"> intermedios</tspan></text>
+    <use
+       id="use10122"
+       style="fill:#eeaaaa;stroke:#000000;fill-opacity:1"
+       xlink:href="#Preparation"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="matrix(1.9242267,0,0,1.4759822,202.35608,602.72123)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/naty/Documents/Latex_tesis/Figuras_naty/prueba" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="346.73077"
+       y="696.59296"
+       id="text10138"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/naty/Documents/Latex_tesis/Figuras_naty/prueba"><tspan
+         sodipodi:role="line"
+         x="350.40265"
+         y="696.59296"
+         id="tspan10142"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Accanthis ADF Std';-inkscape-font-specification:'Accanthis ADF Std, Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle">Selección de </tspan><tspan
+         sodipodi:role="line"
+         x="346.73077"
+         y="721.59296"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Accanthis ADF Std';-inkscape-font-specification:'Accanthis ADF Std, Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         id="tspan10160">cuadrantes regionales</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot10144"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/naty/Documents/Latex_tesis/Figuras_naty/prueba"><flowRegion
+         id="flowRegion10146"><rect
+           id="rect10148"
+           width="298.07693"
+           height="75"
+           x="336.53845"
+           y="696.59296" /></flowRegion><flowPara
+         id="flowPara10150" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="348.80768"
+       y="869.66992"
+       id="text10162"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/naty/Documents/Latex_tesis/Figuras_naty/prueba"><tspan
+         sodipodi:role="line"
+         id="tspan10164"
+         x="348.80768"
+         y="869.66992"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Accanthis ADF Std';-inkscape-font-specification:'Accanthis ADF Std, Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle">Salida en formato legible cGENIE</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 362.11798,129.11267 0,0"
+       id="path10170"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="3"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/naty/Documents/Latex_tesis/Figuras_naty/prueba" />
+    <use
+       id="use10272"
+       style="fill:#aaccee;stroke:#000000;opacity:0"
+       xlink:href="#Process"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="matrix(2.4917442,0,0,0.7856932,161.67688,63.031369)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/naty/Documents/Latex_tesis/Figuras_naty/prueba" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="347.23337"
+       y="133.72804"
+       id="text9921"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/naty/Documents/Latex_tesis/Figuras_naty/prueba"><tspan
+         sodipodi:role="line"
+         x="347.23337"
+         y="133.72804"
+         id="tspan9935"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Accanthis ADF Std';-inkscape-font-specification:'Accanthis ADF Std, Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle">Campos de flujos de hierro</tspan><tspan
+         sodipodi:role="line"
+         x="347.23337"
+         y="158.72804"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Accanthis ADF Std';-inkscape-font-specification:'Accanthis ADF Std, Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         id="tspan10007">global</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.90750337px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 561.22344,813.90067 0,23.76925 c 0,2 -2,4 -4,4 l -208.41576,0"
+       id="path11377"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="4"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/naty/Documents/Latex_tesis/Figuras_naty/prueba" />
+  </g>
+</svg>

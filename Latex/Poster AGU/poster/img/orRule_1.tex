@@ -1,0 +1,55 @@
+% Para incluir orRule_1.tex en un doc LaTeX se puede insertar el siguiente codigo:
+
+% \usepackage{tikz}
+% \usepackage{pgffor}
+% 
+% \foreach \n in {1,...,10}{
+% \only<\n>{
+% \begin{center} 
+% 	\begin{tikzpicture}[scale=1.0]
+% 		\input{./orRule/orRule_\n}
+% 	\end{tikzpicture}
+% \end{center}}}
+
+
+\fill[red]   (-4,-3) node (v6) {} rectangle (-3,6);
+\fill[red]  (v6) rectangle (5,-2);
+\draw[color=black, thick] (-4,-3) rectangle (5,6);
+
+\fill [gray!30,ultra thick](-3,6) -- (-3,5) -- (-2,5) -- (-2,4) -- (-1,4) -- (-1,3) --  (0,3) node (v1) {} -- (0,2) -- (1,2) -- (1,1) -- (2,1) -- (2,0) -- (3,0) -- (3,-1) -- (4,-1) -- (4,-2) -- (5,-2) node (v2) {} -- (5,-3) -- (5,6) node (v3) {} -- (-4,6)--(-3,6);
+\draw[color=gray!50, thick] (-4,-3)  {} grid (5,6);
+\draw [blue,line width=1mm,](-3,6) -- (-3,5) -- (-2,5) -- (-2,4) -- (-1,4) -- (-1,3) --  (0,3) node (v1_1) {} -- (0,2) -- (1,2) -- (1,1) -- (2,1) -- (2,0) -- (3,0) -- (3,-1) -- (4,-1) -- (4,-2) -- (5,-2) node (v2_1) {} -- (5,-3) -- (-4,-3) node (v3_1) {} -- (-4,6)--(-3,6);
+\draw [blue,ultra thick]  (-3,-2) rectangle (v3_1);
+
+\fill[black] (-4,5) rectangle (-3,6); 
+\fill[black] (-1,2) rectangle (0,3); 
+\fill[black] (4,-3) rectangle (5,-2); 
+
+\draw [->] (-3.5,5.5) -- (-3.5,4.5) node (v4) {};
+\draw [->] (-2.5,4.5) -- (v4);
+
+\draw [->] (-2.5,4.5) -- (-2.5,3.5) node (v4_1) {};
+\draw [->] (-1.5,3.5) -- (v4_1);
+
+\draw [->] (-1.5,3.5) -- (-1.5,2.5) node (v4_2) {};
+\draw [->] (-0.5,2.5) -- (v4_2);
+
+
+\draw [->] (-0.5,2.5) -- (-0.5,1.5) node (v4_3) {};
+\draw [->] (0.5,1.5) -- (v4_3);
+
+
+\draw [->] (0.5,1.5) -- (0.5,0.5) node (v4_4) {};
+\draw [->] (1.5,0.5) -- (v4_4);
+
+
+\draw [->] (1.5,0.5) -- (1.5,-0.5) node (v4_5) {};
+\draw [->] (2.5,-0.5) -- (v4_5);
+
+\draw [->] (2.5,-0.5) -- (2.5,-1.5) node (v4_6) {};
+\draw [->] (3.5,-1.5) -- (v4_6);
+
+\draw [->] (3.5,-1.5) -- (3.5,-2.5) node (v4_7) {};
+\draw [->] (4.5,-2.5) -- (v4_7);
+
+

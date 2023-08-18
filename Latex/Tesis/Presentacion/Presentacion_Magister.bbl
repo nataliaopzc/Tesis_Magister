@@ -1,0 +1,392 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{albani2014improved}{article}{}
+      \name{author}{9}{}{%
+        {{hash=056efd4a1647c2f584aab16c4f280544}{%
+           family={Albani},
+           familyi={A\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f6c989a78d14353802c3ab0e9659f585}{%
+           family={Mahowald},
+           familyi={M\bibinitperiod},
+           given={NM},
+           giveni={N\bibinitperiod}}}%
+        {{hash=7c2bbfa1d72c65f16e4511b8c95376e9}{%
+           family={Perry},
+           familyi={P\bibinitperiod},
+           given={AT},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b1305c23201dcf84fe49b2dbfef4fa6f}{%
+           family={Scanza},
+           familyi={S\bibinitperiod},
+           given={RA},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c872c8ec9e160c4fde885e75571726c8}{%
+           family={Zender},
+           familyi={Z\bibinitperiod},
+           given={CS},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0596538372ed2a245d462acd9e3ec373}{%
+           family={Heavens},
+           familyi={H\bibinitperiod},
+           given={NG},
+           giveni={N\bibinitperiod}}}%
+        {{hash=f9a1a1fbd2e9ba8664fe6794b51b50fd}{%
+           family={Maggi},
+           familyi={M\bibinitperiod},
+           given={V},
+           giveni={V\bibinitperiod}}}%
+        {{hash=7661e98810740b315bd2a694a2cabcc0}{%
+           family={Kok},
+           familyi={K\bibinitperiod},
+           given={JF},
+           giveni={J\bibinitperiod}}}%
+        {{hash=09164f8c69185f2353dc20ffe010dc12}{%
+           family={Otto-Bliesner},
+           familyi={O\bibinithyphendelim B\bibinitperiod},
+           given={BL},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{effc044d8627fc644b0385b13d69a0a5}
+      \strng{fullhash}{effc044d8627fc644b0385b13d69a0a5}
+      \strng{bibnamehash}{effc044d8627fc644b0385b13d69a0a5}
+      \strng{authorbibnamehash}{effc044d8627fc644b0385b13d69a0a5}
+      \strng{authornamehash}{effc044d8627fc644b0385b13d69a0a5}
+      \strng{authorfullhash}{effc044d8627fc644b0385b13d69a0a5}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Advances in Modeling Earth Systems}
+      \field{number}{3}
+      \field{title}{Improved dust representation in the Community Atmosphere Model}
+      \field{volume}{6}
+      \field{year}{2014}
+      \field{pages}{541\bibrangedash 570}
+      \range{pages}{30}
+    \endentry
+    \entry{lambert2015dust}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{8}{}{%
+        {{hash=6dac670e511a6a2f960bbc139394404e}{%
+           family={Lambert},
+           familyi={L\bibinitperiod},
+           given={Fabrice},
+           giveni={F\bibinitperiod}}}%
+        {{hash=65c31e4dadc6be2878b031480b394494}{%
+           family={Tagliabue},
+           familyi={T\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0e30f47385f24ad812f40dd03f0dab7a}{%
+           family={Shaffer},
+           familyi={S\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod}}}%
+        {{hash=4e6222da40fa475e75f40f4efb7f2734}{%
+           family={Lamy},
+           familyi={L\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=1f98b635a9dd792543ae3071044080f3}{%
+           family={Winckler},
+           familyi={W\bibinitperiod},
+           given={Gisela},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9f4417f4a8ff130253687b4f69d785d0}{%
+           family={Farias},
+           familyi={F\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod}}}%
+        {{hash=de860e2f38c842a2e9713f25eb5e5c75}{%
+           family={Gallardo},
+           familyi={G\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f0eebcc55aff94751e9b15f7a98106fc}{%
+           family={Pol-Holz},
+           familyi={P\bibinithyphendelim H\bibinitperiod},
+           given={De},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{6ee0e0517cbd58a7ccc4ab17ff8b41e1}
+      \strng{fullhash}{6ee0e0517cbd58a7ccc4ab17ff8b41e1}
+      \strng{bibnamehash}{6ee0e0517cbd58a7ccc4ab17ff8b41e1}
+      \strng{authorbibnamehash}{6ee0e0517cbd58a7ccc4ab17ff8b41e1}
+      \strng{authornamehash}{6ee0e0517cbd58a7ccc4ab17ff8b41e1}
+      \strng{authorfullhash}{6ee0e0517cbd58a7ccc4ab17ff8b41e1}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{number}{14}
+      \field{title}{Dust fluxes and iron fertilization in Holocene and Last Glacial Maximum climates}
+      \field{volume}{42}
+      \field{year}{2015}
+      \field{pages}{6014\bibrangedash 6023}
+      \range{pages}{10}
+    \endentry
+    \entry{ridgwell2007regulation}{article}{}
+      \name{author}{2}{}{%
+        {{hash=8cede4b4eea72b79219f9fe4dad1625c}{%
+           family={Ridgwell},
+           familyi={R\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f10a21b6162a3a4719a677611a2531b8}{%
+           family={Hargreaves},
+           familyi={H\bibinitperiod},
+           given={JC},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{4d9e5fd3250f706cd2a0aa3bc91975b7}
+      \strng{fullhash}{4d9e5fd3250f706cd2a0aa3bc91975b7}
+      \strng{bibnamehash}{4d9e5fd3250f706cd2a0aa3bc91975b7}
+      \strng{authorbibnamehash}{4d9e5fd3250f706cd2a0aa3bc91975b7}
+      \strng{authornamehash}{4d9e5fd3250f706cd2a0aa3bc91975b7}
+      \strng{authorfullhash}{4d9e5fd3250f706cd2a0aa3bc91975b7}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Global Biogeochemical Cycles}
+      \field{number}{2}
+      \field{title}{Regulation of atmospheric CO2 by deep-sea sediments in an Earth system model}
+      \field{volume}{21}
+      \field{year}{2007}
+    \endentry
+    \entry{sueyoshi2013set}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=cf5aaa1813058a46f230def71289baa1}{%
+           family={Sueyoshi},
+           familyi={S\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f7a6d9e14bd3f244175ad3a88bf56548}{%
+           family={Ohgaito},
+           familyi={O\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3d360e717e48456d02c3b14bc435312e}{%
+           family={Yamamoto},
+           familyi={Y\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=117e25f90bbdc934405deca9fd9bb8f9}{%
+           family={Chikamoto},
+           familyi={C\bibinitperiod},
+           given={MO},
+           giveni={M\bibinitperiod}}}%
+        {{hash=dc7c1959202009d7f1d8f225778765e9}{%
+           family={Hajima},
+           familyi={H\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod}}}%
+        {{hash=39d41b6ad6c2bdd7218e1c576083db69}{%
+           family={Okajima},
+           familyi={O\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=7c0ea96e87e22bbaf226d3a2609ae5ea}{%
+           family={Yoshimori},
+           familyi={Y\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=59f1a75ee381d73cd4e48fa14453d559}{%
+           family={Abe},
+           familyi={A\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=69cc5c12f166a978bca1726ed5bdbbea}{%
+           family={O'ishi},
+           familyi={O\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a394bdffb26c96375a68e2af9218a412}{%
+           family={Saito},
+           familyi={S\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Copernicus GmbH}%
+      }
+      \strng{namehash}{c1598407147e4462a4e2425c3e46de16}
+      \strng{fullhash}{c1598407147e4462a4e2425c3e46de16}
+      \strng{bibnamehash}{c1598407147e4462a4e2425c3e46de16}
+      \strng{authorbibnamehash}{c1598407147e4462a4e2425c3e46de16}
+      \strng{authornamehash}{c1598407147e4462a4e2425c3e46de16}
+      \strng{authorfullhash}{c1598407147e4462a4e2425c3e46de16}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Geoscientific Model Development}
+      \field{number}{3}
+      \field{title}{Set-up of the PMIP3 paleoclimate experiments conducted using an Earth system model, MIROC-ESM}
+      \field{volume}{6}
+      \field{year}{2013}
+      \field{pages}{819\bibrangedash 836}
+      \range{pages}{18}
+    \endentry
+    \entry{takemura2009simulation}{article}{}
+      \name{author}{6}{}{%
+        {{hash=734ade046a0330475e41df523e6f68b7}{%
+           family={Takemura},
+           familyi={T\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod}}}%
+        {{hash=aac7508fd99af92695799f4c1e551f5c}{%
+           family={Egashira},
+           familyi={E\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=35b2cee229059ff7ed0eebaf547bf22f}{%
+           family={Matsuzawa},
+           familyi={M\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=9424ad0b432d28085548dd30100789ce}{%
+           family={Ichijo},
+           familyi={I\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=69cc5c12f166a978bca1726ed5bdbbea}{%
+           family={O'ishi},
+           familyi={O\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9a95218a28b000199a58c92bf114aff4}{%
+           family={Abe-Ouchi},
+           familyi={A\bibinithyphendelim O\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6e49ca8b786e53dfb31cd4cbe33bc3e9}
+      \strng{fullhash}{6e49ca8b786e53dfb31cd4cbe33bc3e9}
+      \strng{bibnamehash}{6e49ca8b786e53dfb31cd4cbe33bc3e9}
+      \strng{authorbibnamehash}{6e49ca8b786e53dfb31cd4cbe33bc3e9}
+      \strng{authornamehash}{6e49ca8b786e53dfb31cd4cbe33bc3e9}
+      \strng{authorfullhash}{6e49ca8b786e53dfb31cd4cbe33bc3e9}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Atmospheric Chemistry \& Physics}
+      \field{number}{9}
+      \field{title}{A simulation of the global distribution and radiative forcing of soil dust aerosols at the Last Glacial Maximum.}
+      \field{volume}{9}
+      \field{year}{2009}
+    \endentry
+    \entry{yukimoto2012new}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=14818c0c5bca0d8d5c96931387cc5caa}{%
+           family={Yukimoto},
+           familyi={Y\bibinitperiod},
+           given={Seiji},
+           giveni={S\bibinitperiod}}}%
+        {{hash=aaf3fa4241ff7fb82cc7e3eaa7377b9d}{%
+           family={Adachi},
+           familyi={A\bibinitperiod},
+           given={Yukimasa},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=4472a83cac7d8df78465c7e50e0eef83}{%
+           family={Hosaka},
+           familyi={H\bibinitperiod},
+           given={Masahiro},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b786ee747512c7632fed6b25fc261600}{%
+           family={Sakami},
+           familyi={S\bibinitperiod},
+           given={Tomonori},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a807c3301bece03f99ec1f8adb5fcfb8}{%
+           family={Yoshimura},
+           familyi={Y\bibinitperiod},
+           given={Hiromasa},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e29813db9e77faae888ece5399966240}{%
+           family={Hirabara},
+           familyi={H\bibinitperiod},
+           given={Mikitoshi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f9fb2c0aa7a43c49818e3cef373ffec6}{%
+           family={Tanaka},
+           familyi={T\bibinitperiod},
+           given={Taichu\bibnamedelima Y},
+           giveni={T\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=8c94acf0d3470d24d619f19ce16a7b1c}{%
+           family={Shindo},
+           familyi={S\bibinitperiod},
+           given={Eiki},
+           giveni={E\bibinitperiod}}}%
+        {{hash=741be6ca80c591326dc48c1e3216111b}{%
+           family={Tsujino},
+           familyi={T\bibinitperiod},
+           given={Hiroyuki},
+           giveni={H\bibinitperiod}}}%
+        {{hash=68ca3b6d304963bef4a1832f28797737}{%
+           family={Deushi},
+           familyi={D\bibinitperiod},
+           given={Makoto},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Meteorological Society of Japan}%
+      }
+      \strng{namehash}{4e274b0710595de6435ed239a11f0429}
+      \strng{fullhash}{4e274b0710595de6435ed239a11f0429}
+      \strng{bibnamehash}{4e274b0710595de6435ed239a11f0429}
+      \strng{authorbibnamehash}{4e274b0710595de6435ed239a11f0429}
+      \strng{authornamehash}{4e274b0710595de6435ed239a11f0429}
+      \strng{authorfullhash}{4e274b0710595de6435ed239a11f0429}
+      \field{sortinit}{Y}
+      \field{sortinithash}{b8d711a035f7be9840c721c82920477e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Meteorological Society of Japan. Ser. II}
+      \field{title}{A new global climate model of the Meteorological Research Institute: MRI-CGCM3—model description and basic performance—}
+      \field{volume}{90}
+      \field{year}{2012}
+      \field{pages}{23\bibrangedash 64}
+      \range{pages}{42}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

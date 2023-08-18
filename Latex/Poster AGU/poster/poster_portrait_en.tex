@@ -1,0 +1,686 @@
+\documentclass[portrait,final,a0paper,fontscale=0.277]{baposter}
+
+\usepackage{calc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{relsize}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{bm}
+\usepackage{enumitem}
+\usepackage{url}
+\usepackage{booktabs}
+ 
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{color, colortbl}
+  %\floatname{algorithm}{algorithm}
+  \renewcommand{\algorithmicrequire}{\textbf{Input:}}
+  \renewcommand{\algorithmicensure}{\textbf{Output:}} 
+%\usepackage{times}
+%\usepackage{helvet}
+%\usepackage{bookman}
+
+\usepackage{anyfontsize}
+\usepackage{palatino}
+\usepackage{array}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\newcommand{\captionfont}{\footnotesize}
+
+\graphicspath{{images/}{../images/}}
+\usetikzlibrary{calc}
+
+
+\newcommand{\Matrix}[1]{\begin{bmatrix} #1 \end{bmatrix}}
+\newcommand{\Vector}[1]{\begin{pmatrix} #1 \end{pmatrix}}
+
+\newcommand*{\norm}[1]{\mathopen\| #1 \mathclose\|}% use instead of $\|x\|$
+\newcommand*{\abs}[1]{\mathopen| #1 \mathclose|}% use instead of $\|x\|$
+\newcommand*{\normLR}[1]{\left\| #1 \right\|}% use instead of $\|x\|$
+
+\newcommand*{\SET}[1]  {\ensuremath{\mathcal{#1}}}
+\newcommand*{\FUN}[1]  {\ensuremath{\mathcal{#1}}}
+\newcommand*{\MAT}[1]  {\ensuremath{\boldsymbol{#1}}}
+\newcommand*{\VEC}[1]  {\ensuremath{\boldsymbol{#1}}}
+\newcommand*{\CONST}[1]{\ensuremath{\mathit{#1}}}
+
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\diag}{diag}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\vectorize}{vec}
+\DeclareMathOperator*{\reshape}{reshape}
+
+%\font\dsfnt=dsrom12
+
+\newcommand{\SNN}{\ensuremath{\mathbb N}}
+\newcommand{\SRR}{\ensuremath{\mathbb R}}
+\newcommand{\SZZ}{\ensuremath{\mathbb Z}}
+%-----------------------------------------------------------------------------
+% Matrices of the shape model
+\renewcommand{\a}{\VEC\alpha}
+\renewcommand{\v}{\VEC v}
+\renewcommand{\l}{\VEC l}
+\newcommand*{\m}{\VEC{\mu}}
+\newcommand*{\M}{\MAT{M}}
+\renewcommand*{\P}{\MAT{\Pi}}
+
+%\newcommand{\J}{\SET J}
+\newcommand{\J}{\SET{P}}
+\newcommand{\Active}{\mathcal{A}}
+\newcommand{\Selection}{\mathbf{S}}
+\newcommand{\AllSelections}{\mathfrak{S}}
+\newcommand{\Params}{\VEC\Theta}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Some math symbols used in the text
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Multicol Settings
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setlength{\columnsep}{1.5em}
+\setlength{\columnseprule}{0mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Save space in lists. Use this after the opening of the list
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\compresslist}{%
+\setlength{\itemsep}{1pt}%
+\setlength{\parskip}{0pt}%
+\setlength{\parsep}{0pt}%
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Begin of Document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usetikzlibrary{shapes.geometric}
+\makeatletter
+% the contents of \squarecorner were mostly stolen from pgfmoduleshapes.code.tex
+\def\squarecorner#1{
+    % Calculate x
+    %
+    % First, is width < minimum width?
+    \pgf@x=\the\wd\pgfnodeparttextbox%
+    \pgfmathsetlength\pgf@xc{\pgfkeysvalueof{/pgf/inner xsep}}%
+    \advance\pgf@x by 2\pgf@xc%
+    \pgfmathsetlength\pgf@xb{\pgfkeysvalueof{/pgf/minimum width}}%
+    \ifdim\pgf@x<\pgf@xb%
+        % yes, too small. Enlarge...
+        \pgf@x=\pgf@xb%
+    \fi%
+    % Calculate y
+    %
+    % First, is height+depth < minimum height?
+    \pgf@y=\ht\pgfnodeparttextbox%
+    \advance\pgf@y by\dp\pgfnodeparttextbox%
+    \pgfmathsetlength\pgf@yc{\pgfkeysvalueof{/pgf/inner ysep}}%
+    \advance\pgf@y by 2\pgf@yc%
+    \pgfmathsetlength\pgf@yb{\pgfkeysvalueof{/pgf/minimum height}}%
+    \ifdim\pgf@y<\pgf@yb%
+        % yes, too small. Enlarge...
+        \pgf@y=\pgf@yb%
+    \fi%
+    %
+    % this \ifdim is the actual part that makes the node dimensions square.
+    \ifdim\pgf@x<\pgf@y%
+        \pgf@x=\pgf@y%
+    \else
+        \pgf@y=\pgf@x%
+    \fi
+    %
+    % Now, calculate right border: .5\wd\pgfnodeparttextbox + .5 \pgf@x + #1outer sep
+    \pgf@x=#1.5\pgf@x%
+    \advance\pgf@x by.5\wd\pgfnodeparttextbox%
+    \pgfmathsetlength\pgf@xa{\pgfkeysvalueof{/pgf/outer xsep}}%
+    \advance\pgf@x by#1\pgf@xa%
+    % Now, calculate upper border: .5\ht-.5\dp + .5 \pgf@y + #1outer sep
+    \pgf@y=#1.5\pgf@y%
+    \advance\pgf@y by-.5\dp\pgfnodeparttextbox%
+    \advance\pgf@y by.5\ht\pgfnodeparttextbox%
+    \pgfmathsetlength\pgf@ya{\pgfkeysvalueof{/pgf/outer ysep}}%
+    \advance\pgf@y by#1\pgf@ya%
+}
+\makeatother
+
+\pgfdeclareshape{square}{
+    \savedanchor\northeast{\squarecorner{}}
+    \savedanchor\southwest{\squarecorner{-}}
+
+    \foreach \x in {east,west} \foreach \y in {north,mid,base,south} {
+        \inheritanchor[from=rectangle]{\y\space\x}
+    }
+    \foreach \x in {east,west,north,mid,base,south,center,text} {
+        \inheritanchor[from=rectangle]{\x}
+    }
+    \inheritanchorborder[from=rectangle]
+    \inheritbackgroundpath[from=rectangle]
+}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Here starts the poster
+%%%---------------------------------------------------------------------------
+%%% Format it to your taste with the options
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Define some colors
+
+\definecolor{lightorange}{rgb}{0.9,0.4,0}
+\definecolor{lightestorange}{rgb}{1,0.8,0.5}
+\definecolor{darkorange}{rgb}{0.4,0.2,0}
+\definecolor{ch2}{rgb}{0.5,0.5,0.5}
+\definecolor{blanco}{rgb}{1,1,1}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.75}
+
+\hyphenation{resolution occlusions}
+%%
+\begin{poster}%
+  % Poster Options
+  {
+  % Show grid to help with alignment
+  grid=false,
+  % Column 
+  colspacing=1em,
+  columns=6,
+  % Color style
+  bgColorOne=white,
+  bgColorTwo=white,
+  borderColor=black,
+  headerColorOne=darkblue,
+  headerColorTwo=ch2,
+  headerFontColor=white,
+  boxColorOne=blanco,
+  boxColorTwo=blanco,
+  % Format of textbox
+  textborder=faded,
+  % Format of text header
+  eyecatcher=true,
+  headerborder=closed,
+  headerheight=0.1\textheight,
+%   textfont={\noindent \bf},  
+  textfont=\sc,% An example of changing the text font
+  headershape=roundedright,
+  headershade=shadelr,
+  headerfont=\Large\bf\textsc, %Sans Serif
+  textfont={\setlength{\parindent}{1.5em}},
+  boxshade=plain,
+%  background=shade-tb,
+  background=plain,
+  linewidth=2pt
+  }
+  % Eye Catcher
+  {} 
+  % Title
+  {\bf\textsc{Two State Totalistic Freezing Cellular Automata}\vspace{0.5em}}
+  % Authors diego.maldonado@univ-orleans.fr
+  {\textsc{\small \{diego.maldonado, pedro.montealegre and nicolas.ollinger \}@univ-orleans.fr\\ eric.chacc@uai.cl}}
+  % University logo
+  {% The makebox allows the title to flow into the logo, this is a hack because of the L shaped logo.
+    \includegraphics[height=6em]{img/lifo}
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Now define the boxes that make up the poster
+%%%---------------------------------------------------------------------------
+%%% Each box has a name and can be placed absolutely or relatively.
+%%% The only inconvenience is that you can only specify a relative position 
+%%% towards an already declared box. So if you have a box attached to the 
+%%% bottom, one to the top and a third one which should be in between, you 
+%%% have to specify the top and bottom boxes before you specify the middle 
+%%% box.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %
+    % A coloured circle useful as a bullet with an adjustably strong filling
+    \newcommand{\colouredcircle}{%
+      \tikz{\useasboundingbox (-0.2em,-0.32em) rectangle(0.2em,0.32em); \draw[draw=black,fill=lightblue,line width=0.03em] (0,0) circle(0.18em);}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \headerbox{Cellular Automata (CA)}{name=def,column=0,span=2,row=0}{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Is a function over the colored grid $\mathbb{Z}^2$  defined locally by the syncrhonous application of a local rule $f$.
+Formally, is $F: Q^{\mathbb{Z}^2}\to Q^{\mathbb{Z}^2}$: 
+$$\forall z \in \mathbb{Z}^2, F(c)_z=f(c_{N+z})$$
+Where $N\subset \mathbb{Z}^2$ is called the neighborhood.
+\vspace*{-10pt}
+ }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \headerbox{Example CA: {\small Life without death}}{name=caex,column=4,span=2,row=0}{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent $f$: $\square \to \blacksquare$ with exactly 3 alive neighbors ($\blacksquare $).
+\vspace*{-10pt}
+% \begin{minipage}[c]{0.5\textwidth}
+% \centering
+\begin{center}
+  \input{./img/CA3}
+\end{center}
+% \end{minipage}
+\hfill
+% \begin{minipage}[c]{0.5\textwidth}
+% \centering
+% \begin{center}
+%   \input{./img/CA7}
+% \end{center}
+% \end{minipage}
+\hfill
+  } 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \headerbox{Freezing}{name=freezing,column=0,span=2,row=1,below=def}{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+A {\emph{ freezing CA}} (FCA) is a CA $F$ compatible with a partial order $\geqslant$ on states:
+    \begin{align*}
+    F(c)_z\geqslant c_z\qquad\forall z\in \mathbb{Z}^2 \quad\forall c\in Q^{\mathbb{Z}^2}
+    \end{align*}
+
+{\bf Example:} Life without death.
+
+ }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \headerbox{Freezing+Totalistic}{name=f+t,column=2,span=2,row=0}{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{flushleft}
+\noindent The family of FTCA with 2 states and five neighbors is given by:
+\end{flushleft} 
+\vspace*{-15pt}
+% \begin{minipage}{0.4\textwidth}
+%     \begin{center}
+%       Freezing + Totalistic \\+ 2D +\\ 2 states + Von Neumann  
+%     \end{center}
+% \end{minipage}   
+% \begin{minipage}{0.025\textwidth}
+%     \begin{center}
+%       =  
+%     \end{center}
+% \end{minipage}  
+% \begin{minipage}{0.325\textwidth}
+%     \begin{center}
+%       CA that only change from 0 to 1 depending on the sum of its neighbors.  
+%     \end{center}
+% \end{minipage}
+\hspace*{-5pt}
+\begin{tikzpicture}[scale=0.6, every node/.style={scale=1.5}]]
+\draw  (-0.9928,1.9927) rectangle (0,-1);
+\draw  (-2,1) rectangle (1,0);
+\node[scale=1.5, every node/.style={scale=1.5}] at (-2.75,0.5) {$f\Big($};
+\node[scale=1.5, every node/.style={scale=1.5}] at (2.0,0.5)    {$ \Big)=$};
+\node at (-0.5,1.5) {$n_1$};
+\node at ( 0.5,0.5) {$n_2$};
+\node at (-0.5,-0.5) {$n_3$};
+\node at (-1.5,0.5) {$n_4$};
+\node at (-0.5,0.5) {$c$};
+\node[scale=0.75, every node/.style={scale=0.75}] at (5.75,0.5)    {$\left\{
+  \begin{tabular}{rl}
+  1 & if $c=1$\\
+  1 & $\displaystyle\sum_{j=1}^4 n_j\in I$\\
+  0 & otherwise
+  \end{tabular}
+\right.$};
+\end{tikzpicture}
+Where $I\subseteq\{0,1,2,3,4\} $.
+\vspace*{-10pt}
+\begin{description}
+  \item[Notation:]  We call a TFCA by a number, representing the elements of $I$. \vspace*{-7.5pt}
+  \item[] There are 32 possible TFCA.\vspace*{-7.5pt}
+  \item[Example] The TFCA 24 is the TFCA that change to 1 with exactly 2 or 4 neighbors in state 1.
+\end{description}
+
+
+ }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \headerbox{Totalistic}{name=totalistic,column=4,span=2,row=1,below=def}{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+A {\emph{ totalistic CA}} (TCA) is a CA $F$ where the LF only depend of the center cell and the total neighborhood:
+\begin{align*}
+\displaystyle F(c)_z=f\left(c_z,\sum_{z\in N} c_z\right)\quad\forall z\in \mathbb{Z}^d, \ \forall c\in Q^{\mathbb{Z}^d}
+\end{align*}
+{\bf Example:} Life without death.
+ }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \headerbox{Dynamics, fifth iteration }{name=ex,column=0,span=6,row=2,below=freezing}{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+\hfill
+        \begin{minipage}{0.065\textwidth}
+            \begin{center}
+            \begin{tikzpicture}[scale=0.15]
+              \input{./img/rules/4/4_1} % Seleccionar 28x28 celdas en golly
+            \end{tikzpicture} 
+            \small{Initial}           
+            \end{center}
+        \end{minipage}   
+\hfill
+        \begin{minipage}{0.065\textwidth}
+            \begin{center}
+            \begin{tikzpicture}[scale=0.15]
+              \input{./img/rules/4/4_5} % Seleccionar 28x28 celdas en golly
+            \end{tikzpicture} 
+            \small{Rule 4}           
+            \end{center}
+        \end{minipage}   
+ \hfill        
+        \begin{minipage}{0.065\textwidth}
+            \begin{center}
+            \begin{tikzpicture}[scale=0.15]
+              \input{./img/rules/3/3_5} % Seleccionar 28x28 celdas en golly
+            \end{tikzpicture}
+
+            \small{Rule 3}
+            \end{center}            
+        \end{minipage}
+\hfill
+        \begin{minipage}{0.065\textwidth}
+            \begin{center}
+            \begin{tikzpicture}[scale=0.15]
+              \input{./img/rules/34/34_5} % Seleccionar 28x28 celdas en golly
+            \end{tikzpicture}
+
+            \small{Rule 34}
+            \end{center}            
+        \end{minipage}
+\hfill
+        \begin{minipage}{0.065\textwidth}
+            \begin{center}
+            \begin{tikzpicture}[scale=0.15]
+              \input{./img/rules/2/2_5} % Seleccionar 28x28 celdas en golly
+            \end{tikzpicture}
+
+            \small{Rule 2}
+            \end{center}            
+        \end{minipage}
+\hfill
+        \begin{minipage}{0.065\textwidth}
+            \begin{center}
+            \begin{tikzpicture}[scale=0.15]
+              \input{./img/rules/24/24_5} % Seleccionar 28x28 celdas en golly
+            \end{tikzpicture}
+
+            \small{Rule 24}
+            \end{center}            
+        \end{minipage}
+\hfill
+        \begin{minipage}{0.065\textwidth}
+            \begin{center}
+            \begin{tikzpicture}[scale=0.15]
+              \input{./img/rules/23/23_5} % Seleccionar 28x28 celdas en golly
+            \end{tikzpicture}
+
+            \small{Rule 23}
+            \end{center}            
+        \end{minipage}
+\hfill
+        \begin{minipage}{0.065\textwidth}
+            \begin{center}
+            \begin{tikzpicture}[scale=0.15]
+              \input{./img/rules/234/234_5} % Seleccionar 28x28 celdas en golly
+            \end{tikzpicture}
+            \small{Rule 234}
+            \end{center}            
+        \end{minipage}
+\hfill {\color[rgb]{1,1,1} .}
+
+\hfill
+        \begin{minipage}{0.065\textwidth}
+            \begin{center}
+            \begin{tikzpicture}[scale=0.15]
+              \input{./img/rules/1/1_5} % Seleccionar 28x28 celdas en golly
+            \end{tikzpicture}
+            \small{Rule 1}
+            \end{center}            
+        \end{minipage}
+\hfill
+        \begin{minipage}{0.065\textwidth}
+            \begin{center}
+            \begin{tikzpicture}[scale=0.15]
+              \input{./img/rules/14/14_5} % Seleccionar 28x28 celdas en golly
+            \end{tikzpicture}
+            \small{Rule 14}
+            \end{center}            
+        \end{minipage}
+\hfill
+        \begin{minipage}{0.065\textwidth}
+            \begin{center}
+            \begin{tikzpicture}[scale=0.15]
+              \input{./img/rules/13/13_5} % Seleccionar 28x28 celdas en golly
+            \end{tikzpicture}
+            \small{Rule 13}
+            \end{center}            
+        \end{minipage}
+\hfill      
+        \begin{minipage}{0.065\textwidth}
+            \begin{center}
+            \begin{tikzpicture}[scale=0.15]
+              \input{./img/rules/134/134_5} % Seleccionar 28x28 celdas en golly
+            \end{tikzpicture}
+            \small{Rule 134}
+            \end{center}            
+        \end{minipage} 
+\hfill        
+        \begin{minipage}{0.065\textwidth}
+            \begin{center}
+            \begin{tikzpicture}[scale=0.15]
+              \input{./img/rules/12/12_5} % Seleccionar 28x28 celdas en golly
+            \end{tikzpicture}
+            \small{Rule 12}
+            \end{center}            
+        \end{minipage}
+\hfill
+        \begin{minipage}{0.065\textwidth}
+            \begin{center}
+            \begin{tikzpicture}[scale=0.15]
+              \input{./img/rules/124/124_5} % Seleccionar 28x28 celdas en golly
+            \end{tikzpicture}
+            \small{Rule 124}
+            \end{center}            
+        \end{minipage}
+\hfill
+        \begin{minipage}{0.065\textwidth}
+            \begin{center}
+            \begin{tikzpicture}[scale=0.15]
+              \input{./img/rules/123/123_5} % Seleccionar 28x28 celdas en golly
+            \end{tikzpicture}
+            \small{Rule 123}
+            \end{center}            
+        \end{minipage}
+\hfill
+        \begin{minipage}{0.065\textwidth}
+            \begin{center}
+            \begin{tikzpicture}[scale=0.15]
+              \input{./img/rules/1234/1234_5} % Seleccionar 28x28 celdas en golly
+            \end{tikzpicture}
+            \small{Rule 1234}
+            \end{center}            
+        \end{minipage}  
+\hfill {\color[rgb]{1,1,1} .}                    
+\end{center}
+ } 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \headerbox{Cases 12, 123, 124}{name=rule12,column=0,span=2,row=3,below=ex}{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+  \begin{tikzpicture}[scale=0.4]
+    \input{./img/orRule_1}
+\end{tikzpicture}
+
+\end{center}
+The diagonals with 1s spread to the south west. We can compute this as a prefix sum ($\vee$) in {\bf NC}. 
+
+\begin{center}
+  \begin{tikzpicture}[scale=0.25]
+    \input{./img/orAlg5}
+  \end{tikzpicture}
+\end{center}
+\begin{algorithm}[H]
+\caption{STABLE for cases 12, 123, 124.}
+\begin{algorithmic} 
+% \REQUIRE Finite configuration in a square of $n\times n$.   % input
+\STATE{ Find the smallest {{\bf \color{blue} blue}} square containing cells in state 1 in its boundary.}
+  % \IF{not exists {{\color{blue} blue}}  square}
+      % \RETURN {no change}
+  % \ENDIF  
+\STATE{ Compute {{\bf \color{red}red}} cells}  
+\STATE{ Compute {{\bf \color{green}green}} cells}  
+% \STATE{ Compute {{\color{magenta} center}}  cell}
+\ENSURE Value in the {{\bf \color{magenta} center}} cell.          % output
+\end{algorithmic}
+\end{algorithm}
+ }  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \headerbox{Complexity}{name=complex,column=2,span=2,row=3,below=ex}{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hspace*{-19pt}
+{ \small
+\begin{minipage}[t]{0.35\textwidth}
+$\begin{array}{|c|c|}
+  %{|c|>{\centering}p{30pt}|>{\centering}p{30pt}|>{\centering}p{30pt}|>{\centering}p{30pt}|c|}
+  \hline
+  F      &  { STABLE} \\   
+  \hline   %&      &
+  %T                &  \mathcal{O}(1)         \\
+  4                &  \mathcal{O}(1)      \\
+  3                &  \text{in NC}        \\
+  34               &  \text{in NC}        \\
+  2                &  \text{P-Complete}   \\
+  24               &  \text{P-Complete}   \\
+  23               &  \text{?}            \\
+  234              &  \text{in NC}        \\
+  1                &  \text{?}            \\
+  14               &  \text{?}            \\
+  13               &  \text{?}            \\
+  134              &  \text{?}            \\
+  12               &  \text{in NC}        \\
+  124              &  \text{in NC}        \\
+  123              &  \text{in NC}        \\
+  1234             &  \text{in NC}        \\   
+   \hline
+  \end{array}$
+\end{minipage}}  
+\hspace{15pt}
+\begin{minipage}[h]{0.525\textwidth}
+
+\textbullet A {{\bf \color{red} stable cell}} (SC) is a cell that never changes.
+
+\textbullet Decision problem  {{\bf \color{red}  STABLE}}:
+
+{\bf Inputs:} TFCA $F$ and $c\in \{0,1\}^{\mathbb{Z}^2}$ a finite configuration. \\
+{\bf Question:} \\Is $(0,0)$ a SC?         
+
+\textbullet {\bf  \color{red} P}:  Problems solvable in polynomial time in a sequential machine.
+
+\textbullet {\bf  \color{red} NC}: Problems solvable in poly-log   time in a parallel   machine.
+
+\end{minipage} 
+ }   
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \headerbox{Case 234}{name=rule234,column=4,span=2,row=3,below=ex}{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+  \begin{tikzpicture}[scale=1, every node/.style={scale=2.0}]]
+\node (v1) at (-1.5,0)[draw,square] {$v$};
+\draw[very thick] (v1) -- (-1.5,0.5) -- (-2,0.5) -- (-2,1) -- (-2.5,1) -- (-2.5,1.5);
+\draw[very thick] (v1) -- (-2.5,0) -- (-2.5,-0.5) -- (-3,-0.5) -- (-3,-1);
+\draw[very thick] (v1) -- (-1.5,-0.5) -- (-1,-0.5) -- (-1,-1.5) -- (-0.5,-1.5);
+\end{tikzpicture}
+\end{center}
+
+A stable cell (SC) has 3 stable neighbors in state 0, then has 3 paths to the border.
+\begin{center}
+  \begin{tikzpicture}[scale=1, every node/.style={scale=2.0}]]
+\node (v1) at (-1.5,0)[draw,square] {$v$};
+\draw[very thick] (v1) -- (-1.5,0.5) -- (-2,0.5) -- (-2,1) -- (-2.5,1) -- (-2.5,1.5);
+\draw[very thick] (v1) -- (-2.5,0) -- (-2.5,-0.5) -- (-3,-0.5) -- (-3,-1);
+\draw[very thick] (v1) -- (-1.5,-0.5) -- (-1,-0.5) -- (-1,-1.5) -- (-0.5,-1.5);
+\node (v2) at (0,0.5)[draw,square] {$u$};
+\draw[red,very thick] (v2) -- (0,1) -- (0.5,1) -- (0.5,1.5);
+\draw[red,very thick] (v2) -- (0.5,0.5) -- (0.5,-0.5) -- (1,-0.5);
+\draw[red,very thick] (v2) -- (0,0) -- (-0.5,0) -- (-0.5,-1) -- (-1.5,-1) -- (-1.5,-1.5);
+\draw[dashed,very thick]  plot[smooth, tension=.7] coordinates {(-2.5,1.5) (-1.5,2) (-0.5,2) (0.5,1.5)};
+\draw[dashed,very thick]  plot[smooth, tension=.7] coordinates {(-3,-1) (-1,-2) (1.5,-1) (1,-0.4029)};
+\end{tikzpicture}
+\end{center}
+
+A pair of SC have 3 paths joining them, then they are a triply connected component (TCC) (computable in {\bf NC}).
+\begin{algorithm}[H]
+\caption{STABLE for case 234.}
+\begin{algorithmic} 
+% \REQUIRE Finite configuration in a square of $n\times n$.   % input
+\STATE{ Find tri-connected components in the graph induced by cells initially in state 0.}
+  \IF{$(0,0)$  is in a TCºC component }
+    \RETURN {no change}
+  \ELSE
+    \RETURN {change}
+  \ENDIF  
+\end{algorithmic}
+\end{algorithm}
+ } 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \headerbox{Cases 2, 24}{name=rule2,column=2,span=2,row=4,below=complex}{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+  \begin{minipage}[t]{0.325\textwidth}
+      \begin{center} 
+        \begin{tikzpicture}[scale=0.075]
+          \input{./img/wire61_1}
+        \end{tikzpicture}\\
+      Wire
+      \end{center}  
+  \end{minipage}            
+  \begin{minipage}[t]{0.325\textwidth}
+      \begin{center}
+      \begin{tikzpicture}[scale=0.075]
+        \input{./img/x2} % Seleccionar 28x28 celdas en golly
+      \end{tikzpicture}\\
+      Duplicator
+      \end{center}
+      \end{minipage}            
+
+  \begin{minipage}[t]{0.325\textwidth}
+      \begin{center}
+      \begin{tikzpicture}[scale=0.075]
+        \input{./img/AND}% Seleccionar 28x28 celdas en golly
+      \end{tikzpicture}\\
+      AND gate
+      \end{center}
+  \end{minipage}    
+  \begin{minipage}[t]{0.325\textwidth}
+      \begin{center}
+      \begin{tikzpicture}[scale=0.075]
+        \input{./img/OR} % Seleccionar 28x28 celdas en golly
+      \end{tikzpicture}\\
+      OR gate
+      \end{center}
+  \end{minipage}    
+  \begin{minipage}[t]{0.325\textwidth}
+      \begin{center}
+      \begin{tikzpicture}[scale=0.075]
+        \input{./img/XOR} % Seleccionar 28x28 celdas en golly
+      \end{tikzpicture}\\
+      XOR gate
+      \end{center}
+  \end{minipage}    
+\end{center}
+The problem of to know the output in a monotone circuit is {{\bf P}}-complete (MCVP). 
+Using this logic gates is possible to reduce MCVP to STABLE.
+ }  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  % \headerbox{Rules with 0}{name=rule0,column=0,span=6,row=5,below=rule2}{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  % Fitting statistical 2D and 3D shape models to images is necessary for a
+  % variety of tasks, such as video editing and face recognition. Much progress
+  % has been made on local fitting from an initial guess, but determining a close
+  % enough initial guess is still an open problem. We propose a method to locate
+  % fiducial points, which can then be used to initialize the fitting.
+ % }  
+
+\end{poster}
+
+\end{document}
+

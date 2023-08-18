@@ -1,0 +1,23 @@
+\documentclass[crop,tikz]{standalone}% 
+\usetikzlibrary{arrows}
+\usetikzlibrary{calc}
+
+\newcommand{\legendsquare}[3]{
+\draw[draw=#3,open square- open square,dashed] ($(0,0)-(0,#1)$) -- ($(1,0)-(0,#1)$);
+\node[align=left,text width=3cm] at ($(2.5, 0)-(0,#1)$) {#2};	
+} 
+\newcommand{\legendcircle}[3]{
+\draw[draw=#3,o-o,dashed] ($(0,0)-(0,#1)$) -- ($(1,0)-(0,#1)$);
+\node[align=left,text width=3cm] at ($(2.5, 0)-(0,#1)$) {#2};	
+} 
+\begin{document}
+\begin{tikzpicture}%[thick, every node/.style={scale=1.75}]
+
+\legendcircle{0}{: Lambert}{green}
+\legendcircle{0.5}{: MRI-CGCM3}{black}
+\legendcircle{1}{: MIROC-ESM}{pink}
+\legendcircle{1.5}{: Takemura}{blue}
+\legendcircle{2}{: Albani}{red}
+\end{tikzpicture}
+
+\end{document}

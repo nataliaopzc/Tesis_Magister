@@ -1,0 +1,207 @@
+\documentclass[letterpaper,11pt]{book} % ,draft
+\usepackage[activeacute,spanish]{babel}
+\usepackage{amssymb,amsmath,amsfonts}
+\usepackage[utf8x]{inputenc} 
+\usepackage{afterpage}
+\usepackage{natbib}
+\usepackage[framed,numbered,autolinebreaks,useliterate]{mcode} % para aderir rutinas matlab 
+\usepackage{verbatim}
+\usepackage{color}
+\usepackage{makecell, cellspace, caption}
+\usepackage[colorinlistoftodos,spanish,textwidth=2.5cm]{todonotes}          % Para poner notas, hacer (To Do)
+\usepackage{geometry}
+\renewcommand{\baselinestretch}{1.5}
+\geometry{
+  paper=letterpaper, % Change to letterpaper for US letter
+  inner=3.5cm, % Inner margin
+  outer=2.8cm, % Outer margin
+  bindingoffset=.5cm, % Binding offset
+  top=2.5cm, % Top margin
+  bottom=2.5cm, % Bottom margin
+  %showframe, % Uncomment to show how the type block is set on the page
+}
+\setlength{\marginparwidth}{2.5cm}
+%----------------------------------------Paquetes para graficos---------------------------------------%
+%     \usepackage{graphicx} % para incluir graficos
+    \usepackage{graphicx}
+    \usepackage{float}          % para posiciones bien las figure con \begin{figure}[H]
+   % \usepackage{sidecap}        % caption al lado de la imagen
+   %  \usepackage{wrapfig}        % figuras rodeadas de texto
+    \usepackage{caption}        % caption para subimagenes
+    \usepackage{subcaption}
+    \usepackage{graphics}
+    \usepackage{multirow}
+%-----------------------------------------------------------------------------------------------------%
+
+%\usepackage{draftwatermark}        % marca de agua
+\usepackage{soul} % Para destacar
+
+
+%------------------------------------ Nuevos Comandos ------------------------------------------------%
+\newcommand{\toask}[2][]{\todo[#1,color=green!60]{#2}}
+\newcommand{\test}[2][]{\todo[#1,color=red!60]{#2}}
+\newcommand{\done}[2][]{\todo[#1,color=blue!60]{#2}}
+
+%-----------------------------------------------------------------------------------------------------%
+\setlength{\parskip}{5pt}
+\graphicspath{ {Figuras_naty/} } 
+%\SetWatermarkScale{2.5} % Tamaño
+%\SetWatermarkLightness{0.85} % 0 --> negro oscruro, 1 --> gris muy claro
+% \SetWatermarkText{\parbox{4.5cm}{%
+% BORRADOR %\vspace*{-8pt }
+  
+  %\\\vspace*{-8pt }
+  %\href{mailto:neopazo@uc.cl}{\tiny neopazo@uc.cl}
+ %\\ 
+%  \small \today}}
+%\addtolength{\topmargin}{-2.5cm}   %regula margen superior (desde donde comienza a escribir)
+%\headheight 10pt  
+%\headsep 0.5cm  
+%    \textheight=20cm 
+%    \addtolength{\evensidemargin}{-1.795cm} %
+%    \addtolength{\oddsidemargin}{-0.9cm} %
+%    \addtolength{\footskip}{0.4cm}
+%\textwidth 14cm   %regula el ancho del texto 
+ 
+\begin{document}
+\begin{titlepage}
+ \begin{center}
+\textbf{PONTIFICIA UNIVERSIDAD CAT\'OLICA DE CHILE} \\ 
+\textbf{FACULTAD DE HISTORIA, GEOGRAF\'IA Y CIENCIA POL\'ITICA } \\
+\textbf{INSTITUTO DE GEOGRAF\'IA} \\
+\textbf{MAG\'ISTER EN GEOGRAF\'IA Y GEOM\'ATICA}
+
+\includegraphics[height=4.7cm]{puc_logo.jpg}
+
+\vspace{0.5cm} % Da espacio verticales entre lineas 
+
+\rule{15cm}{0.1cm}
+
+\vspace{1cm}
+
+{\LARGE{\bf{CONTRIBUCI\'ON OCE\'ANICA REGIONAL DE LA FERTILIZACI\'ON CON HIERRO A LOS CAMBIOS DE CO$_{2}$ ATMOSF\'ERICO ENTRE EL ÚLTIMO MÁXIMO GLACIAL Y EL HOLOCENO }}}
+
+\vspace{1cm}
+
+{\large Profesor Gu'ia: Fabrice Lambert \\ 
+Instituto de Geograf\'ia F\'isica \\ }
+ 
+ \vspace{1cm}
+ 
+ {\Large \bf Tesis para ser presentada a la Direcci'on de Postgrado de la Pontificia Universidad Cat\'olica de Chile}
+
+ 
+\vspace{1cm}
+% 
+\rule{15cm}{0.1cm}
+
+\vspace{0.5cm}
+
+\textbf{NATALIA OPAZO CUEVAS \\ SANTIAGO -  CHILE \  2019}
+\bigskip
+
+\end{center}
+
+\newpage
+
+\thispagestyle{empty} %Quita la numeración de las paginas y los escabezados
+\vspace{5cm}
+
+\hspace{4cm}\begin{tabular}[c]{lll}
+\large Director de Tesis & : & Dr. Fabrice Lambert \large 
+\bigskip %Espacio vertical predefinido 
+\\
+\large Comisi\'{o}n & : & \large Dr. Gary Shaffer \\ \\
+& & \large Dr. Esteban Sagredo\\ \\
+\end{tabular} 
+
+
+%\afterpage{\null\newpage}%Agrega pagina en blanco, va vinculado con el preambulo --> \usepackage{afterpage} y se pone antes del newpage
+%\thispagestyle{empty}
+
+
+\end{titlepage}
+\thispagestyle{empty}
+\vspace{5cm}
+\hspace{7cm}{\Large\it Dedicado a ... } %\hspace: Espacio Horizontal 
+
+%\newpage
+\setcounter{tocdepth}{1}
+\thispagestyle{empty}
+\pagenumbering{Roman}
+\setcounter{page}{1}
+\chapter*{Resumen}
+\addcontentsline{toc}{chapter}{Resumen}
+\begin{quotation}
+
+Bajo la hip\'otesis desarrollada por \cite{martin1990glacial}, que relaciona la fertilizaci\'on con hierro a los incrementos y decrecimiento de CO$_2$ atmosf\'erico debido a su efecto en la bomba biol\'ogica, se explora el papel que ejerce la deposici\'on de polvo en la bomba de tejidos blandos y su consecuente efecto en la diferencia de CO$_2$ atmosférica de 80 - 100 ppm entre periodos glaciares e interglaciares. Con este propósito se utilizaron cinco campos de flujos de polvo proveniente tanto de modelos como de reconstrucciones en un \textit{Modelo del Sistema Tierra de Complejidad Intermedia} con la adición del ciclo del carbono llamado cGENIE, desde el Holoceno hasta el Último Máximo Glacial (UMG). Las mediciones muestran que los niveles de dióxido de carbono sufren una disminución hacia el UMG producto de la captura ejercida por la superficie oceánica frente a los niveles de suministro de hierro, lo que se traduce en una reducción promedio de 17 ppm. A la vez se evidencia el gran impacto que los océanos polares ejercen, particularmente los océanos del sur donde contribuyen en más del 50 \% de la disminución de pCO$_2$.\\ 
+
+{\bf Palabras claves}: \textit{Fertilización con hierro, bomba biológica, biogeoquímica, captura.}
+\end{quotation}
+
+%\newpage
+\thispagestyle{plain}
+\tableofcontents
+
+%\newpage
+\thispagestyle{plain}
+%\pagenumbering{Roman}
+%\setcounter{page}{2}
+\addcontentsline{toc}{chapter}{Lista de figuras} % para que aparezca en el indice de contenidos
+\listoffigures
+
+%\newpage
+\thispagestyle{plain}
+%\pagenumbering{Roman}
+%\setcounter{page}{3}
+\addcontentsline{toc}{chapter}{Lista de tablas} % para que aparezca en el indice de contenidos
+\listoftables
+
+%\newpage
+%--------------------
+%\listoftodos
+\newpage
+%--------------------
+\thispagestyle{plain}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\chapter{Introducci\'on}
+
+\input{./Capitulos_naty/Introduccion.tex}
+
+\chapter{Marco te\'orico (estado del arte)}
+
+\input{./Capitulos_naty/MarcoTeorico.tex}
+
+\chapter{\'Area de Estudio}
+
+\input{./Capitulos_naty/AreaEstudio.tex}
+
+\chapter{Metodolog\'ia}
+
+\input{./Capitulos_naty/Metodologia.tex}
+
+\chapter{Resultados}
+
+\input{./Capitulos_naty/Resultados.tex}
+
+\chapter{Consideraciones finales}
+
+\input{./Capitulos_naty/Discucion.tex}
+
+\bibliographystyle{apalike}
+\bibliography{Citas2}
+\pagenumbering{Roman}
+\setcounter{page}{4}
+\addcontentsline{toc}{chapter}{Bibliograf\'ia}
+
+\chapter{Anexos}
+\pagenumbering{Roman}
+\setcounter{page}{10}
+\addcontentsline{toc}{chapter}{Anexos}
+%\begin{quotation}
+\input{./Capitulos_naty/Anexos.tex}
+
+%\end{quotation}
+
+\end{document}

@@ -1,0 +1,43 @@
+\babel@toc {spanish}{}
+\contentsline {chapter}{Resumen}{III}% 
+\contentsline {chapter}{Lista de figuras}{VI}% 
+\contentsline {chapter}{Lista de tablas}{VIII}% 
+\contentsline {chapter}{\numberline {1}Introducci\'on}{1}% 
+\contentsline {section}{\numberline {1.1}Hip\IeC {\'o}tesis}{3}% 
+\contentsline {section}{\numberline {1.2}Objetivos}{4}% 
+\contentsline {subsection}{\numberline {1.2.1}Objetivo general}{4}% 
+\contentsline {subsection}{\numberline {1.2.2}Objetivos espec\'ificos}{4}% 
+\contentsline {chapter}{\numberline {2}Marco te\'orico (estado del arte)}{5}% 
+\contentsline {section}{\numberline {2.1}Ciclo del carbono}{6}% 
+\contentsline {subsection}{\numberline {2.1.1}Bomba biol\IeC {\'o}gica}{7}% 
+\contentsline {subsection}{\numberline {2.1.2}Volcamiento oce\IeC {\'a}nico}{12}% 
+\contentsline {subsection}{\numberline {2.1.3}Suministro de nutrientes}{13}% 
+\contentsline {section}{\numberline {2.2}Polvo/hierro y su impacto en el oc\'eano}{15}% 
+\contentsline {subsection}{\numberline {2.2.1}Polvo mineral}{16}% 
+\contentsline {section}{\numberline {2.3}\IeC {\'U}ltima deglaciaci\IeC {\'o}n}{21}% 
+\contentsline {subsection}{\numberline {2.3.1}\'Ultimo m\'aximo glacial}{22}% 
+\contentsline {subsection}{\numberline {2.3.2}Terminaci\IeC {\'o}n I}{24}% 
+\contentsline {subsection}{\numberline {2.3.3}Holoceno}{25}% 
+\contentsline {section}{\numberline {2.4}Modelos}{26}% 
+\contentsline {chapter}{\numberline {3}\'Area de Estudio}{29}% 
+\contentsline {chapter}{\numberline {4}Metodolog\'ia}{31}% 
+\contentsline {section}{\numberline {4.1}Modelo cGENIE}{32}% 
+\contentsline {section}{\numberline {4.2}Base de datos}{33}% 
+\contentsline {subsection}{\numberline {4.2.1}Reconstrucci\IeC {\'o}n}{34}% 
+\contentsline {subsection}{\numberline {4.2.2}Modelos PMIP}{35}% 
+\contentsline {section}{\numberline {4.3}Pre-procesamiento}{41}% 
+\contentsline {subsection}{\numberline {4.3.1}Pre-procesamiento modelo cGENIE}{43}% 
+\contentsline {section}{\numberline {4.4}Experimento, modelo cGENIE}{45}% 
+\contentsline {section}{\numberline {4.5}Post-procesamiento}{47}% 
+\contentsline {chapter}{\numberline {5}Resultados}{49}% 
+\contentsline {section}{\numberline {5.1}Resultados globales}{49}% 
+\contentsline {section}{\numberline {5.2}Resultados regionales}{51}% 
+\contentsline {subsection}{\numberline {5.2.1}Pac\'ifico Norte}{51}% 
+\contentsline {subsection}{\numberline {5.2.2}Pac\'ifico Central}{53}% 
+\contentsline {subsection}{\numberline {5.2.3}Pac\'ifico Sur}{56}% 
+\contentsline {subsection}{\numberline {5.2.4}Atl\'antico Sur}{58}% 
+\contentsline {section}{\numberline {5.3}Resultados finales}{60}% 
+\contentsline {chapter}{\numberline {6}Consideraciones finales}{63}% 
+\contentsline {chapter}{Bibliograf\'ia}{IV}% 
+\contentsline {chapter}{\numberline {7}Anexos}{X}% 
+\contentsline {chapter}{Anexos}{X}% 

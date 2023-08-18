@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:latexdraw="http://latexdraw.sourceforge.net/namespaces/latexdraw"
+    version="1.1" baseProfile="full">
+    <g>
+        <g latexdraw:type="text" id="id2" fill="black" latexdraw:position="bl">
+            <text x="30.0" y="60.0"><![CDATA[$\alpha+s\beta$ ]]></text>
+        </g>
+        <g latexdraw:type="text" id="id6" fill="black" latexdraw:position="bl">
+            <text x="30.0" y="150.0"><![CDATA[$s\alpha+\beta$ ]]></text>
+        </g>
+        <g latexdraw:type="text" id="id10" fill="black" latexdraw:position="bl">
+            <text x="290.0" y="150.0"><![CDATA[$F(\beta)+sF^{-1}(\alpha)$ ]]></text>
+        </g>
+        <g latexdraw:type="text" id="id16" fill="black" latexdraw:position="bl">
+            <text x="290.0" y="60.0"><![CDATA[$F^{-1}(\alpha)+sF(\beta)$ ]]></text>
+        </g>
+        <g latexdraw:type="joinedLines" id="id20">
+            <polyline
+                points="52.00000000000006,68.00000000000003 52.00000000000006,132.00000000000006 "
+                stroke-width="2.0" stroke="black"
+                latexdraw:rotationAngle="0.0" marker-end="url(#arrow1-20)"/>
+        </g>
+        <g latexdraw:type="text" id="id23" fill="black" latexdraw:position="bl">
+            <text x="104.0" y="36.00000000000003"><![CDATA[$F^{-1}($mod$_s(\cdot))+sF(\lceil\frac{\cdot}{s}\rceil)$]]></text>
+        </g>
+        <g latexdraw:type="text" id="id64" fill="black" latexdraw:position="bl">
+            <text x="104.0" y="126.00000000000003"><![CDATA[$F($mod$_s(\cdot))+sF^{-1}(\lceil\frac{\cdot}{s}\rceil)$]]></text>
+        </g>
+        <g latexdraw:type="joinedLines" id="id70">
+            <polyline
+                points="352.0,122.00000000000006 352.0,58.00000000000003 "
+                stroke-width="2.0" stroke="black"
+                latexdraw:rotationAngle="3.141592653589793" marker-end="url(#arrow1-70)"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id76">
+            <polyline
+                points="100.00000000000006,140.00000000000006 284.0,140.00000000000006 "
+                stroke-width="2.0" stroke="black"
+                latexdraw:rotationAngle="-1.5707963267948966" marker-end="url(#arrow1-76)"/>
+        </g>
+        <g latexdraw:type="joinedLines" id="id81">
+            <polyline
+                points="100.00000000000006,50.00000000000006 284.0,50.00000000000006 "
+                stroke-width="2.0" stroke="black"
+                latexdraw:rotationAngle="-1.5707963267948966" marker-end="url(#arrow1-81)"/>
+        </g>
+        <g latexdraw:type="text" id="id106" fill="black" latexdraw:position="bl">
+            <text x="20.0" y="100.0"><![CDATA[$H$ ]]></text>
+        </g>
+        <g latexdraw:type="text" id="id113" fill="black" latexdraw:position="bl">
+            <text x="360.0" y="100.0"><![CDATA[$H$ ]]></text>
+        </g>
+    </g>
+    <defs>
+        <marker overflow="visible" orient="auto" id="arrow1-20">
+            <path
+                d="M 0.0 0.0 L -4.652083333333334 1.6614583333333335 L -4.652083333333334 0.0 L -4.652083333333334 -1.6614583333333335 z "
+                latexdraw:arrSizeNum="2.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow1-70">
+            <path
+                d="M 0.0 0.0 L -4.652083333333334 1.6614583333333335 L -4.652083333333334 0.0 L -4.652083333333334 -1.6614583333333335 z "
+                latexdraw:arrSizeNum="2.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow1-76">
+            <path
+                d="M 0.0 0.0 L -4.652083333333334 1.6614583333333335 L -4.652083333333334 0.0 L -4.652083333333334 -1.6614583333333335 z "
+                latexdraw:arrSizeNum="2.0" fill="black"/>
+        </marker>
+        <marker overflow="visible" orient="auto" id="arrow1-81">
+            <path
+                d="M 0.0 0.0 L -4.652083333333334 1.6614583333333335 L -4.652083333333334 0.0 L -4.652083333333334 -1.6614583333333335 z "
+                latexdraw:arrSizeNum="2.0" fill="black"/>
+        </marker>
+    </defs>
+    <metadata>
+        <latexdraw:metadata>
+            <latexdraw:latexIncludes><![CDATA[
+]]></latexdraw:latexIncludes>
+            <latexdraw:displayXScale>true</latexdraw:displayXScale>
+            <latexdraw:displayYScale>true</latexdraw:displayYScale>
+            <latexdraw:unit>CM</latexdraw:unit>
+            <latexdraw:zoom>1.6500000000000006</latexdraw:zoom>
+            <latexdraw:magneticGridStyle>CUSTOMISED</latexdraw:magneticGridStyle>
+            <latexdraw:gridGap>10</latexdraw:gridGap>
+            <latexdraw:magneticGrid>true</latexdraw:magneticGrid>
+            <latexdraw:version>3.1.0</latexdraw:version>
+            <latexdraw:size>
+                <latexdraw:width>1366</latexdraw:width>
+                <latexdraw:height>744</latexdraw:height>
+            </latexdraw:size>
+            <latexdraw:position>
+                <latexdraw:x>0.0</latexdraw:x>
+                <latexdraw:y>156.0</latexdraw:y>
+            </latexdraw:position>
+        </latexdraw:metadata>
+    </metadata>
+</svg>

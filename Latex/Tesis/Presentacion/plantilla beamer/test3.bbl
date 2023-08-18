@@ -1,0 +1,92 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{FUCA18}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=e664552f68bd2f5b37c4cea1d2698cbd}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Florent},
+           giveni={F\bibinitperiod}}}%
+        {{hash=2274aa81c7fb9ebf4664b7ac6d3509ee}{%
+           family={Maldonado},
+           familyi={M\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b5d42ff40ce90e5a10e311d575af1f24}{%
+           family={Ollinger},
+           familyi={O\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0d5001242de3148b8c48412d17104734}{%
+           family={Theyssier},
+           familyi={T\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=3010768803c9ed1be1a0bfa45348997e}{%
+           family={Manea},
+           familyi={M\bibinitperiod},
+           given={Florin},
+           giveni={F\bibinitperiod}}}%
+        {{hash=456a3fd41074cb6ca8622fff5d7ea970}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Russell\bibnamedelima G.},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=ca3a97f8e04c1023e9adeb4131d665a1}{%
+           family={Nowotka},
+           familyi={N\bibinitperiod},
+           given={Dirk},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{fb1eddec8c934d533774d2bd10daa567}
+      \strng{fullhash}{fb1eddec8c934d533774d2bd10daa567}
+      \strng{bibnamehash}{fb1eddec8c934d533774d2bd10daa567}
+      \strng{authorbibnamehash}{fb1eddec8c934d533774d2bd10daa567}
+      \strng{authornamehash}{fb1eddec8c934d533774d2bd10daa567}
+      \strng{authorfullhash}{fb1eddec8c934d533774d2bd10daa567}
+      \strng{editorbibnamehash}{f7d458427ed0e73e512f58faae24b7ea}
+      \strng{editornamehash}{f7d458427ed0e73e512f58faae24b7ea}
+      \strng{editorfullhash}{f7d458427ed0e73e512f58faae24b7ea}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Cellular Automata have been used since their introduction as a discrete tool of modelization. In many of the physical processes one may modelize thus (such as bootstrap percolation, forest fire or epidemic propagation models, life without death, etc), each local change is irreversible. The class of freezing Cellular Automata (FCA) captures this feature. In a freezing cellular automaton the states are ordered and the cells can only decrease their state according to this ``freezing-order''.}
+      \field{booktitle}{Sailing Routes in the World of Computation - 14th Conference on Computability in Europe, CiE 2018, Kiel, Germany, July 30 - August 3, 2018, Proceedings}
+      \field{isbn}{978-3-319-94418-0}
+      \field{title}{Universality in Freezing Cellular Automata}
+      \field{year}{2018}
+      \field{pages}{50\bibrangedash 59}
+      \range{pages}{10}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

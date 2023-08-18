@@ -1,0 +1,339 @@
+
+Como se mencion\'o en la metodolog\'ia el desarrollo de este trabajo investigativo se dividi\'o en dos etapas, una concerniente a correr el modelo cGENIE (a partir de datos de flujos de polvo)
+en un contexto global, es decir, usando para ello la grilla completa de polvo. Y por otro lado, se seccion\'o la grilla de tal forma que la simulaci\'on de cGENIE arroj\'o niveles de $CO_2$
+para cada zona de \'interes (Pac\'ifico Norte, Pac\'ifico Sur, Pac\'ifico Central y Atl\'antico Sur).
+
+\section{Resultados globales}
+
+A continuaci\'on se precentar\'an los resultados concernientes a la primera etapa de desarrollo, los modelos globales. 
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+& \multicolumn{4}{c|}{Reducci\'on de $pCO_2$ global} \\
+\cline{2-5}
+Modelo& Ajuste & Par\'ametros & R-cuadrado ($R^2$) & RMSE\\
+\hline \hline
+Lert  & Logar\'itmico & p1=8.12 y p2=0.25 & 0.9671 &0.6106\\ \hline
+Albani & Logar\'itmico & p1=15.76 y p2=0.21& 0.9496 & 1.102\\ \hline
+Takemura & Logar\'itmico & p1=13.71 y p2=0.21 & 0.9809 & 0.5198\\ \hline
+MIROC-ESM & Logar\'itmico & p1=13.11 y p2=0.25 & 0.9473 & 1.09\\ \hline
+MRI-CGCM3 & Logar\'itmico & p1=18.72 y p2=0.25 & 0.9954 & 0.1408\\ \hline
+\end{tabular}
+\caption{Caracter\'isticas de los ajustes realizados a las reducciones globales de $pCO_2$ estimados, a partir de los resultados del modelo cGENIE. El ajuste general es logar\'itmico, 
+su ecuaci\'on est\'andar es: $ f(x)=p1 \times ln(p2 \times x)$. Donde f(x) es la reducci\'on de $pCO_2$ y x, el flujo de polvo en cada nivel. }
+\label{tabla:Res1}
+\end{table}
+
+\begin{figure}[H]
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{fig2_All_mean_Lambert2.png}
+                \caption{Lambert}
+                \label{fig:L_All}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{fig2_mean_Albani_All2}
+                \caption{Albani}
+                \label{fig:A_All}
+        \end{subfigure}%
+        
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{fig2_mean_All_Takemura2.png}
+                \caption{Takemura}
+                \label{fig:T-All}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{Fig2_All_MIROC-ESM_mean2.png}
+                \caption{MIROC-ESM}
+                \label{fig:MI-All}
+        \end{subfigure}
+        
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{Fig2_mean_MRI-CGCM3_2.png}
+                \caption{MRI-CGCM3}
+                \label{fig:MR-All}
+        \end{subfigure}
+        \caption{Series de reducci\'on de $pCO_2$ obtenidos mediante simulaci\'on cGENIE, desde el Holoceno hasta el \'Ultimo M\'aximo Glacial para flujos de polvo globales.}\label{fig:All}
+\end{figure}
+
+Como podemos apreciar en la figura \ref{fig:All} la mayor reducci\'on de $pCO_2$ atmosf\'erico a partir de los campos globales de polvo, son los concernientes a los flujos estimados
+por Albani (p.p.m.) y MIROC-ESM (p.p.m.), dejando a Lambert y Takemura con reducciones similares pero menores y, donde la menor reducci\'on es observada a partir del modelo MRI-CGCM3. Sin embargo, respecto 
+a los valores de polvo desde el Holoceno hasta el \'Ultimo M\'aximo Glacial vemos que Lambert contiene los niveles m\'as elevados, seguido por MIROC-CGCM3. Lo que no se correlaciona con las 
+estimaciones que arroja el modelo CGENIE. Esto \'ultimo estar\'ia relacionado a que los campos de polvo poseen puntos de grilla que no tienen una diferencia mayor e inclusive por condiciones
+locales o inexactitudes del modelo podrían ver reducido su flujo durante el UMG. 
+
+
+
+\section{Resultados regionales}
+A continuaci\'on se presentan los resultados regionales correspondiente a cada zona de la figura \ref{fig:Grilla4}.
+
+\subsection{Pac\'ifico Norte}
+
+\begin{figure}[H]
+\centering
+ \includegraphics[width=0.7\textwidth]{mapa3_2_NP.png}
+ \caption{Mapa global de flujos de polvo interpolados entre el periodo del Holoceno y el \'Ultimo M\'aximo Glacial. Datos obtenidos de \citep{Lambert2015}.}
+  \label{fig:Mapa_NP}
+\end{figure}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+& \multicolumn{4}{c|}{Reducci\'on de $pCO_2$ global} \\
+\cline{2-5}
+Modelo& Ajuste & Par\'ametros & R-cuadrado ($R^2$) & RMSE\\
+\hline \hline
+Lambert  & Logar\'itmico  & p1=1.6 y p2=7.10$e^{-10}$ & 0.998 & 0.0468 \\ \hline
+Albani & Logar\'itmico & p1=2.1 y p2=2.20$e^{-7}$& 0.998 & 0.06854\\ \hline
+Takemura & Lineal & p1=6.75$e^{-14}$ y p2=0.96 & 0.997 & 0.01419\\ \hline
+MIROC-ESM & Lineal & p1=4.51$e^{-14}$ y p2=-1.44 & 0.9934 & 0.1038\\ \hline
+MRI-CGCM3 & Lineal & p1=3.67$e^{-14}$ y p2=-2.53 & 0.9957 & 0.03742\\ \hline
+\end{tabular}
+\caption{Caracter\'isticas de los ajustes realizados a las reducciones globales de $pCO_2$ estimados, a partir de los resultados del modelo cGENIE. El ajuste general es logar\'itmico, 
+su ecuaci\'on est\'andar es: $ f(x)=p1 \times ln(p2 \times x)$. Donde f(x) es la reducci\'on de $pCO_2$ y x, el flujo de polvo en cada nivel. }
+\label{tabla:Res2}
+\end{table}
+
+ \begin{figure}
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{fig2_suma_NP2_ingles.png}
+                \caption{Lambert}
+                \label{fig:L_R_NP}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{Fig2_suma_NP_Albani2_ingles.png}
+                \caption{Albani}
+                \label{fig:A_R_NP}
+        \end{subfigure}%
+        
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{fig2_suma_NP2_Takemura_ingles.png}
+                \caption{Takemura}
+                \label{fig:T_R_NP}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{fig2_suma_NP2_MIROC_ingles.png}
+                \caption{MIROC-ESM}
+                \label{fig:MI_R_NP}
+        \end{subfigure}
+        
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{Fig2_sum_NP2_MRI_ingles.png}
+                \caption{MRI-CGCM3}
+                \label{fig:MR_R_NP}
+        \end{subfigure}
+        \caption{Series de reducci\'on de $pCO_2$ obtenidos mediante simulaci\'on cGENIE, desde el Holoceno hasta el \'Ultimo M\'aximo Glacial para flujos de polvo globales.}\label{fig:NP}
+\end{figure}
+
+\subsection{Pac\'ifico Central}
+
+\begin{figure}[H]
+\centering
+ \includegraphics[width=0.7\textwidth]{mapa3_2_CP.png}
+ \caption{Mapa global de flujos de polvo interpolados entre el periodo del Holoceno y el \'Ultimo M\'aximo Glacial. Datos obtenidos de \citep{Lambert2015}.}
+  \label{fig:Mapa_CP}
+\end{figure}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+& \multicolumn{4}{c|}{Reducci\'on de $pCO_2$ global} \\
+\cline{2-5}
+Modelo& Ajuste & Par\'ametros & R-cuadrado ($R^2$) & RMSE\\
+\hline \hline
+Lambert  & Logar\'itmico  & p1=1.8 y p2=7.10$e^{-10}$ & 0.999 & 0.01578 \\ \hline
+%Albani & Logar\'itmico & p1=2.1 y p2=2.20$e^{-7}$& 0.998 & 0.06854\\ \hline
+Takemura & Lineal & p1=1.14$e^{-13}$ y p2=-1.3 & 0.9966 & 0.03623\\ \hline
+MIROC-ESM & Lineal & p1=1.23$e^{-13}$ y p2=-1.03 & 0.9942 & 0.06412\\ \hline
+MRI-CGCM3 & Lineal & p1=1.60$e^{-13}$ y p2=-0.99 & 0.9876 & 0.01904\\ \hline
+\end{tabular}
+\caption{Caracter\'isticas de los ajustes realizados a las reducciones globales de $pCO_2$ estimados, a partir de los resultados del modelo cGENIE. El ajuste general es logar\'itmico, 
+su ecuaci\'on est\'andar es: $ f(x)=p1 \times ln(p2 \times x)$. Donde f(x) es la reducci\'on de $pCO_2$ y x, el flujo de polvo en cada nivel. }
+\label{tabla:Res3}
+\end{table}
+
+ \begin{figure}
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{fig2_suma_CP2_ingles.png}
+                \caption{Lambert}
+                \label{fig:L_R_CP}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{Fig2_suma_CP_Albani2.png}
+                \caption{Albani}
+                \label{fig:A_R_CP}
+        \end{subfigure}%
+        
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{fig2_suma_CP2_Takemura_ingles.png}
+                \caption{Takemura}
+                \label{fig:T_R_CP}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{fig2_suma_CP2_MIROC_ingles.png}
+                \caption{MIROC-ESM}
+                \label{fig:MI_R_CP}
+        \end{subfigure}
+        
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{Fig2_sum_CP2_MRI_ingles.png}
+                \caption{MRI-CGCM3}
+                \label{fig:MR_R_CP}
+        \end{subfigure}
+        \caption{Series de reducci\'on de $pCO_2$ obtenidos mediante simulaci\'on cGENIE, desde el Holoceno hasta el \'Ultimo M\'aximo Glacial para flujos de polvo globales.}\label{fig:CP}
+\end{figure}
+
+\subsection{Pac\'ifico Sur}
+
+\begin{figure}[H]
+\centering
+ \includegraphics[width=0.7\textwidth]{mapa3_2_SP.png}
+ \caption{Mapa global de flujos de polvo interpolados entre el periodo del Holoceno y el \'Ultimo M\'aximo Glacial. Datos obtenidos de \citep{Lambert2015}.}
+  \label{fig:Mapa_SP}
+\end{figure}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+& \multicolumn{4}{c|}{Reducci\'on de $pCO_2$ global} \\
+\cline{2-5}
+Modelo& Ajuste & Par\'ametros & R-cuadrado ($R^2$) & RMSE\\
+\hline \hline
+Lambert  & Logar\'itmico  & p1=1.8 y p2=1.78$e^{-10}$ & 0.9961 & 0.0546 \\ \hline
+Albani & Lineal & p1=1.22$e^{-13}$ y p2=-0.1 & 0.9842 & 0.07587\\ \hline
+%Takemura & Lineal & p1=1.14$e^{-13}$ y p2=-1.3 & 0.9966 & 0.03623\\ \hline
+%MIROC-ESM & Lineal & p1=1.23$e^{-13}$ y p2=-1.03 & 0.9942 & 0.06412\\ \hline
+%MRI-CGCM3 & Lineal & p1=1.60$e^{-13}$ y p2=-0.99 & 0.9876 & 0.01904\\ \hline
+\end{tabular}
+\caption{Caracter\'isticas de los ajustes realizados a las reducciones globales de $pCO_2$ estimados, a partir de los resultados del modelo cGENIE. El ajuste general es logar\'itmico, 
+su ecuaci\'on est\'andar es: $ f(x)=p1 \times ln(p2 \times x)$. Donde f(x) es la reducci\'on de $pCO_2$ y x, el flujo de polvo en cada nivel. }
+\label{tabla:Res4}
+\end{table}
+
+ \begin{figure}
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{fig2_suma_SP2_ingles.png}
+                \caption{Lambert}
+                \label{fig:L_R_SP}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{Fig2_suma_SP_Albani2_ingles.png}
+                \caption{Albani}
+                \label{fig:A_R_SP}
+        \end{subfigure}%
+        
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{fig2_suma_SP2_Takemura.png}
+                \caption{Takemura}
+                \label{fig:T_R_SP}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{fig2_suma_SP_MIROC.png}
+                \caption{MIROC-ESM}
+                \label{fig:MI_R_SP}
+        \end{subfigure}
+        
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{Fig2_sum_SP2_MRI.png}
+                \caption{MRI-CGCM3}
+                \label{fig:MR_R_SP}
+        \end{subfigure}
+        \caption{Series de reducci\'on de $pCO_2$ obtenidos mediante simulaci\'on cGENIE, desde el Holoceno hasta el \'Ultimo M\'aximo Glacial para flujos de polvo globales.}\label{fig:SP}
+\end{figure}
+
+\subsection{Atl\'antico Sur}
+
+\begin{figure}[H]
+\centering
+ \includegraphics[width=0.7\textwidth]{mapa3_2_SA.png}
+ \caption{Mapa global de flujos de polvo interpolados entre el periodo del Holoceno y el \'Ultimo M\'aximo Glacial. Datos obtenidos de \citep{Lambert2015}.}
+  \label{fig:Mapa_SA}
+\end{figure}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+& \multicolumn{4}{c|}{Reducci\'on de $pCO_2$ global} \\
+\cline{2-5}
+Modelo& Ajuste & Par\'ametros & R-cuadrado ($R^2$) & RMSE\\
+\hline \hline
+Lambert  & Logar\'itmico  & p1=2.75 y p2=1.81$e^{-9}$ & 0.9892 & 0.119 \\ \hline
+Albani & Logar\'itmico & p1=2 y p2=1.46$e^{-5}$ & 0.9957 & 0.173\\ \hline
+%Takemura & Lineal & p1=1.14$e^{-13}$ y p2=-1.3 & 0.9966 & 0.03623\\ \hline
+%MIROC-ESM & Lineal & p1=1.23$e^{-13}$ y p2=-1.03 & 0.9942 & 0.06412\\ \hline
+MRI-CGCM3 & Lineal & p1=2.77$e^{-14}$ y p2=-1.32 & 0.9975 & 0.01081\\ \hline
+\end{tabular}
+\caption{Caracter\'isticas de los ajustes realizados a las reducciones globales de $pCO_2$ estimados, a partir de los resultados del modelo cGENIE. El ajuste general es logar\'itmico, 
+su ecuaci\'on est\'andar es: $ f(x)=p1 \times ln(p2 \times x)$. Donde f(x) es la reducci\'on de $pCO_2$ y x, el flujo de polvo en cada nivel. }
+\label{tabla:Res5}
+\end{table}
+
+ \begin{figure}[H]
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{fig2_suma_SA2_Lambert_ingles.png}
+                \caption{Lambert}
+                \label{fig:L_R_SA}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{Fig2_suma_SA_Albani2_ingles.png}
+                \caption{Albani}
+                \label{fig:A_R_SA}
+        \end{subfigure}%
+        
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{fig2_suma_SA2_Takemura.png}
+                \caption{Takemura}
+                \label{fig:T_R_SA}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{fig2_suma_SA_MIROC.png}
+                \caption{MIROC-ESM}
+                \label{fig:MI_R_SA}
+        \end{subfigure}
+        
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{Fig2_sum_SA2_MRI_ingles.png}
+                \caption{MRI-CGCM3}
+                \label{fig:MR_R_SA}
+        \end{subfigure}
+        \caption{Series de reducci\'on de $pCO_2$ obtenidos mediante simulaci\'on cGENIE, desde el Holoceno hasta el \'Ultimo M\'aximo Glacial para flujos de polvo globales.}\label{fig:SA}
+\end{figure}
+
+\section{Resultados finales}
+
+ \begin{figure}
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{NP_ingles.png}
+                \caption{}
+                \label{fig:NP_final}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{CP_ingles.png}
+                \caption{}
+                \label{fig:CP_final}
+        \end{subfigure}%
+        
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{SP_ingles.png}
+                \caption{}
+                \label{fig:SP_final}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.5\textwidth}
+                \includegraphics[width=\linewidth]{SA_ingles.png}
+                \caption{}
+                \label{fig:SA_final}
+        \end{subfigure}
+        \caption{Series de reducci\'on de $pCO_2$ obtenidos mediante simulaci\'on cGENIE, desde el Holoceno hasta el \'Ultimo M\'aximo Glacial para flujos de polvo globales.}\label{fig:R_final}
+\end{figure}
+
+
+
+
+
+
+

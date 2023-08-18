@@ -1,0 +1,15 @@
+[0] Config.pm:302> INFO - This is Biber 2.9
+[0] Config.pm:305> INFO - Logfile is 'test3.blg'
+[20] biber:313> INFO - === lun jun  3, 2019, 23:30:42
+[35] Biber.pm:371> INFO - Reading 'test3.bcf'
+[83] Biber.pm:857> INFO - Found 1 citekeys in bib section 0
+[93] Biber.pm:3981> INFO - Processing section 0
+[101] Biber.pm:4154> INFO - Looking for bibtex format file 'biblio.bib' for section 0
+[105] bibtex.pm:1468> INFO - LaTeX decoding ...
+[206] bibtex.pm:1294> INFO - Found BibTeX data source 'biblio.bib'
+[243] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[243] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[243] Biber.pm:3809> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[243] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[245] bbl.pm:617> INFO - Writing 'test3.bbl' with encoding 'UTF-8'
+[246] bbl.pm:720> INFO - Output to test3.bbl

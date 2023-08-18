@@ -1,0 +1,20 @@
+\documentclass[portrait,final,a0paper,fontscale=0.277]{baposter}
+
+\usepackage{calc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{relsize}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{bm}
+\usepackage{enumitem}
+%\usepackage{url}
+\usepackage{booktabs}
+ 
+%\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{multicol}
+%\usepackage{algorithm}
+%\usepackage{algorithmic}
+\usepackage{color, colortbl}

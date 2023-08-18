@@ -1,0 +1,293 @@
+\documentclass[10pt,letterpaper]{book} % , draft
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, activeacute]{babel}
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{listings}
+\usepackage{etex}
+
+\usepackage[left=4cm,top=2.5cm,right=2cm]{geometry}
+% \usepackage{biblatex}
+    \usepackage{anyfontsize}
+    \usepackage{animate}
+    % Pstricks
+
+
+    \usepackage{pstricks}
+
+    \usepackage{auto-pst-pdf}
+    \usepackage{pst-node}
+%----------------------------------------Paquetes para graficos---------------------------------------%
+%     \usepackage{graphicx}	% para incluir graficos
+    \usepackage{graphicx}
+    \usepackage{float}      	% para posiciones bien las figure con \begin{figure}[H]
+    \usepackage{sidecap}    	% caption al lado de la imagen
+    \usepackage{wrapfig}    	% figuras rodeadas de texto
+    \usepackage{caption}    	% caption para subimagenes
+    \usepackage{subcaption}
+    \usepackage{pst-plot}
+    \usepackage{multido}
+    \usepackage{pst-func}
+    \usepackage{pst-eucl}
+    \usepackage{pst-3dplot} % pst 3D
+    \usepackage{auto-pst-pdf}
+    \usepackage{epstopdf}
+    \epstopdfsetup{update}
+%-----------------------------------------------------------------------------------------------------%
+
+%----------------------------------------Paquetes varios ---------------------------------------------%
+    \usepackage{algorithm}
+    \usepackage{algorithmic}
+      \floatname{algorithm}{Algoritmo}
+      \renewcommand{\algorithmicrequire}{\textbf{Input:}}
+      \renewcommand{\algorithmicensure}{\textbf{Output:}}
+    \usepackage{algorithmic}		% para incluir algoritmos
+%     \usepackage{algorithm2e}		% para incluir algoritmos
+%     \usepackage{algpseudocode}		% pseudocodigo
+    \usepackage{draftwatermark}        % marca de agua
+    \usepackage{color}      		% permite escribir con colores.
+    %\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}    % alternativa para escribir con colores adicionales, ver http://en.wikibooks.org/wiki/LaTeX/Colors
+    \usepackage{multicol}   		% permite poner columnas en las enumeraciones.
+    \usepackage{enumerate}  		% permite cambiar al enumeracion asi: \begin{enumerate}[a)].
+    \usepackage[bookmarks	= false,
+		hidelinks,
+% 		colorlinks 	= true,
+% 		linktoc		= black,
+		linkcolor  	= black]{hyperref}    % permite agregar hipervinculos a las referencias, pag web, correoes, etc. SOLO FUNCIONA EN PDF.
+    \usepackage{lscape} 		% para rotar cosas en 90Â° (landscape)
+%-----------------------------------------------------------------------------------------------------%
+
+%-------------------------------------- Opciones de las paginas --------------------------------------%
+    % Dim hoja carta: 21.59 x 27.94 centimetros
+% %     \addtolength{\topmargin}{-2.5cm}
+% %     \addtolength{\evensidemargin}{-1.795cm}
+% %     \addtolength{\oddsidemargin}{-1.795cm}
+% %     \addtolength{\footskip}{0.4cm}
+% %     \textheight=23cm 				% Establece el largo del texto en cada pÃ¡gina. El default es 19 cm.
+% %     \textwidth=16cm 				% Establece el ancho del texto en cada pÃ¡gina (en este caso, de 17 cm). El default es 14 cm.
+    \setlength{\parskip}{5pt}			% Espacio entre parrafos
+    \setcounter{secnumdepth}{3}
+    \setcounter{tocdepth}{1} 			% profundidad del arbol del indice
+%-----------------------------------------------------------------------------------------------------%
+
+%-------------------------------------- Opciones varias ----------------------------------------------%
+%   \pagestyle{headings}                     % ???
+%    \pagestyle{empty}                       % borrar numero de pag ???\documentclass[11pt,letterpaper]{article}
+%    \boldmath                               % simbolos matematicos en negrita
+%    \renewcommand{\baselinestretch}{1.5}    % interlinedo simple
+%    \setlength{\parindent}{0pt}             % Sin sangria.
+% --- marca de agua -------%
+    \SetWatermarkFontSize{12pt}
+    \SetWatermarkScale{8}
+    \SetWatermarkLightness{0.8}     % intencidad del color
+    \SetWatermarkText{}
+%-----------------------------------------------------------------------------------------------------%
+
+\definecolor{gray97}{gray}{.97}
+\definecolor{gray75}{gray}{.45}
+\definecolor{gray90}{gray}{.85}
+\lstset{
+	frame=Ltb,
+	framerule=0pt,
+	aboveskip=0.5cm,
+	framextopmargin=3pt,
+	framexbottommargin=3pt,
+	framexleftmargin=0.4cm,
+	framesep=0pt,
+	rulesep=.4pt,
+	backgroundcolor=\color{gray90},
+	rulesepcolor=\color{black},
+	stringstyle=\ttfamily,
+	showstringspaces=false,
+	basicstyle=\footnotesize\ttfamily,
+	commentstyle=\color{blue},
+	keywordstyle=\color{red},
+	numbers=left,
+	numbersep=15pt,
+	numberstyle=\tiny,
+	numberfirstline=false,
+	breaklines=true,
+	}
+\lstnewenvironment{listing}[1][]
+	{\lstset{#1}\pagebreak[0]}{\pagebreak[0]}
+\lstdefinestyle{consola}
+	{basicstyle=\scriptsize\bf\ttfamily,
+	backgroundcolor=\color{gray75},}
+
+%-----------------------------------------------------------------------------------------------------%
+%--------- Mis teoremas ---------%
+
+\renewcommand{\qedsymbol}{$\blacksquare$}
+
+\theoremstyle{plain}
+    \newtheorem{prop}{Proposici\'on}[section]
+    \newtheorem{teor}{Teorema}[section]
+    \newtheorem{corol}{Corolario}[section]
+    \newtheorem{lema}{Lema}[section]
+    \newtheorem{obs}{Observaci\'on}[section]
+\theoremstyle{definition}
+    \newtheorem{defin}{Definici\'on}[section]
+    \newtheorem{ejem}{Ejemplo}[section]
+    \newtheorem*{nota}{Nota}
+    \newtheorem*{notac}{Notaci\'on}
+
+%--------------------------------%
+%-------------------------------------- MIS DEFINICIONES -------------------------------------------
+    \newtheorem{ejer}{Ejercicio}
+\theoremstyle{remark}%
+\def\minus{%
+  \setbox0=\hbox{-}%
+  \vcenter{%
+    \hrule width\wd0 height \the\fontdimen8\textfont3%
+  }%
+}
+\newcommand{\no}{\noindent}
+\newcommand{\dis}{\displaystyle}
+\newcommand{\espacio}{\text{\textvisiblespace}}
+%
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\NN}{\mathbb{N}}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\PP}{\mathcal{P}}
+\newcommand{\MM}{\mathcal{M}}
+%
+\newcommand{\CN}{\mathbb{C}^n}
+\newcommand{\CM}{\mathbb{C}^m}
+% \newcommand{\RN}{\mathbb{R}^n}
+\newcommand{\RM}{\mathbb{R}^m}
+%
+\newcommand{\CNN}{\CC^{n \times n}}
+\newcommand{\CMM}{\CC^{m \times m}}
+\newcommand{\CMN}{\CC^{m \times n}}
+\newcommand{\RNN}{\RR^{n \times n}}
+\newcommand{\RMM}{\RR^{m \times m}}
+%
+\newcommand{\Or}{\mathcal{O}}
+%
+\newcommand{\medio}{\frac{1}{2}}
+\newcommand{\cuarto}{\frac{1}{4}}
+\newcommand{\octavo}{\frac{1}{8}}
+\newcommand{\trescuartos}{\frac{3}{4}}
+%
+\newcommand{\dd}{\frac{dy}{dx}}
+%
+\newcommand{\kj}{\kappa(j)}
+\newcommand{\nh}{\tilde{h}}
+%
+\newcommand{\implica}{\Longrightarrow}
+%
+\newcommand{\pic}{>_{\RRN}}
+\newcommand{\picf}{>_{\RRf}}
+%
+\newcommand{\vx}{\vec x}
+\newcommand{\vy}{\vec y}
+\newcommand{\vp}{\vec p}
+%
+\newcommand{\vpz}{\vec{p_0}}
+\newcommand{\vpo}{\vec{p_1}}
+\newcommand{\vpj}{\vec{p_j}}
+\newcommand{\vpk}{\vec{p_k}}
+\newcommand{\vq}{\vec q}
+%
+\newcommand{\alz}{\alpha_0}
+\newcommand{\alo}{\alpha_1}
+\newcommand{\ali}{\alpha_i}
+\newcommand{\alj}{\alpha_j}
+\newcommand{\alk}{\alpha_k}
+\newcommand{\alzas}{\alpha_0 ^*}
+\newcommand{\aloas}{\alpha_1 ^*}
+\newcommand{\alias}{\alpha_i ^*}
+\newcommand{\aljas}{\alpha_j ^*}
+\newcommand{\alkas}{\alpha_k ^*}
+\newcommand{\conf}{\text{Conf}}
+\newcommand{\confin}{\text{Conf}_\text{fin}}
+\newcommand{\pr}{\text{pr}}
+\newcommand{\msubseteq}{\trianglelefteq\hspace{-2.5pt}\sqsubseteq }
+\newcommand{\alp}[1]{\Sigma^{#1}}
+\renewcommand{\phi}{\varphi}
+\newcommand{\Rule}{\text{Rule}}
+%-----------------------------------------------------------------------------------------------------%
+
+
+\title{\includegraphics[width=3cm]{./img/escudo.eps}\\
+{\small\bf  UNIVERSIDAD DE CONCEPCI\'ON}\\
+{\small\bf    FACULTAD DE CIENCIAS F\'ISICAS Y MATEM\'ATICAS}\\
+{\small\bf    DEPARTAMENTO DE INGENIER\'IA MATEM\'ATICA}\\
+     \hskip 1pt \\
+     \hskip 1pt \\
+	{\bf\huge Reversibilidad y complejidad de autÃ³matas celulares}
+\hskip 1pt \\
+     \hskip 1pt \\
+    {\it Memoria para optar al t\'itulo de Ingeniero Civil Matem\'atico}\\
+}
+\author{Diego Alberto Maldonado Montiel, AnahÃ­ Gajardo Schulz, AndrÃ©s Moreira Wenzel}
+
+\date{{\bf 15 de septiembre de 2015}\\
+    CONCEPCI\'ON, CHILE}
+
+
+\begin{document}
+\pagenumbering{roman}
+\input{./partes/title.tex}
+
+\cleardoublepage
+
+\vspace{4cm}
+\setcounter{page}{3}
+\begin{center}
+\large{\textbf{Agradecimientos}} 
+\end{center}
+
+
+{\it 
+Quiero agradecer a Dios, pues, aunque no sé si juega a los dados, si es que lo hace, los que usa conmigo deben estar cargados.
+
+También quiero agradecer a mis padres, quienes son los responsables por quien soy y a quienes debo todos mis logros. Espero seguirles debiendo aún más.
+Junto a ellos quiero agregar a mi familia, quienes han sido una fuente inagotable de apoyo y cariño y no sé si algún día podré retribuir todo el afecto que me dan.
+
+Asimismo, agradezco a mis amigos y compañeros de carrera por sus incontables momentos de alegrías y compañía. 
+No entraré en más detalles, pues, aunque no son tantos, son los suficientes como extenderme demasiado y, aún más importante, son los bastan como para cubrir cualquier número que uno necesitara. 
+
+Un lugar importante lo ocupan mis profesores guías, profesora Anahí Gajardo y profesor Andrés Moreira, pues no solo han cumplido impecablemente su labor en guiarme en 
+el camino correcto para terminar esta memoria, sino también me han apoyado en el ámbito personal, mostrando siempre una gran preocupación por mi bienestar. 
+De la misma forma, quiero agradecer a los profesores y funcionarios del departamento de ingeniería matemática, por el respaldo que prestan a sus estudiantes además de su amabilidad y buena disposición.
+
+Finalmente quiero agradecer el apoyo económico del pro por permitir desarrollar parte de esta memoria en sus dependencias. 
+
+
+}
+
+\tableofcontents % indice de contenidos
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Lista de figuras} % para que aparezca en el indice de contenidos
+\listoffigures % indice de figuras
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Lista de tablas} % para que aparezca en el indice de contenidos
+\listoftables % indice de tablas
+
+\thispagestyle{empty}
+\cleardoublepage
+\pagenumbering{arabic} 
+\chapter{Introducci\'on}
+ \input{./partes/intro.tex}
+\chapter{Preliminares}
+ \input{./partes/preliminares.tex}
+\chapter{Nuevas simulaciones en aut\'omatas celulares reversibles}
+ \input{./partes/sim.tex}
+\chapter[Universalidad en aut\'omatas celulares bidimensionales]{Turing universalidad en aut\'omatas celulares bidimensionales}
+ \input{./partes/ants.tex}
+\chapter{Conclusiones y trabajos futuros}
+ \input{./partes/conclusiones.tex}
+% \chapter{Anexo}
+%  \input{./partes/anexo.tex}
+\bibliographystyle{unsrt}
+\bibliography{biblio}
+
+
+
+
+\end{document}
+

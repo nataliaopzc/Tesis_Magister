@@ -1,0 +1,22 @@
+\begin{tikzpicture}[scale=0.45, every node/.style={scale=1.2}]]
+\draw [fill] (2,10) rectangle (3,9);
+\draw [fill] (2,11) rectangle (3,10);
+\draw [fill] (2,9) rectangle (3,8);
+\draw [fill] (1,10) rectangle (2,8) node (v2) {};
+\draw [fill] (v2) rectangle (3,7);
+\draw [fill] (4,10) rectangle (5,9);
+
+\draw [-][help lines, step=1cm] (-6.5,6.5) grid (-1.5,11.5);
+\draw [-][help lines, step=1cm] (0.5,6.5) grid (5.5,11.5);
+\draw [fill=black] (-5,11) rectangle (-4,10);
+\draw [fill=black] (-6,10) rectangle (-5,9);
+\draw [fill=black] (-6,9) rectangle (-5,8);
+\draw [fill=black] (-4,8) rectangle (-5,7);
+\draw [fill=black] (-3,10) rectangle (-2,9);
+\draw [->,ultra thick](-1.5,9) -- (0.5,9);
+\node at (-0.5,9.5) {$F$};
+\draw [red,very thick] (-6,11) rectangle (-3,8);
+\draw [red,very thick,fill=black] (2,10) rectangle (3,9);
+\draw [red,->](-4.5,9.5) .. controls (-3.5,10.5) and (1.5,10.5) .. (2.5,9.5);
+\node at (-1,11) {$f$};
+\end{tikzpicture}
