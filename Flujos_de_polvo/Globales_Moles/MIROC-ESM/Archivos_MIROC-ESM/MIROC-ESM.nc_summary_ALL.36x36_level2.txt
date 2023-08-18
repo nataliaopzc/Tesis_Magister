@@ -1,0 +1,9 @@
+Dust summary
+
+Global area (in)             : 1.020129e+15 (m2) 
+Global dust deposition (in)  : 2.115022e+05 (kg s-1) 
+Global dust deposition (in)  :  6674.501  (Tg yr-1) 
+
+Global area (out)            : 5.100645e+14 (m2) 
+Global dust deposition (out) : 2.096795e+05 (kg s-1) 
+Global dust deposition (out) :  6616.983 (Tg yr-1) 
