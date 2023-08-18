@@ -1,0 +1,3 @@
+modelo={'Lambert','Albani','Takemura','Ohgaito','MIROC-ESM','MRI-CGCM3'};
+
+load('/home/natalia/Documentos/DATA/TesisI/cgenie/Solubility/Global/worjh2.det_Fe_Sol_calculated.' modelo '_H_x1.dat')
